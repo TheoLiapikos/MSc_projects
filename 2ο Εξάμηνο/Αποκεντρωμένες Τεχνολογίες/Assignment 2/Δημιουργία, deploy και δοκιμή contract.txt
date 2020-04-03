@@ -1,0 +1,46 @@
+ΔΗΜΙΟΥΡΓΙΑ, DEPLOY ΚΑΙ ΔΟΚΙΜΗ CONTRACT ΜΕ ΣΥΝΔΥΑΣΜΟ REMIX, GANACHE, MYETEHRWALLET
+
+Για το MyEtherWallet καλύτερα να χρησιμοποιήσω την portable έκδοση, τρέχοντας το
+index.html από το σχετικό φάκελο
+
+- Ετοιμάζω το contract, κάτα προτίμηση στο Remix και το κάνω compile.
+
+- Ανοίγω το Ganache και επιλέγω να δουλέψω με μια διεύθυνση, πχ την πρωη (index 0)
+
+- Τρέχω το MyEtherWallet στον Browser:
+  - Δημιουργώ ένα νέο wallet:
+    - Drop down list 'Network ETH' και επιλέγω στο τέλος το 'Add custom Network/Node'
+    - Στην οθόνη που ανοίγει δίνω:
+      - Node name: ότι θέλω
+      - URL & Port: Αντιγράφω ακριβώς τις τιμές από την αρχική σελίδα του Ganache
+      - Στην τελευταία σειρά αφήνω το ETH
+      - Save
+
+- Στην αρχική σελίδα του MyEtherWallet επιλέγω το 'Contracts'. Στη σελίδα που ανοίγει
+  επιλέγω 'Deploy Contract'.
+
+- Χρειάζομαι το bytecode του Contract. Το βρίσκω στο Remix δεξιά, πατώντας το κουμπί
+  'Details'. Στηνοθόνη που ανοίγει βρίσκω το section 'Bytecode'. Από τα συνολικά
+  στοιχεία θέλω μόνο τη γραμμή 'object' και συγκεκριμένα τον κωδικό μέσα στα ""
+  ("object": "........").
+
+- Το Gas limit συμπληρώνεται αυτόματα.
+
+- Στο 'How do you like to access your wallet' δίνω 'Private key'. Θα ανοίξει ένα
+  νέο πεδίο που αντιγράφω το PK του λογαριασμού που χρησιμοποιώ από την πρώτη σελίδα
+  του Ganache.
+
+- Είμαστε έτοιμοι να υπογράψουμε το TX που θα κάνει deploy το contract. Πατάω
+  διαδοχικά τα κουμπιά 'Sign' και 'Deploy'.
+
+- Αν έχουν πάει όλα καλά στο Ganache και στο λογαριασμό που έχω επιλέξει να χρησιμοποιώ
+  το Balance θα έχει μειωθεί λίγο από την αμοιβή του Deploy TX, το Tx Count θα έχει
+  αυξηθεί κατά 1, το Current Block θα έχει αυξηθεί κατά 1 και θα περιέχει το Tx κλπ.
+  Αφού το Contract έχει ενσωματωθεί πλέον στο Blockchain μπορούμε να αλληλεπιδράσουμε
+  μαζί του χρησιμοποιώντας τις μεθόδους του.
+
+- Επιλέγω στο MyEtherWallet: Contracts / Interact with contract.
+  - Θέλει contract address, την βρίσκω στο Ganache / Transactions / Created contract address
+  - Θέλει το ABI, το βρικω στο Remix δίπλα στο Details
+  - Πατάω Access.
+  - Στη συνέχεια επιλέγω τις ενέργειες που θέλω να εκτελέσω

@@ -1,0 +1,100 @@
+ΔΗΜΙΟΥΡΓΙΑ, DEPLOY ΚΑΙ ΔΟΚΙΜΗ CONTRACT ΜΕ ΣΥΝΔΥΑΣΜΟ REMIX, GANACHE, TRUFFLE ΣΕ CLI
+
+Θα προσπαθήσω να αναπαράγω την εκτέλεση των εντολών του εργαστηρίου σε cli πάνω
+στo contract της εργασίας.
+
+- Ανοίγω το Ganache και επιλέγω να δουλέψω με μια διεύθυνση, πχ την πρώτη (index 0)
+
+- Φτιάχνω έναν φάκελο (πχ Project) μέσα στον οποίο θα είναι όλα τα αρχεία και τον ανοίγω στο Τερματικό
+
+- Δίνω την εντολή:
+    truffle init
+  και περιμένω μέχρι να ολοκληρωθεί η εκέλεσή της. θα δημιουργηθεί μέσα στο φάκελο όλη η απαραίτητη δομή
+
+- Ένα από τα αρχεία που δημιουργήθηκαν είναι και το αρχείο ρυθμίσεων 'truffle-config.js', που το ανοίγω:
+    xed truffle-config.js
+  και αφαιρώ το σύμβολο σχολίων από την ενότητα 'networks' από τη γραμμή 'development: {' και κάτω. Στη
+  μεταβλητή 'port:' δίνω την τιμή που εμφανίζεται στην αρχική σελίδα του Ganache. Σώζω και κλείνω.
+
+- Εκτελώ το Truffle με την εντολή:
+    truffle console
+  οπότε το τερματικό μετατρέπεται σε κονσόλα truffle και μπορώ να επικοινωνώ με το δίκτυο
+
+- Στο φάκελο 'contracts' μεταφέρο το .sol αρχείο του contract που δουλεύω. Πρέπει να γίνει compile, αλλά
+  δεν έχω καταφέρει να δουλέψουν οι αντίστοίχες CLI εντολές του Truffle. Για το λόγο αυτό κάνω το compiling
+  στο Remix και μεταφέρω από εκεί τα στοιχεία που χρειάζομαι (ABI και Bytecode).
+
+- Σώζω σε μεταβλητή το Bytecode που δημιουργήθηκε από το compiling του contract. Το βρίσκω στο Remix δεξιά,
+  πατώντας το κουμπί 'Details'. Στην οθόνη που ανοίγει βρίσκω το section 'Bytecode'. Από τα συνολικά στοιχεία
+  θέλω μόνο τη γραμμή 'object' και συγκεκριμένα τον κωδικό μέσα στα "" ("object": "........").
+    contractBin = '60806040526000600355600060065534801561001a57600080fd5b50604051610b7e380380610b7e8339810180604052602081101561003d57600080fd5b81019080805164010000000081111561005557600080fd5b8281019050602081018481111561006b57600080fd5b815185602082028301116401000000008211171561008857600080fd5b505092919050505060008090505b81518110156101bd5760018282815181106100ad57fe5b602002602001015190806001815401808255809150509060018203906000526020600020016000909192909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505060006002600084848151811061012a57fe5b602002602001015173ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508080600101915050610096565b50506109b0806101ce6000396000f3fe6080604052600436106100555760003560e01c8063639fef241461005a57806367a09c2314610085578063894ba833146100d35780639b91293b146100ea578063ab1b8cd614610142578063e594f37314610191575b600080fd5b34801561006657600080fd5b5061006f6101ef565b6040518082815260200191505060405180910390f35b6100d16004803603604081101561009b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506101f5565b005b3480156100df57600080fd5b506100e86104c2565b005b6101406004803603606081101561010057600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019092919080359060200190929190505050610534565b005b34801561014e57600080fd5b5061017b6004803603602081101561016557600080fd5b8101908080359060200190929190505050610821565b6040518082815260200191505060405180910390f35b34801561019d57600080fd5b506101a66108fa565b604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390f35b60035481565b600034905060003373ffffffffffffffffffffffffffffffffffffffff16319050818110158015610227575060008310155b8015610237575060018054905083105b61024057600080fd5b6000600a838161024c57fe5b0490506000818403905081600260006001888154811061026857fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055508573ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050158015610320573d6000803e3d6000fd5b508160036000828254019250508190555081600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540192505081905550600654600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054111561044f57600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205460068190555033600560006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b7f0e04c8e83a5595ba6381972e5e9fe2926bb0a7439dace880c83ccc34b99c54773383604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a1505050505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461051b57600080fd5b3373ffffffffffffffffffffffffffffffffffffffff16ff5b600034905060003373ffffffffffffffffffffffffffffffffffffffff16319050818110158015610566575060008410155b8015610576575060018054905084105b801561058c57506064828161058757fe5b048310155b80156105a55750600a60058302816105a057fe5b048311155b6105ae57600080fd5b600083830390508360026000600188815481106105c757fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055508573ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f1935050505015801561067f573d6000803e3d6000fd5b508360036000828254019250508190555083600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540192505081905550600654600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205411156107ae57600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205460068190555033600560006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505b7f0e04c8e83a5595ba6381972e5e9fe2926bb0a7439dace880c83ccc34b99c54773385604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a1505050505050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461087c57600080fd5b600260006001848154811061088d57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050919050565b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461095657600080fd5b600560009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1660065491509150909156fea165627a7a72305820f9c450f31fdd0415e6ed1c762e3339ff3bd1c58dc0c93aa862dea1d0dce90bd40029'
+
+- Σώζω σε μεταβλητή το ABI που δημιουργήθηκε από το compiling του contract. Tο βρικω στο Remix δίπλα στο Details
+  όπου πατάω το κουμπί για την αντιγραφή του. ΠΡΟΣΟΧΗ περίπλοκη μορφή που βγάζει λάθη αν τη κάνω paste κατευθείαν
+  στη κονσόλα. Έτσι μεταφέρω πρώτα σε επεξεργαστή κειμένου και σβήνω όλες τις αλλαγές γραμμής, και στη συνέχεια όλα
+  τα κενά, ώστε να σχηματιστεί μια εντολή μιας γραμμής.
+  contractAbi=[{"constant":true,"inputs":[],"name":"total_donations","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"destination","type":"address"},{"name":"char_index","type":"uint256"}],"name":"payment","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[],"name":"disableContract","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"destination","type":"address"},{"name":"char_index","type":"uint256"},{"name":"donation","type":"uint256"}],"name":"payment","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[{"name":"charIndex","type":"uint256"}],"name":"checkCharities","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"get_top_donator","outputs":[{"name":"","type":"address"},{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"charAddresses","type":"address[]"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"donator","type":"address"},{"indexed":false,"name":"donation","type":"uint256"}],"name":"NewDonation","type":"event"}]
+
+- Επιλέγω έναν από τους λογαριασμούς τιυ Ganache για να δουλεύω, πχ τον πρώτο (index 0) και σώζω σε μεταβλητή
+    web3.eth.getAccounts().then(a => myAccount=a[0]);
+
+- Με χρήση του ABI δημιουργώ ένα νέο αντικείμενο της 'κλάσης' του contract που μελετώ
+    CharContract = new web3.eth.Contract(contractAbi);
+
+- Υπολογίζω το Gas και το Gas price που απαιτούνται για να γίνει το contract deploy και σώζω σε μεταβλητές
+    gas_est = web3.eth.estimateGas({data: contractBin});
+    gas_price = web3.eth.getGasPrice();
+
+- Κάνω deploy contract χρησιμοποιώντας το αντικείμενο που δημιούργησα και τις τιμές των μεταβλητών που έσωσα
+    CharContract.deploy({data: contractBin}).send({from: myAccount, gas: 751624, gasPrice: '20000000000'}).then((instance) => { console.log(instance.options.address)});
+
+CharContract.deploy({ data: contractBin }).send({from: myAccount, gas: 751624, gasPrice: '20000000000' }).then( (instance) => { console.log(instance.options.address) });
+
+
+
+
+
+
+
+
+
+- Ετοιμάζω το contract, κάτα προτίμηση στο Remix και το κάνω compile.
+
+
+- Τρέχω το MyEtherWallet στον Browser:
+  - Δημιουργώ ένα νέο wallet:
+    - Drop down list 'Network ETH' και επιλέγω στο τέλος το 'Add custom Network/Node'
+    - Στην οθόνη που ανοίγει δίνω:
+      - Node name: ότι θέλω
+      - URL & Port: Αντιγράφω ακριβώς τις τιμές από την αρχική σελίδα του Ganache
+      - Στην τελευταία σειρά αφήνω το ETH
+      - Save
+
+- Στην αρχική σελίδα του MyEtherWallet επιλέγω το 'Contracts'. Στη σελίδ που ανοίγει
+  επιλέγω 'Deploy Contract'.
+
+- Χρειάζομαι το bytecode του Contract. Το βρίσκω στο Remix δεξιά, πατώντας το κουμπί
+  'Details'. Στην οθόνη που ανοίγει βρίσκω το section 'Bytecode'. Από τα συνολικά
+  στοιχεία θέλω μόνο τη γραμμή 'object' και συγκεκριμένα τον κωδικό μέσα στα ""
+  ("object": "........").
+
+- Το Gas limit συμπληρώνεται αυτόματα.
+
+- Στο 'How do you like to access your wallet' δίνω 'Private key'. Θα ανοίξει ένα
+  νέο πεδίο που αντιγράφω το PK του λογαριασμού που χρησιμοποιώ από την πρώτη σελίδα
+  του Ganache.
+
+- Είμαστε έτοιμοι να υπογράψουμε το TX που θα κάνει deploy το contract. Πατάω
+  διαδοχικά τα κουμπιά 'Sign' και 'Deploy'.
+
+- Αν έχουν πάει όλα καλά στο Ganache και στο λογαριασμό που έχω επιλέξει να χρησιμοποιώ
+  το Balance θα έχει μειωθεί λίγο από την αμοιβή του Deploy TX, το Tx Count θα έχει
+  αυξηθεί κατά 1, το Current Block θα έχει αυξηθεί κατά 1 και θα περιέχει το Tx κλπ.
+  Αφού το Contract έχει ενσωματωθεί πλέον στο Blockchain μπορούμε να αλληλεπιδράσουμε
+  μαζί του χρησιμοποιώντας τις μεθόδους του.
+
+- Επιλέγω στο MyEtherWallet: Contracts / Interact with contract.
+  - Θέλει contract address, την βρίσκω στο Ganache / Transactions / Created contract address
+  - Θέλει το ABI, το βρικω στο Remix δίπλα στο Details
+  - Πατάω Access.
+  - Στη συνέχεια επιλέγω τις ενέργειες που θέλω να εκτελέσω
