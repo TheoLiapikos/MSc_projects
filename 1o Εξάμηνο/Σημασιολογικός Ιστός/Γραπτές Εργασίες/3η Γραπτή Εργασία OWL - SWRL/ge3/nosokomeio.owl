@@ -1,0 +1,1545 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/theo/ontologies/2019/1/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/theo/ontologies/2019/1/untitled-ontology-9"
+     xmlns:nosokomeio="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio/1.0.0"/>
+        <rdfs:comment>Για τις ανάγκες της 3ης Γραπτής Εργασίας στον Σημασιολογικό Ιστό</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#anikei_se_erg -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#anikei_se_erg">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Epistimoniko_Pr"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ergastirio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#anikei_se_gr -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#anikei_se_gr">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Dioikitiko_Pr"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeiο_Dioikisis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#anikei_se_kl -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#anikei_se_kl">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriki_Monada"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#antistoixei_sto_nos -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#antistoixei_sto_nos">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ygeionomiki_Monada"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosokomeio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apasxolei -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apasxolei">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosokomeio"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Anthropino_Dynamiko"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apokta_eidikotita -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apokta_eidikotita">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikeuomenos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikotita"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apotelei_meros_nos -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apotelei_meros_nos">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ypodomi_Nosokomeiou"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosokomeio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apoteleitai_apo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apoteleitai_apo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosokomeio"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ypodomi_Nosokomeiou"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apoteleitai_apo_mon -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apoteleitai_apo_mon">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriki_Monada"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#dieuthintis_esy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#dieuthintis_esy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ESY"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Dioikitiko_Pr"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#dieuthintis_kl -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#dieuthintis_kl">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#exei_eidikotita -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#exei_eidikotita">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikotita"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#exei_ptyxio -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#exei_ptyxio">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Epistimoniko_Pr"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriko_Pr"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileutiko_Pr"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#exetazetai_se -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#exetazetai_se">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoterikos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoteriko_Iatreio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#nosileuetai_se -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#nosileuetai_se">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileuomenos"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#parakolouthei_astheni -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#parakolouthei_astheni">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriko_Pr"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Asthenis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#parakolouthei_kliniki -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#parakolouthei_kliniki">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Foititis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#proistamenos_nos -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#proistamenos_nos">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileutiko_Pr"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#stelexonei_ei -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#stelexonei_ei">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriko_Pr"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileutiko_Pr"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoteriko_Iatreio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#stelexonei_kl -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#stelexonei_kl">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#stelexonetai_apo"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriko_Pr"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileutiko_Pr"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#stelexonetai_apo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#stelexonetai_apo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriko_Pr"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileutiko_Pr"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#synergazetai_me -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#synergazetai_me">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ergastirio"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Farmakeio"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ergastirio"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Farmakeio"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_ex_iat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_ex_iat">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoteriko_Iatreio"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_far -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_far">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Farmakeio"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Prosopiko"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_gr -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_gr">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeiο_Dioikisis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Dioikitiko_Pr"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_graf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_graf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Iatron"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_graf_nos -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_graf_nos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Nosileuton"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileutiko_Pr"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_thal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_thal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Thalamos_Nosileias"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_xeir -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_xeir">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Xeirourgio"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#arit_prot -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#arit_prot">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Asthenis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#arithmos_mitroou_astheni -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#arithmos_mitroou_astheni">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Asthenis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#aritmos_mitroou_ypallilou -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#aritmos_mitroou_ypallilou">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Prosopiko"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#eidikotita_erg -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#eidikotita_erg">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ergastirio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#etos_foitisis -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#etos_foitisis">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Foititis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#iatriki_sxoli -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#iatriki_sxoli">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Panepistimiako"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#katalogos_iat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#katalogos_iat">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Iatron"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#katalogos_nos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#katalogos_nos">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Nosileuton"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#onoma_nos -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#onoma_nos">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosokomeio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#onomateponimo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#onomateponimo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Anthropino_Dynamiko"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#perigrafi_eid -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#perigrafi_eid">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikotita"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#perigrafi_pt -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#perigrafi_pt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#programma_ex_iat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#programma_ex_iat">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoteriko_Iatreio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#programma_leit_gr -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#programma_leit_gr">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Monadas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#programma_xeir -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#programma_xeir">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Xeirourgio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#thiathes_thes_thal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#thiathes_thes_thal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Thalamos_Nosileias"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#xoritikotita_thal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#xoritikotita_thal">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Thalamos_Nosileias"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Anthropino_Dynamiko -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Anthropino_Dynamiko">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#onomateponimo"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Asthenis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Asthenis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Anthropino_Dynamiko"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#arithmos_mitroou_astheni"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoterikos"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileuomenos"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Dioikitiko_Pr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Dioikitiko_Pr">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Prosopiko"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#anikei_se_gr"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeiο_Dioikisis"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ESY -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ESY">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosokomeio"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#dieuthintis_esy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Dioikitiko_Pr"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikeuomenos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikeuomenos">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriko_Pr"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apokta_eidikotita"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikotita"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikos">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriko_Pr"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#exei_eidikotita"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:oneOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Gynaikologia"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ourologia"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Paidiatriki"/>
+                                </owl:oneOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikotita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikotita"/>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Epistimoniko_Pr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Epistimoniko_Pr">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Prosopiko"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#exei_ptyxio"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio_Thetikon_Epistimon"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#anikei_se_erg"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ergastirio"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ergastirio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ergastirio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ypodomi_Nosokomeiou"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#synergazetai_me"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ergastirio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#synergazetai_me"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#eidikotita_erg"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Estiatorio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Estiatorio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Koinoxristos_Xoros"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoteriko_Iatreio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoteriko_Iatreio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriki_Monada"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_ex_iat"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#programma_ex_iat"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoterikos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoterikos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Asthenis"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileuomenos"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#exetazetai_se"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoteriko_Iatreio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileuomenos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Farmakeio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Farmakeio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ypodomi_Nosokomeiou"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#synergazetai_me"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_far"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Prosopiko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Foititis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Foititis">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Prosopiko"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#parakolouthei_kliniki"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#etos_foitisis"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Iatron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Iatron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Monadas"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_graf"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#katalogos_iat"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Nosileuton"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Monadas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Monadas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriki_Monada"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#programma_leit_gr"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Iatron"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Nosileuton"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Nosileuton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Nosileuton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Monadas"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_graf_nos"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileutiko_Pr"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#katalogos_nos"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeiο_Dioikisis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeiο_Dioikisis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ypodomi_Nosokomeiou"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_gr"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Dioikitiko_Pr"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriki_Monada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriki_Monada">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ypodomi_Nosokomeiou"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#anikei_se_kl"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoteriko_Iatreio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Monadas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Thalamos_Nosileias"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Xeirourgio"/>
+        </owl:disjointUnionOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriko_Pr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriko_Pr">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Prosopiko"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#exei_ptyxio"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio_Iatrikis"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#parakolouthei_astheni"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Asthenis"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#stelexonei_kl"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ypodomi_Nosokomeiou"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#stelexonetai_apo"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriko_Pr"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileutiko_Pr"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#synergazetai_me"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ergastirio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#synergazetai_me"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Farmakeio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#synergazetai_me"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apoteleitai_apo_mon"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriki_Monada"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#dieuthintis_kl"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#proistamenos_nos"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileutiko_Pr"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Koinoxristos_Xoros -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Koinoxristos_Xoros">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ypodomi_Nosokomeiou"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kylikeio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kylikeio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Koinoxristos_Xoros"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileuomenos -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileuomenos">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Asthenis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#nosileuetai_se"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileutiko_Pr -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileutiko_Pr">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Prosopiko"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#exei_ptyxio"/>
+                        <owl:hasValue rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio_Nosileutikis"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#stelexonei_kl"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosokomeio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosokomeio">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apoteleitai_apo"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Anthropino_Dynamiko"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apoteleitai_apo"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ypodomi_Nosokomeiou"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#onoma_nos"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Panepistimiako -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Panepistimiako">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosokomeio"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#iatriki_sxoli"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Prosopiko -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Prosopiko">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Anthropino_Dynamiko"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#aritmos_mitroou_ypallilou"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio"/>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Thalamos_Nosileias -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Thalamos_Nosileias">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriki_Monada"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_thal"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#xoritikotita_thal"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Xeirourgio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Xeirourgio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriki_Monada"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ypeuthinos_xeir"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#programma_xeir"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ygeionomiki_Monada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ygeionomiki_Monada">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#antistoixei_sto_nos"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Panepistimiako_Nosokomeio_Polis"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ypodomi_Nosokomeiou -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ypodomi_Nosokomeiou">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#apotelei_meros_nos"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosokomeio"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Asthenis1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Asthenis1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Asthenis"/>
+        <nosokomeio:arit_prot rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</nosokomeio:arit_prot>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Dioikitikos1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Dioikitikos1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Dioikitiko_Pr"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikeuomenos1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikeuomenos1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikeuomenos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#EidikeuomenosEI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#EidikeuomenosEI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikeuomenos"/>
+        <nosokomeio:stelexonei_kl rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ourologiki_Kliniki"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Epistimonas1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Epistimonas1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Epistimoniko_Pr"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ergastirio_Bioximiko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ergastirio_Bioximiko">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ergastirio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Estiatorio1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Estiatorio1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Estiatorio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoteriko_Iatreio_Ourologikis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoteriko_Iatreio_Ourologikis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoteriko_Iatreio"/>
+        <nosokomeio:anikei_se_kl rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ourologiki_Kliniki"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoterikos1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoterikos1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoterikos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Farmakeio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Farmakeio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Farmakeio"/>
+        <nosokomeio:synergazetai_me rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ergastirio_Bioximiko"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Foititis1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Foititis1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Foititis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Dioikiti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Dioikiti">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeiο_Dioikisis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Iatron_Ourologikis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Iatron_Ourologikis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Iatron"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Nosileuton_Ourologikis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Nosileuton_Ourologikis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Nosileuton"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Gynaikologia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Gynaikologia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikotita"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kylikeio1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kylikeio1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kylikeio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileuomenos1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileuomenos1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileuomenos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileutis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileutis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Prosopiko"/>
+        <nosokomeio:exei_ptyxio rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio_Nosileutikis"/>
+        <nosokomeio:stelexonei_kl rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ourologiki_Kliniki"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosokomeio_ESY_Polis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosokomeio_ESY_Polis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#ESY"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ourologia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ourologia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikotita"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ourologiki_Kliniki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ourologiki_Kliniki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+        <nosokomeio:synergazetai_me rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Farmakeio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ourologos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ourologos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Prosopiko"/>
+        <nosokomeio:exei_eidikotita rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ourologia"/>
+        <nosokomeio:exei_ptyxio rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio_Iatrikis"/>
+        <nosokomeio:stelexonei_kl rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ourologiki_Kliniki"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Paidiatriki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Paidiatriki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikotita"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Panepistimiako_Nosokomeio_Polis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Panepistimiako_Nosokomeio_Polis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Panepistimiako"/>
+        <nosokomeio:onoma_nos rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panepistimiako Nosokomeio Raxoulas</nosokomeio:onoma_nos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Pathologia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Pathologia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikotita"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio_Iatrikis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio_Iatrikis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio_Nosileutikis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio_Nosileutikis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio_Thetikon_Epistimon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio_Thetikon_Epistimon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Thalamos_Nosileias1_Ourologikis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Thalamos_Nosileias1_Ourologikis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Thalamos_Nosileias"/>
+        <nosokomeio:thiathes_thes_thal rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</nosokomeio:thiathes_thes_thal>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Xeirourgeio_Ourologikis1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Xeirourgeio_Ourologikis1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Xeirourgio"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ergastirio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Farmakeio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeiο_Dioikisis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Iatriki_Monada"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Kliniki"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Koinoxristos_Xoros"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Exoteriko_Iatreio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Grafeio_Monadas"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Thalamos_Nosileias"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Xeirourgio"/>
+        </owl:members>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/theo/ontologies/2019/1/untitled-ontology-9#X">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Nosileutiko_Pr"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/untitled-ontology-9#X"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#exei_ptyxio"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/untitled-ontology-9#X"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Ptyxio_Iatrikis"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/nosokomeio#Eidikeuomenos"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/theo/ontologies/2019/1/untitled-ontology-9#X"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

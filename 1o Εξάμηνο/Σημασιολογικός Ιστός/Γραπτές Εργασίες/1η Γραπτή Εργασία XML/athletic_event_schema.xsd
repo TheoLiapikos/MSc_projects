@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2019 (x64) (http://www.altova.com) by TheoDaBest (Paparas EPE) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ΑΘΛΗΤΙΚΟ_ΓΕΓΟΝΟΣ">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ΣΤΑΔΙΑ"/>
+				<xs:element ref="ΑΓΩΝΙΣΜΑΤΑ"/>
+				<xs:element ref="ΣΥΜΜΕΤΕΧΟΥΣΕΣ_ΧΩΡΕΣ"/>
+				<xs:element ref="ΣΥΜΜΕΤΕΧΟΝΤΕΣ_ΑΘΛΗΤΕΣ"/>
+				<xs:element ref="ΔΙΕΞΑΓΩΓΗ_ΑΓΩΝΩΝ"/>
+				<xs:element ref="ΚΑΤΑΤΑΞΗ_ΜΕΤΑΛΛΙΩΝ"/>
+			</xs:sequence>
+			<xs:attribute name="event_name" use="required" fixed="Ολυμπιακοί Αγώνες 2004"/>
+			<xs:attribute name="org_country" use="required" fixed="Ελλάδα"/>
+			<xs:attribute name="city" use="required" fixed="Αθήνα"/>
+			<xs:attribute name="start_date" use="required" fixed="2004-08-15"/>
+			<xs:attribute name="finish_date" use="required" fixed="2004-08-29"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΣΤΑΔΙΑ">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ΣΤΑΔΙΟ" maxOccurs="10"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΑΓΩΝΙΣΜΑΤΑ">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ΑΓΩΝΙΣΜΑ" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΣΥΜΜΕΤΕΧΟΥΣΕΣ_ΧΩΡΕΣ">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ΧΩΡΑ" maxOccurs="300"/>
+			</xs:sequence>
+			<xs:attribute name="total_number" type="xs:integer" use="required" fixed="335"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΣΥΜΜΕΤΕΧΟΝΤΕΣ_ΑΘΛΗΤΕΣ">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ΑΘΛΗΤΗΣ" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="total_number" type="xs:integer" use="required" fixed="5521"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΔΙΕΞΑΓΩΓΗ_ΑΓΩΝΩΝ">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ΔΙΕΞ_ΑΓΩΝΙΣΜΑ" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΚΑΤΑΤΑΞΗ_ΜΕΤΑΛΛΙΩΝ">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ΚΑΤ_ΧΩΡΑ" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΣΤΑΔΙΟ">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ΦΙΛΟΞΕΝΟΥΜΕΝΟ_ΑΓΩΝΙΣΜΑ"/>
+				<xs:element ref="ΤΕΛΕΤΗ" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="stadio" type="xs:ID" use="required"/>
+			<xs:attribute name="capacity" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="20"/>
+						<xs:minLength value="3"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΑΓΩΝΙΣΜΑ">
+		<xs:complexType>
+			<xs:attribute name="agonisma" type="xs:ID" use="required"/>
+			<xs:attribute name="s_date" type="xs:date" use="optional"/>
+			<xs:attribute name="f_date" type="xs:date" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΧΩΡΑ">
+		<xs:complexType>
+			<xs:attribute name="country" type="xs:ID" use="required"/>
+			<xs:attribute name="number_athletes" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΑΘΛΗΤΗΣ">
+		<xs:complexType>
+			<xs:attribute name="athlitis" type="xs:ID" use="required"/>
+			<xs:attribute name="genre" use="optional">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="female"/>
+						<xs:enumeration value="male"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="country" type="xs:IDREF" use="required"/>
+			<xs:attribute name="agonisma" type="xs:IDREF" use="optional"/>
+			<!-- <xs:attribute name="performance" use="optional"/> -->
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΔΙΕΞ_ΑΓΩΝΙΣΜΑ">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ΑΓΩΝΑΣ"/>
+			</xs:sequence>
+			<xs:attribute name="act_agonisma" type="xs:IDREF" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΚΑΤ_ΧΩΡΑ">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ΚΑΤΑΤΑΞΗ"/>
+				<xs:element ref="ΧΡΥΣΑ" minOccurs="0"/>
+				<xs:element ref="ΑΡΓΥΡΑ" minOccurs="0"/>
+				<xs:element ref="ΧΑΛΚΙΝΑ" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="rank_country" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΦΙΛΟΞΕΝΟΥΜΕΝΟ_ΑΓΩΝΙΣΜΑ">
+		<xs:complexType>
+			<xs:attribute name="host_agonisma" type="xs:IDREF" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΤΕΛΕΤΗ">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="teleti" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="Απονομή Μεταλλίων"/>
+								<xs:enumeration value="Τελετή Έναρξης"/>
+								<xs:enumeration value="Τελετή Λήξης"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute name="date" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="2004-08-15"/>
+								<xs:enumeration value="2004-08-16"/>
+								<xs:enumeration value="2004-08-17"/>
+								<xs:enumeration value="2004-08-18"/>
+								<xs:enumeration value="2004-08-19"/>
+								<xs:enumeration value="2004-08-20"/>
+								<xs:enumeration value="2004-08-21"/>
+								<xs:enumeration value="2004-08-22"/>
+								<xs:enumeration value="2004-08-23"/>
+								<xs:enumeration value="2004-08-24"/>
+								<xs:enumeration value="2004-08-25"/>
+								<xs:enumeration value="2004-08-26"/>
+								<xs:enumeration value="2004-08-27"/>
+								<xs:enumeration value="2004-08-28"/>
+								<xs:enumeration value="2004-08-29"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+					<xs:attribute name="time" type="xs:time"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΑΓΩΝΑΣ">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice>
+					<xs:element ref="ΔΙΑΓΩΝ_ΑΘΛΗΤΗΣ" maxOccurs="unbounded"/>
+					<xs:element ref="ΔΙΑΓΩΝ_ΟΜΑΔΑ" maxOccurs="unbounded"/>
+				</xs:choice>
+				<xs:element ref="ΑΠΟΤΕΛΕΣΜΑ"/>
+			</xs:sequence>
+			<xs:attribute name="agonas" use="required"/>
+			<xs:attribute name="stadium" type="xs:IDREF" use="required"/>
+			<xs:attribute name="date" type="xs:date" use="required"/>
+			<xs:attribute name="time" type="xs:time" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΚΑΤΑΤΑΞΗ"/>
+	<!-- <xs:element name="ΧΡΥΣΑ"/> -->
+	<xs:element name="ΧΡΥΣΑ">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="120"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ΑΡΓΥΡΑ">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="120"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ΧΑΛΚΙΝΑ">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="0"/>
+				<xs:maxInclusive value="120"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<!-- <xs:element name="ΔΙΑΓΩΝ_ΑΘΛΗΤΗΣ">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="ΑΘΛΗΤΗΣ">
+					<xs:attribute name="performance" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element> -->
+	<xs:element name="ΔΙΑΓΩΝ_ΑΘΛΗΤΗΣ">
+		<xs:complexType>
+			<xs:attribute name="athlitis" type="xs:IDREF" use="required"/>
+			<xs:attribute name="country" type="xs:IDREF" use="required"/>
+			<xs:attribute name="performance"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΔΙΑΓΩΝ_ΟΜΑΔΑ">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ΔΙΑΓΩΝ_ΑΘΛΗΤΗΣ" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="country" type="xs:IDREF" use="required"/>
+			<xs:attribute name="performance" type="xs:decimal"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ΑΠΟΤΕΛΕΣΜΑ">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element ref="ΔΙΑΓΩΝ_ΑΘΛΗΤΗΣ" maxOccurs="unbounded"/>
+				<xs:element ref="ΔΙΑΓΩΝ_ΟΜΑΔΑ" maxOccurs="unbounded"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

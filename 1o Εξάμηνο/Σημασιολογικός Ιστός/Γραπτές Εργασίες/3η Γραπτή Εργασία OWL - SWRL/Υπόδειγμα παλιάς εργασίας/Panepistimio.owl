@@ -1,0 +1,1282 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://a.com/ontology#"
+     xml:base="http://a.com/ontology"
+     xmlns:jms="http://jena.hpl.hp.com/2003/08/jms#"
+     xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
+     xmlns:rss="http://purl.org/rss/1.0/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://a.com/ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#time -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#time"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://a.com/ontology#aithousa_didaskalias -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#aithousa_didaskalias">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Hmerologio"/>
+        <rdfs:range rdf:resource="http://a.com/ontology#Xwroi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#akolouthei -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#akolouthei">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Kyklos_Spoudwn"/>
+        <rdfs:range rdf:resource="http://a.com/ontology#Programma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#apoteleitai -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#apoteleitai">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://a.com/ontology#Programma"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://a.com/ontology#Mathima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#apoteleitai_x -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#apoteleitai_x">
+        <rdfs:domain rdf:resource="http://a.com/ontology#Tmima_Panepistimiou"/>
+        <rdfs:range rdf:resource="http://a.com/ontology#Xwroi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#didaskei -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#didaskei">
+        <owl:inverseOf rdf:resource="http://a.com/ontology#didasketai_apo"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://a.com/ontology#Ekpaid_Proswpiko"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://a.com/ontology#Mathima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#didasketai -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#didasketai">
+        <rdfs:domain rdf:resource="http://a.com/ontology#Mathima"/>
+        <rdfs:range rdf:resource="http://a.com/ontology#Hmerologio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#didasketai_apo -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#didasketai_apo">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://a.com/ontology#Mathima"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://a.com/ontology#Ekpaid_Proswpiko"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#eidikotita -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#eidikotita">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://a.com/ontology#Loipo_Proswpiko"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://a.com/ontology#Eidikeyseis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#exei_ep -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#exei_ep">
+        <rdfs:domain rdf:resource="http://a.com/ontology#Tmima_Panepistimiou"/>
+        <rdfs:range rdf:resource="http://a.com/ontology#Ekpaid_Proswpiko"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#exei_f -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#exei_f">
+        <rdfs:domain rdf:resource="http://a.com/ontology#Tmima_Panepistimiou"/>
+        <rdfs:range rdf:resource="http://a.com/ontology#Foitites"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#exei_lp -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#exei_lp">
+        <rdfs:domain rdf:resource="http://a.com/ontology#Tmima_Panepistimiou"/>
+        <rdfs:range rdf:resource="http://a.com/ontology#Loipo_Proswpiko"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#exei_p -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#exei_p">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Kyklos_Spoudwn"/>
+        <rdfs:range rdf:resource="http://a.com/ontology#Programma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#omada_ereynwn -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#omada_ereynwn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://a.com/ontology#Ekpaid_Proswpiko"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://a.com/ontology#Ekpaid_Proswpiko"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#parakolouthei -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#parakolouthei">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Foitites"/>
+        <rdfs:range rdf:resource="http://a.com/ontology#Kyklos_Spoudwn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#parakoloythei_m -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#parakoloythei_m">
+        <rdfs:domain rdf:resource="http://a.com/ontology#Foitites"/>
+        <rdfs:range rdf:resource="http://a.com/ontology#Mathima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#parexei -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#parexei">
+        <rdfs:domain rdf:resource="http://a.com/ontology#Tmima_Panepistimiou"/>
+        <rdfs:range rdf:resource="http://a.com/ontology#Kyklos_Spoudwn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#ypeythynos -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#ypeythynos">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Proswpiko"/>
+        <rdfs:range rdf:resource="http://a.com/ontology#Xwroi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://a.com/ontology#ypeythynos_erg -->
+
+    <owl:ObjectProperty rdf:about="http://a.com/ontology#ypeythynos_erg">
+        <rdfs:subPropertyOf rdf:resource="http://a.com/ontology#ypeythynos"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Proswpiko"/>
+        <rdfs:range rdf:resource="http://a.com/ontology#Ergastirio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://a.com/ontology#AEM -->
+
+    <owl:DatatypeProperty rdf:about="http://a.com/ontology#AEM">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Foitites"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://a.com/ontology#AM -->
+
+    <owl:DatatypeProperty rdf:about="http://a.com/ontology#AM">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Proswpiko"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://a.com/ontology#Mera -->
+
+    <owl:DatatypeProperty rdf:about="http://a.com/ontology#Mera">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://a.com/ontology#Hmerologio"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://a.com/ontology#eksamino -->
+
+    <owl:DatatypeProperty rdf:about="http://a.com/ontology#eksamino">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Mathima"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://a.com/ontology#email -->
+
+    <owl:DatatypeProperty rdf:about="http://a.com/ontology#email">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://a.com/ontology#Anthrwpino_Dynamiko"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://a.com/ontology#ktirio -->
+
+    <owl:DatatypeProperty rdf:about="http://a.com/ontology#ktirio">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Xwroi"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://a.com/ontology#onoma_s -->
+
+    <owl:DatatypeProperty rdf:about="http://a.com/ontology#onoma_s">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Kyklos_Spoudwn"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://a.com/ontology#onoma_tm -->
+
+    <owl:DatatypeProperty rdf:about="http://a.com/ontology#onoma_tm">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Tmima_Panepistimiou"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://a.com/ontology#onoma_x -->
+
+    <owl:DatatypeProperty rdf:about="http://a.com/ontology#onoma_x">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Xwroi"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://a.com/ontology#onomatepwnymo -->
+
+    <owl:DatatypeProperty rdf:about="http://a.com/ontology#onomatepwnymo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Anthrwpino_Dynamiko"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://a.com/ontology#til -->
+
+    <owl:DatatypeProperty rdf:about="http://a.com/ontology#til">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://a.com/ontology#Anthrwpino_Dynamiko"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://a.com/ontology#titlos -->
+
+    <owl:DatatypeProperty rdf:about="http://a.com/ontology#titlos">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://a.com/ontology#Mathima"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://a.com/ontology#wra_enar3is -->
+
+    <owl:DatatypeProperty rdf:about="http://a.com/ontology#wra_enar3is">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Hmerologio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://a.com/ontology#wra_li3is -->
+
+    <owl:DatatypeProperty rdf:about="http://a.com/ontology#wra_li3is">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://a.com/ontology#Hmerologio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://a.com/ontology#Aithousa -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Aithousa">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Xwroi"/>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Ergastirio"/>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Grafeio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Anaplirwtis_Kath -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Anaplirwtis_Kath">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Ekpaid_Proswpiko"/>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Epikouros_Kath"/>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Kathigitis"/>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Lektoras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Anthrwpino_Dynamiko -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Anthrwpino_Dynamiko">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#onomatepwnymo"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Eidikeyseis -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Eidikeyseis"/>
+    
+
+
+    <!-- http://a.com/ontology#Ekpaid_Proswpiko -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Ekpaid_Proswpiko">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Proswpiko"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#didaskei"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Foitites"/>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Loipo_Proswpiko"/>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Epikouros_Kath -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Epikouros_Kath">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Ekpaid_Proswpiko"/>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Kathigitis"/>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Lektoras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Ergastirio -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Ergastirio">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Xwroi"/>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Grafeio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Foitites -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Foitites">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Anthrwpino_Dynamiko"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#parakoloythei_m"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#parakolouthei"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#AEM"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Grafeio -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Grafeio">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Xwroi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Hmerologio -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Hmerologio">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#aithousa_didaskalias"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://a.com/ontology#Aithousa"/>
+                            <rdf:Description rdf:about="http://a.com/ontology#Ergastirio"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#aithousa_didaskalias"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#Mera"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#wra_enar3is"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#wra_li3is"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Kathigitis -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Kathigitis">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Ekpaid_Proswpiko"/>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Lektoras"/>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Kyklos_Spoudwn -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Kyklos_Spoudwn">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#akolouthei"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#exei_p"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#onoma_s"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Lektoras -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Lektoras">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Ekpaid_Proswpiko"/>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Loipo_Proswpiko -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Loipo_Proswpiko">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://a.com/ontology#Proswpiko"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://a.com/ontology#didaskei"/>
+                                <owl:allValuesFrom rdf:resource="http://a.com/ontology#Mathima"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#eidikotita"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://a.com/ontology#Alli_Eidikotita"/>
+                            <rdf:Description rdf:about="http://a.com/ontology#Grammateas"/>
+                            <rdf:Description rdf:about="http://a.com/ontology#Texniko_Proswpiko"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Mathima -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Mathima">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#didasketai"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#didasketai_apo"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#eksamino"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#titlos"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Metaptyxiako -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Metaptyxiako">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Kyklos_Spoudwn"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#akolouthei"/>
+                <owl:allValuesFrom rdf:resource="http://a.com/ontology#Programma_Metaptyxiakou"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#exei_p"/>
+                <owl:allValuesFrom rdf:resource="http://a.com/ontology#Programma_Metaptyxiakou"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Proptyxiako"/>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Metaptyxiako_Mathima -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Metaptyxiako_Mathima">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Mathima"/>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Proptyxiako_Mathima"/>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Metaptyxiakos_Foititis -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Metaptyxiakos_Foititis">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Foitites"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#parakolouthei"/>
+                <owl:allValuesFrom rdf:resource="http://a.com/ontology#Metaptyxiako"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#parakoloythei_m"/>
+                <owl:allValuesFrom rdf:resource="http://a.com/ontology#Metaptyxiako_Mathima"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Proptyxiakos_Foititis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Programma -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Programma">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#apoteleitai"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Programma_Metaptyxiakou -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Programma_Metaptyxiakou">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Programma"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#apoteleitai"/>
+                <owl:allValuesFrom rdf:resource="http://a.com/ontology#Metaptyxiako_Mathima"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://a.com/ontology#Programma_Proptyxiakou"/>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Programma_Proptyxiakou -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Programma_Proptyxiakou">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Programma"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#apoteleitai"/>
+                <owl:allValuesFrom rdf:resource="http://a.com/ontology#Proptyxiako_Mathima"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Proptyxiako -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Proptyxiako">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Kyklos_Spoudwn"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#akolouthei"/>
+                <owl:allValuesFrom rdf:resource="http://a.com/ontology#Programma_Proptyxiakou"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#exei_p"/>
+                <owl:allValuesFrom rdf:resource="http://a.com/ontology#Programma_Proptyxiakou"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Proptyxiako_Mathima -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Proptyxiako_Mathima">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Mathima"/>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Proptyxiakos_Foititis -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Proptyxiakos_Foititis">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Foitites"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#parakolouthei"/>
+                <owl:allValuesFrom rdf:resource="http://a.com/ontology#Proptyxiako"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#parakoloythei_m"/>
+                <owl:allValuesFrom rdf:resource="http://a.com/ontology#Proptyxiako_Mathima"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Proswpiko -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Proswpiko">
+        <rdfs:subClassOf rdf:resource="http://a.com/ontology#Anthrwpino_Dynamiko"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#AM"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Tmima_Panepistimiou -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Tmima_Panepistimiou">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#apoteleitai_x"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#exei_ep"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#exei_f"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#exei_lp"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#parexei"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://a.com/ontology#Kyklos_Spoudwn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#onoma_tm"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://a.com/ontology#Xwroi -->
+
+    <owl:Class rdf:about="http://a.com/ontology#Xwroi">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://a.com/ontology#onoma_x"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://a.com/ontology#Aithousa1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Aithousa1">
+        <rdf:type rdf:resource="http://a.com/ontology#Aithousa"/>
+        <ktirio>Viologiko</ktirio>
+        <onoma_x>Aithousa A</onoma_x>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Aithousa2 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Aithousa2">
+        <rdf:type rdf:resource="http://a.com/ontology#Aithousa"/>
+        <ktirio>Viologiko</ktirio>
+        <onoma_x>Aithousa B</onoma_x>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Alli_Eidikotita -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Alli_Eidikotita">
+        <rdf:type rdf:resource="http://a.com/ontology#Eidikeyseis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Anaplirwtis1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Anaplirwtis1">
+        <rdf:type rdf:resource="http://a.com/ontology#Anaplirwtis_Kath"/>
+        <didaskei rdf:resource="http://a.com/ontology#Mtpx_Mathima1"/>
+        <omada_ereynwn rdf:resource="http://a.com/ontology#Kathigitis1"/>
+        <AM>5322</AM>
+        <email>Kyr@csd.auth.gr</email>
+        <onomatepwnymo>Eyaggelos Kyriazopoulos</onomatepwnymo>
+        <til>2310456543</til>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Epikouros1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Epikouros1">
+        <rdf:type rdf:resource="http://a.com/ontology#Epikouros_Kath"/>
+        <didaskei rdf:resource="http://a.com/ontology#Mtpx_Mathima2"/>
+        <didaskei rdf:resource="http://a.com/ontology#Prptx_Mathima1"/>
+        <omada_ereynwn rdf:resource="http://a.com/ontology#Lektoras1"/>
+        <AM>1243</AM>
+        <email>nbassili@csd.auth.gr</email>
+        <onomatepwnymo>Nikolaos Vasileiadis</onomatepwnymo>
+        <til>2310536434</til>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Ergastirio1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Ergastirio1">
+        <rdf:type rdf:resource="http://a.com/ontology#Ergastirio"/>
+        <ktirio>Mathimatiko</ktirio>
+        <onoma_x>Ergastirio Polymeswn</onoma_x>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Grafeio1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Grafeio1">
+        <rdf:type rdf:resource="http://a.com/ontology#Grafeio"/>
+        <ktirio>Gyalino</ktirio>
+        <onoma_x>Grafeio 112</onoma_x>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Grammateas -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Grammateas">
+        <rdf:type rdf:resource="http://a.com/ontology#Eidikeyseis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Grammateas1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Grammateas1">
+        <rdf:type rdf:resource="http://a.com/ontology#Loipo_Proswpiko"/>
+        <eidikotita rdf:resource="http://a.com/ontology#Grammateas"/>
+        <ypeythynos rdf:resource="http://a.com/ontology#Grafeio1"/>
+        <AM>364787</AM>
+        <onomatepwnymo>Vasiliki Paiana</onomatepwnymo>
+        <til>2310583994</til>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Hmerologio1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Hmerologio1">
+        <rdf:type rdf:resource="http://a.com/ontology#Hmerologio"/>
+        <aithousa_didaskalias rdf:resource="http://a.com/ontology#Aithousa2"/>
+        <Mera>Deytera</Mera>
+        <wra_enar3is>10:00</wra_enar3is>
+        <wra_li3is>12:00</wra_li3is>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Hmerologio2 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Hmerologio2">
+        <rdf:type rdf:resource="http://a.com/ontology#Hmerologio"/>
+        <aithousa_didaskalias rdf:resource="http://a.com/ontology#Ergastirio1"/>
+        <Mera>Pempti</Mera>
+        <wra_enar3is>17:00</wra_enar3is>
+        <wra_li3is>20:00</wra_li3is>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Hmerologio3 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Hmerologio3">
+        <rdf:type rdf:resource="http://a.com/ontology#Hmerologio"/>
+        <aithousa_didaskalias rdf:resource="http://a.com/ontology#Aithousa1"/>
+        <Mera>Paraskevi</Mera>
+        <wra_enar3is>9:00</wra_enar3is>
+        <wra_li3is>11:00</wra_li3is>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Hmerologio4 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Hmerologio4">
+        <rdf:type rdf:resource="http://a.com/ontology#Hmerologio"/>
+        <aithousa_didaskalias rdf:resource="http://a.com/ontology#Aithousa1"/>
+        <Mera>Tetarti</Mera>
+        <wra_enar3is>10:00</wra_enar3is>
+        <wra_li3is>12:00</wra_li3is>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Hmerologio5 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Hmerologio5">
+        <rdf:type rdf:resource="http://a.com/ontology#Hmerologio"/>
+        <aithousa_didaskalias rdf:resource="http://a.com/ontology#Ergastirio1"/>
+        <Mera>Paraskevi</Mera>
+        <wra_enar3is>11:00</wra_enar3is>
+        <wra_li3is>13:00</wra_li3is>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Kathigitis1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Kathigitis1">
+        <rdf:type rdf:resource="http://a.com/ontology#Kathigitis"/>
+        <didaskei rdf:resource="http://a.com/ontology#Prptx_Mathima2"/>
+        <omada_ereynwn rdf:resource="http://a.com/ontology#Anaplirwtis1"/>
+        <ypeythynos_erg rdf:resource="http://a.com/ontology#Ergastirio1"/>
+        <AM>7568</AM>
+        <email>pitas@csd.auth.gr</email>
+        <onomatepwnymo>Iwannis Pitas</onomatepwnymo>
+        <til>2310234234</til>
+        <til>2310958366</til>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Lektoras1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Lektoras1">
+        <rdf:type rdf:resource="http://a.com/ontology#Lektoras"/>
+        <didaskei rdf:resource="http://a.com/ontology#Prptx_Mathima1"/>
+        <omada_ereynwn rdf:resource="http://a.com/ontology#Epikouros1"/>
+        <AM>1111</AM>
+        <email>appap@csd.auth.gr</email>
+        <onomatepwnymo>Apostolos Papadopoulos</onomatepwnymo>
+        <til>2310449976</til>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Metaptyxiako1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Metaptyxiako1">
+        <rdf:type rdf:resource="http://a.com/ontology#Metaptyxiako"/>
+        <akolouthei rdf:resource="http://a.com/ontology#Programma_Mtpx1"/>
+        <exei_p rdf:resource="http://a.com/ontology#Programma_Mtpx1"/>
+        <onoma_s>Metaptyxiako Pliroforikis</onoma_s>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Metaptyxiako2 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Metaptyxiako2">
+        <rdf:type rdf:resource="http://a.com/ontology#Metaptyxiako"/>
+        <akolouthei rdf:resource="http://a.com/ontology#Programma_Mtpx2"/>
+        <exei_p rdf:resource="http://a.com/ontology#Programma_Mtpx2"/>
+        <onoma_s>Diatmimatiko Metaptyxiako Pliroforikis</onoma_s>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Metaptyxiakos_Foititis1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Metaptyxiakos_Foititis1">
+        <rdf:type rdf:resource="http://a.com/ontology#Metaptyxiakos_Foititis"/>
+        <parakolouthei rdf:resource="http://a.com/ontology#Metaptyxiako1"/>
+        <parakoloythei_m rdf:resource="http://a.com/ontology#Mtpx_Mathima1"/>
+        <AEM>540</AEM>
+        <email>Vaskara@csd.auth.gr</email>
+        <onomatepwnymo>Vasileios Karakwstas</onomatepwnymo>
+        <til>2310954334</til>
+        <til>6997040126</til>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Mtpx_Mathima1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Mtpx_Mathima1">
+        <rdf:type rdf:resource="http://a.com/ontology#Metaptyxiako_Mathima"/>
+        <aithousa_didaskalias rdf:resource="http://a.com/ontology#Ergastirio1"/>
+        <didasketai rdf:resource="http://a.com/ontology#Hmerologio1"/>
+        <Mera>Deytera 17:00-19:00</Mera>
+        <eksamino>4</eksamino>
+        <titlos>Simata Systimata</titlos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Mtpx_Mathima2 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Mtpx_Mathima2">
+        <rdf:type rdf:resource="http://a.com/ontology#Metaptyxiako_Mathima"/>
+        <didasketai rdf:resource="http://a.com/ontology#Hmerologio3"/>
+        <didasketai rdf:resource="http://a.com/ontology#Hmerologio5"/>
+        <Mera>Pempti 16:00-18:30</Mera>
+        <eksamino>2</eksamino>
+        <titlos>Simasiologiko Diadiktyo</titlos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Programma1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Programma1">
+        <rdf:type rdf:resource="http://a.com/ontology#Programma_Proptyxiakou"/>
+        <apoteleitai rdf:resource="http://a.com/ontology#Prptx_Mathima1"/>
+        <apoteleitai rdf:resource="http://a.com/ontology#Prptx_Mathima2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Programma_Mtpx1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Programma_Mtpx1">
+        <rdf:type rdf:resource="http://a.com/ontology#Programma_Metaptyxiakou"/>
+        <apoteleitai rdf:resource="http://a.com/ontology#Mtpx_Mathima1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Programma_Mtpx2 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Programma_Mtpx2">
+        <rdf:type rdf:resource="http://a.com/ontology#Programma_Metaptyxiakou"/>
+        <apoteleitai rdf:resource="http://a.com/ontology#Mtpx_Mathima2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Proptyxiako1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Proptyxiako1">
+        <rdf:type rdf:resource="http://a.com/ontology#Proptyxiako"/>
+        <akolouthei rdf:resource="http://a.com/ontology#Programma1"/>
+        <exei_p rdf:resource="http://a.com/ontology#Programma1"/>
+        <onoma_s>Pliroforiki</onoma_s>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Proptyxiakos_Foititis1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Proptyxiakos_Foititis1">
+        <rdf:type rdf:resource="http://a.com/ontology#Proptyxiakos_Foititis"/>
+        <parakolouthei rdf:resource="http://a.com/ontology#Proptyxiako1"/>
+        <parakoloythei_m rdf:resource="http://a.com/ontology#Prptx_Mathima1"/>
+        <parakoloythei_m rdf:resource="http://a.com/ontology#Prptx_Mathima2"/>
+        <AEM>8</AEM>
+        <email>evid@csd.auth.gr</email>
+        <email>evid_2000@hotmail.com</email>
+        <onomatepwnymo>Paraskevi Dontsou</onomatepwnymo>
+        <til>2310868520</til>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Prptx_Mathima1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Prptx_Mathima1">
+        <rdf:type rdf:resource="http://a.com/ontology#Proptyxiako_Mathima"/>
+        <didasketai rdf:resource="http://a.com/ontology#Hmerologio2"/>
+        <Mera>Triti 10:00-12:00</Mera>
+        <eksamino>6</eksamino>
+        <titlos>Texniti Noimosini</titlos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Prptx_Mathima2 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Prptx_Mathima2">
+        <rdf:type rdf:resource="http://a.com/ontology#Proptyxiako_Mathima"/>
+        <didasketai rdf:resource="http://a.com/ontology#Hmerologio4"/>
+        <Mera>Triti 17:00-20:00</Mera>
+        <eksamino>2</eksamino>
+        <titlos>Prosarmostika Sistimata</titlos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Texniko_Proswpiko -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Texniko_Proswpiko">
+        <rdf:type rdf:resource="http://a.com/ontology#Eidikeyseis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://a.com/ontology#Tmima_Panepistimiou1 -->
+
+    <owl:NamedIndividual rdf:about="http://a.com/ontology#Tmima_Panepistimiou1">
+        <rdf:type rdf:resource="http://a.com/ontology#Tmima_Panepistimiou"/>
+        <apoteleitai_x rdf:resource="http://a.com/ontology#Aithousa1"/>
+        <apoteleitai_x rdf:resource="http://a.com/ontology#Aithousa2"/>
+        <apoteleitai_x rdf:resource="http://a.com/ontology#Ergastirio1"/>
+        <apoteleitai_x rdf:resource="http://a.com/ontology#Grafeio1"/>
+        <exei_ep rdf:resource="http://a.com/ontology#Anaplirwtis1"/>
+        <exei_ep rdf:resource="http://a.com/ontology#Epikouros1"/>
+        <exei_ep rdf:resource="http://a.com/ontology#Kathigitis1"/>
+        <exei_ep rdf:resource="http://a.com/ontology#Lektoras1"/>
+        <exei_f rdf:resource="http://a.com/ontology#Metaptyxiakos_Foititis1"/>
+        <exei_f rdf:resource="http://a.com/ontology#Proptyxiakos_Foititis1"/>
+        <exei_lp rdf:resource="http://a.com/ontology#Grammateas1"/>
+        <parexei rdf:resource="http://a.com/ontology#Metaptyxiako1"/>
+        <parexei rdf:resource="http://a.com/ontology#Metaptyxiako2"/>
+        <parexei rdf:resource="http://a.com/ontology#Proptyxiako1"/>
+        <onoma_tm>Tmima Pliroforikis Aristoteleiou Panepistimiou</onoma_tm>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

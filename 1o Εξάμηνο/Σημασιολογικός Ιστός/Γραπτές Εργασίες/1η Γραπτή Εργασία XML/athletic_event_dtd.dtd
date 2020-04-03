@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT ΑΘΛΗΤΙΚΟ_ΓΕΓΟΝΟΣ (ΣΤΑΔΙΑ, ΑΓΩΝΙΣΜΑΤΑ, ΣΥΜΜΕΤΕΧΟΥΣΕΣ_ΧΩΡΕΣ, ΣΥΜΜΕΤΕΧΟΝΤΕΣ_ΑΘΛΗΤΕΣ, ΔΙΕΞΑΓΩΓΗ_ΑΓΩΝΩΝ, ΚΑΤΑΤΑΞΗ_ΜΕΤΑΛΛΙΩΝ)>
+<!ATTLIST ΑΘΛΗΤΙΚΟ_ΓΕΓΟΝΟΣ
+	event_name CDATA #FIXED "Ολυμπιακοί Αγώνες 2004"
+	org_country CDATA #FIXED "Ελλάδα"
+	city CDATA #FIXED "Αθήνα"
+	start_date CDATA #FIXED "2004-08-15"
+	finish_date CDATA #FIXED "2004-08-29"
+>
+
+<!ELEMENT ΣΤΑΔΙΑ (ΣΤΑΔΙΟ+)>
+<!ELEMENT ΣΤΑΔΙΟ (ΦΙΛΟΞΕΝΟΥΜΕΝΟ_ΑΓΩΝΙΣΜΑ, ΤΕΛΕΤΗ+)>
+<!ATTLIST ΣΤΑΔΙΟ
+	stadio ID #REQUIRED
+	capacity (10000 | 32000 | 68000) #REQUIRED
+>
+
+<!ELEMENT ΦΙΛΟΞΕΝΟΥΜΕΝΟ_ΑΓΩΝΙΣΜΑ EMPTY>
+<!ATTLIST ΦΙΛΟΞΕΝΟΥΜΕΝΟ_ΑΓΩΝΙΣΜΑ
+	host_agonisma IDREF #REQUIRED
+>
+
+<!ELEMENT ΤΕΛΕΤΗ (#PCDATA)>
+<!ATTLIST ΤΕΛΕΤΗ
+	teleti CDATA #REQUIRED
+	date (2004-08-15 | 2004-08-16 | 2004-08-17 | 2004-08-18 | 2004-08-19 | 2004-08-20 | 2004-08-21 | 2004-08-22 | 2004-08-23 | 2004-08-24 | 2004-08-25 | 2004-08-26 | 2004-08-27 | 2004-08-28 | 2004-08-29) #REQUIRED
+	time CDATA #IMPLIED
+>
+
+<!ELEMENT ΑΓΩΝΙΣΜΑΤΑ (ΑΓΩΝΙΣΜΑ+)>
+
+<!ELEMENT ΑΓΩΝΙΣΜΑ (ΑΓΩΝΑΣ*)>
+<!ATTLIST ΑΓΩΝΙΣΜΑ
+	agonisma ID #REQUIRED
+	s_date (2004-08-16 | 2004-08-19 | 2004-08-20) #IMPLIED
+	f_date (2004-08-22 | 2004-08-27 | 2004-08-29) #IMPLIED
+>
+
+<!ELEMENT ΣΥΜΜΕΤΕΧΟΥΣΕΣ_ΧΩΡΕΣ (ΧΩΡΑ+)>
+<!ATTLIST ΣΥΜΜΕΤΕΧΟΥΣΕΣ_ΧΩΡΕΣ
+	total_number CDATA #FIXED "335"
+>
+<!ELEMENT ΧΩΡΑ EMPTY>
+<!ATTLIST ΧΩΡΑ
+	country ID #REQUIRED
+	number_athletes CDATA #IMPLIED
+>
+
+<!ELEMENT ΧΡΥΣΑ (#PCDATA)>
+<!ELEMENT ΑΡΓΥΡΑ (#PCDATA)>
+<!ELEMENT ΧΑΛΚΙΝΑ (#PCDATA)>
+
+
+<!ELEMENT ΣΥΜΜΕΤΕΧΟΝΤΕΣ_ΑΘΛΗΤΕΣ (ΑΘΛΗΤΗΣ+)>
+<!ATTLIST ΣΥΜΜΕΤΕΧΟΝΤΕΣ_ΑΘΛΗΤΕΣ
+	total_number CDATA #FIXED "5521"
+>
+<!ELEMENT ΑΘΛΗΤΗΣ EMPTY>
+<!ATTLIST ΑΘΛΗΤΗΣ
+	athlitis ID #REQUIRED
+	genre (female | male) #IMPLIED
+	country IDREF #REQUIRED
+	agonisma IDREF #IMPLIED
+	performance CDATA #IMPLIED
+>
+
+<!ELEMENT ΔΙΕΞΑΓΩΓΗ_ΑΓΩΝΩΝ (ΔΙΕΞ_ΑΓΩΝΙΣΜΑ+)>
+<!ELEMENT ΔΙΕΞ_ΑΓΩΝΙΣΜΑ (ΑΓΩΝΑΣ*)>
+<!ATTLIST ΔΙΕΞ_ΑΓΩΝΙΣΜΑ
+	act_agonisma IDREF #REQUIRED
+>
+
+<!ELEMENT ΑΓΩΝΑΣ ((ΔΙΑΓΩΝ_ΑΘΛΗΤΗΣ* | ΔΙΑΓΩΝ_ΟΜΑΔΑ*), ΑΠΟΤΕΛΕΣΜΑ)>
+<!ATTLIST ΑΓΩΝΑΣ
+	agonas CDATA #REQUIRED
+	stadium IDREF #REQUIRED
+	date CDATA #REQUIRED
+	time CDATA #REQUIRED
+>
+
+<!ELEMENT ΔΙΑΓΩΝ_ΑΘΛΗΤΗΣ EMPTY>
+<!ATTLIST ΔΙΑΓΩΝ_ΑΘΛΗΤΗΣ
+	athlitis IDREF #REQUIRED
+	country IDREF #REQUIRED
+	performance CDATA #IMPLIED
+>
+
+<!ELEMENT ΔΙΑΓΩΝ_ΟΜΑΔΑ (ΔΙΑΓΩΝ_ΑΘΛΗΤΗΣ*)>
+<!ATTLIST ΔΙΑΓΩΝ_ΟΜΑΔΑ
+	country IDREF #REQUIRED
+	performance CDATA #IMPLIED
+>
+
+<!ELEMENT ΑΠΟΤΕΛΕΣΜΑ (ΔΙΑΓΩΝ_ΑΘΛΗΤΗΣ* | ΔΙΑΓΩΝ_ΟΜΑΔΑ*)>
+
+<!ELEMENT ΚΑΤΑΤΑΞΗ_ΜΕΤΑΛΛΙΩΝ (ΚΑΤ_ΧΩΡΑ+)>
+<!ELEMENT ΚΑΤ_ΧΩΡΑ (ΚΑΤΑΤΑΞΗ, ΧΡΥΣΑ?, ΑΡΓΥΡΑ?, ΧΑΛΚΙΝΑ?)>
+<!ATTLIST ΚΑΤ_ΧΩΡΑ
+	rank_country IDREF #REQUIRED
+>
+
+<!ELEMENT ΚΑΤΑΤΑΞΗ (#PCDATA)>

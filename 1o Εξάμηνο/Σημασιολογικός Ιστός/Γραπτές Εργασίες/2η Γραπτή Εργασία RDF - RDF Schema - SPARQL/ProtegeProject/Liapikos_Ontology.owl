@@ -1,0 +1,1265 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:assert="http://www.owl-ontologies.com/assert.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+    xmlns="http://www.owl-ontologies.com/Ontology1545270110.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:sqwrl="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://www.owl-ontologies.com/Ontology1545270110.owl" > 
+  <rdf:Description rdf:about="#katataxi_USA">
+    <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</plithos_xalkinon_metallion>
+    <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</katataxi_xoras>
+    <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</plithos_xryson_metallion>
+    <rdf:type rdf:resource="#Katatagmeni_Xora"/>
+    <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</plithos_argyron_metallion>
+    <afora_xora rdf:resource="#USA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#athlitis_stivou_USA">
+    <rdf:type rdf:resource="#Athlitis"/>
+    <rekor_athliti rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.12</rekor_athliti>
+    <proponeitai_apo rdf:resource="#proponitis_stivou_USA"/>
+    <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Doe</onoma_atomou>
+    <anikei_se_omada rdf:resource="#omada_stivou_USA"/>
+    <kerdizei_metallio rdf:resource="#xalkino_100m_andron_stivou"/>
+    <symmetexei_se_agonisma rdf:resource="#andron_100m_stivou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_volley_Mexico">
+    <anikei_se_xora rdf:resource="#Mexico"/>
+    <afora_athlima rdf:resource="#volley"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_kopilasias_USA">
+    <afora_athlima rdf:resource="#kopilasia"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <anikei_se_xora rdf:resource="#USA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Teleti">
+    <rdfs:subClassOf rdf:resource="#Athlitiko_Gegonos"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#kerdizei_agonisma">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="#symmetoxi_athliti_agonisma"/>
+    <rdfs:domain rdf:resource="#Agonisma"/>
+    <rdfs:range rdf:resource="#Athlitis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#katataxi_Italy">
+    <afora_xora rdf:resource="#Italia"/>
+    <rdf:type rdf:resource="#Katatagmeni_Xora"/>
+    <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</katataxi_xoras>
+    <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</plithos_argyron_metallion>
+    <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</plithos_xalkinon_metallion>
+    <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</plithos_xryson_metallion>
+  </rdf:Description>
+  <rdf:Description rdf:about="#olympiako_stadio">
+    <filoxenoumeno_athlima rdf:resource="#stivos"/>
+    <rdf:type rdf:resource="#Athlitikι_Egkatastasι"/>
+    <ypeuthinos_egkatastasis rdf:resource="#ypeythinos_olympiakou_stadiou"/>
+    <filoxenoumeno_agonisma rdf:resource="#andron_100m_stivou"/>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <xoritikotita_egkatastasis rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75000</xoritikotita_egkatastasis>
+    <onoma_egkatastasis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olympiako_stadio</onoma_egkatastasis>
+    <plirofories_egkatastasis rdf:resource="#plirofories_olympiakou_stadiou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#France">
+    <rdf:type rdf:resource="#Symmetexousa_Xora"/>
+    <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gallia</onoma_xoras>
+  </rdf:Description>
+  <rdf:Description rdf:about="#teleti_aponomis_metallion_marathoniou">
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <plirofories_gegonotos rdf:resource="#plirofories_teletis_aponomis_metallion_marathoniou"/>
+    <rdf:type rdf:resource="#Teleti"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#filoxenoumeno_agonisma">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Athlitikι_Egkatastasι"/>
+    <rdfs:range rdf:resource="#Agonisma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#katataxi_athliti">
+    <rdfs:domain rdf:resource="#Katatagmenos_Athlitis"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#symmetoxi_xoras_agonisma">
+    <rdfs:range rdf:resource="#Symmetexousa_Xora"/>
+    <rdfs:domain rdf:resource="#Agonisma"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#katataxi_metallion_xoras">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Symmetexousa_Xora"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#onoma_xoras">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Symmetexousa_Xora"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#teleti_enarxis_agonon">
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <rdf:type rdf:resource="#Teleti"/>
+    <plirofories_gegonotos rdf:resource="#plirofories_teletis_enarxis_agonon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#xalkino_100m_andron_stivou">
+    <eidos_metalliou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xalkino</eidos_metalliou>
+    <afora_se_athlima rdf:resource="#stivos"/>
+    <afora_se_agonisma rdf:resource="#andron_100m_stivou"/>
+    <rdf:type rdf:resource="#Metallio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ekdidei">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Athlitiki_Diorganosi"/>
+    <rdfs:range rdf:resource="#Apologismos_Diorganosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Prosopiko_Organosis">
+    <rdfs:subClassOf rdf:resource="#Stoixeio_Diorganosis"/>
+    <rdfs:subClassOf rdf:resource="#Atomo"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_teletis_enarxis_agonon">
+    <rdf:type rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#afora_athlima">
+    <rdfs:range rdf:resource="#Athlima"/>
+    <rdfs:domain rdf:resource="#Athlitiki_Omada"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#xifaskia">
+    <rdf:type rdf:resource="#Athlima"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#onoma_egkatastasis">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Egkatastaseis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#proponeitai_apo">
+    <rdfs:range rdf:resource="#Proponitis"/>
+    <rdfs:domain rdf:resource="#Athlitis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plithos_athliton">
+    <rdfs:domain rdf:resource="#Agonistikos_Apologismos"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#katataxi_France">
+    <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</katataxi_xoras>
+    <afora_xora rdf:resource="#France"/>
+    <rdf:type rdf:resource="#Katatagmeni_Xora"/>
+    <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</plithos_xryson_metallion>
+    <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">39</plithos_argyron_metallion>
+    <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</plithos_xalkinon_metallion>
+  </rdf:Description>
+  <rdf:Description rdf:about="#katataxi_athliti_stivou">
+    <afora_athliti rdf:resource="#athlitis_stivou"/>
+    <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plithos_argyron_metallion>
+    <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</plithos_xryson_metallion>
+    <katataxi_athliti rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</katataxi_athliti>
+    <rdf:type rdf:resource="#Katatagmenos_Athlitis"/>
+    <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</plithos_xalkinon_metallion>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_diorganosis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Plirofories"/>
+    <rdfs:domain rdf:resource="#Athlitiki_Diorganosi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Italia">
+    <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italia</onoma_xoras>
+    <rdf:type rdf:resource="#Symmetexousa_Xora"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_kolimvisis_italias"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_stivou_italias"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_volley_italias"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_podosfairou_italias"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_basket_italias"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_ktiriou_dioikisis">
+    <rdf:type rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#onoma_ypiresias">
+    <rdfs:domain rdf:resource="#Ypiresia"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_olympiakou_stadiou">
+    <rdf:type rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Great_Britain">
+    <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Megali_Bretania</onoma_xoras>
+    <rdf:type rdf:resource="#Symmetexousa_Xora"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_podosfairou_elladas">
+    <afora_athlima rdf:resource="#podosfairo"/>
+    <anikei_se_xora rdf:resource="#Ellada"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plithos_theaton">
+    <rdfs:domain rdf:resource="#Oikonomikos_Apologismos"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#misthonei">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Ypallilos"/>
+    <rdfs:domain rdf:resource="#Athlitiki_Diorganosi"/>
+    <rdfs:subPropertyOf rdf:resource="#apasxolei"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#katataxi_Germany">
+    <rdf:type rdf:resource="#Katatagmeni_Xora"/>
+    <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</katataxi_xoras>
+    <afora_xora rdf:resource="#Germany"/>
+    <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</plithos_xalkinon_metallion>
+    <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32</plithos_argyron_metallion>
+    <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</plithos_xryson_metallion>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Agonisma">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_basket_italias">
+    <anikei_se_xora rdf:resource="#Italia"/>
+    <afora_athlima rdf:resource="#basket"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#diorganonei">
+    <rdfs:domain rdf:resource="#Athlitiki_Diorganosi"/>
+    <rdfs:range rdf:resource="#Athlitiko_Gegonos"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_podilasias_USA">
+    <afora_athlima rdf:resource="#podilasia"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <anikei_se_xora rdf:resource="#USA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#proponitis_stivou">
+    <rdf:type rdf:resource="#Proponitis"/>
+    <proponei rdf:resource="#athlitis_stivou"/>
+    <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Georgiou Giorgos</onoma_atomou>
+    <rolos_se_omada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proponitis</rolos_se_omada>
+    <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666668</tilefono_atomou>
+    <anikei_se_omada rdf:resource="#omada_stivou_elladas"/>
+    <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athlst2@agones.com</email_atomou>
+  </rdf:Description>
+  <rdf:Description rdf:about="#telikos_100m_andron_stivou">
+    <plirofories_gegonotos rdf:resource="#plirofories_telikou_100m_andron_stivou"/>
+    <rdf:type rdf:resource="#Agonistiko_Gegonos"/>
+    <kerdizei_xora_gegonos rdf:resource="#Ellada"/>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <agonisma_gegonotos rdf:resource="#andron_100m_stivou"/>
+    <athlima_gegonotos rdf:resource="#stivos"/>
+    <kerdizei_athlitis_gegonos rdf:resource="#athlitis_stivou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#eidos_metalliou">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Metallio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_prodreiou">
+    <rdf:type rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#kritis_kolimvisis">
+    <proistamenos_ypallilou rdf:resource="#ypeythinos_kriton"/>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <rdf:type rdf:resource="#Ektelestikos"/>
+    <athlima_eythinis rdf:resource="#kolimvisi"/>
+    <misthodosia_ypallilou rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35000</misthodosia_ypallilou>
+    <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kikou Kikos</onoma_atomou>
+    <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kritis2@agones.com</email_atomou>
+    <rolos_sto_athlima rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kritis</rolos_sto_athlima>
+    <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666697</tilefono_atomou>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plithos_xalkinon_metallion">
+    <rdfs:domain rdf:resource="#Katataxi_Vasei_Metallion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_stivou_elladas">
+    <anikei_se_xora rdf:resource="#Ellada"/>
+    <apoteleitai_apo_meli rdf:resource="#athlitis_stivou"/>
+    <afora_athlima rdf:resource="#stivos"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plithos_eisitirion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Oikonomikos_Apologismos"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#katataxi_Mexico">
+    <rdf:type rdf:resource="#Katatagmeni_Xora"/>
+    <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</katataxi_xoras>
+    <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</plithos_xryson_metallion>
+    <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</plithos_argyron_metallion>
+    <afora_xora rdf:resource="#Mexico"/>
+    <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</plithos_xalkinon_metallion>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ypeythinos_ethelonton">
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <proistamenos_ypallilou rdf:resource="#proedros"/>
+    <rdf:type rdf:resource="#Dioikitikos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ypeythinos_filoxenias_athliton">
+    <rdf:type rdf:resource="#Dioikitikos"/>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <proistamenos_ypallilou rdf:resource="#proedros"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#afora_xora">
+    <rdfs:range rdf:resource="#Symmetexousa_Xora"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Katatagmeni_Xora"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Katataxi_Vasei_Metallion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#proedros">
+    <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proedrara@agones.com</email_atomou>
+    <rdf:type rdf:resource="#Dioikitikos"/>
+    <misthodosia_ypallilou rdf:datatype="http://www.w3.org/2001/XMLSchema#int">500000</misthodosia_ypallilou>
+    <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666677</tilefono_atomou>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proedrara</onoma_atomou>
+  </rdf:Description>
+  <rdf:Description rdf:about="#olympiaki_pisina">
+    <onoma_egkatastasis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olympiaki_pisina</onoma_egkatastasis>
+    <plirofories_egkatastasis rdf:resource="#plirofories_olympiakis_pisinas"/>
+    <ypeuthinos_egkatastasis rdf:resource="#ypeythinos_olympiakis_pisinas"/>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <filoxenoumeno_agonisma rdf:resource="#andron_50m_kolimvisis"/>
+    <xoritikotita_egkatastasis rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25000</xoritikotita_egkatastasis>
+    <filoxenoumeno_athlima rdf:resource="#kolimvisi"/>
+    <rdf:type rdf:resource="#Athlitikι_Egkatastasι"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#podilasia">
+    <rdf:type rdf:resource="#Athlima"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#kritis_stivou">
+    <athlima_eythinis rdf:resource="#stivos"/>
+    <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kritis1@agones.com</email_atomou>
+    <rdf:type rdf:resource="#Ektelestikos"/>
+    <misthodosia_ypallilou rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35000</misthodosia_ypallilou>
+    <proistamenos_ypallilou rdf:resource="#ypeythinos_kriton"/>
+    <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666696</tilefono_atomou>
+    <rolos_sto_athlima rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kritis</rolos_sto_athlima>
+    <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eyaggelou Eyaggelos</onoma_atomou>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Germany">
+    <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germania</onoma_xoras>
+    <rdf:type rdf:resource="#Symmetexousa_Xora"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Ypiresia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Athlitiki_Omada">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#afora_diorganosi">
+    <rdfs:domain rdf:resource="#Stoixeio_Diorganosis"/>
+    <rdfs:range rdf:resource="#Athlitiki_Diorganosi"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plithos_xryson_metallion">
+    <rdfs:domain rdf:resource="#Katataxi_Vasei_Metallion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plithos_argyron_metallion">
+    <rdfs:domain rdf:resource="#Katataxi_Vasei_Metallion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Ektelestikos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#Ypallilos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Stoixeio_Diorganosis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#esoda_mikta">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Oikonomikos_Apologismos"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Argentina">
+    <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Argentini</onoma_xoras>
+    <rdf:type rdf:resource="#Symmetexousa_Xora"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#andron_100m_stivou">
+    <anikei_se_athlima rdf:resource="#stivos"/>
+    <rdf:type rdf:resource="#Agonisma"/>
+    <symmetoxi_athliti_agonisma rdf:resource="#athlitis_stivou"/>
+    <kerdizei_agonisma rdf:resource="#athlitis_stivou"/>
+    <symmetoxi_xoras_agonisma rdf:resource="#Ellada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Ellada">
+    <apoteleitai_apo_omades rdf:resource="#omada_podosfairou_elladas"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_kolimvisis_elladas"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_volley_elladas"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_xifaskias_elladas"/>
+    <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ellada</onoma_xoras>
+    <apoteleitai_apo_omades rdf:resource="#omada_basket_elladas"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_podilasias_elladas"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_kopilasias_elladas"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_skopovoliss_elladas"/>
+    <rdf:type rdf:resource="#Symmetexousa_Xora"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_stivou_elladas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#onoma_agonisma">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#xoritikotita_egkatastasis">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Athlitikι_Egkatastasι"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_stivou_Mexico">
+    <anikei_se_xora rdf:resource="#Mexico"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <afora_athlima rdf:resource="#stivos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#proponitis_kolimvisis">
+    <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athlko2@agones.com</email_atomou>
+    <anikei_se_omada rdf:resource="#omada_kolimvisis_elladas"/>
+    <proponei rdf:resource="#athlitis_kolimvisis"/>
+    <rdf:type rdf:resource="#Proponitis"/>
+    <rolos_se_omada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proponitis</rolos_se_omada>
+    <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666669</tilefono_atomou>
+    <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theodorou Theodoros</onoma_atomou>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_ypiresias_filoxenias_athliton">
+    <rdf:type rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#filoxenoumeno_athlima">
+    <rdfs:range rdf:resource="#Athlima"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Athlitikι_Egkatastasι"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Agonistikos_Apologismos">
+    <rdfs:subClassOf rdf:resource="#Apologismos_Diorganosis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#China">
+    <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kina</onoma_xoras>
+    <rdf:type rdf:resource="#Symmetexousa_Xora"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#afora_se_athlima">
+    <rdfs:range rdf:resource="#Athlima"/>
+    <rdfs:domain rdf:resource="#Metallio"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#filoxenei_ypiresies">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Dioikitikι_Egkatastasι"/>
+    <rdfs:range rdf:resource="#Ypiresia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#symmetoxi_athliti_gegonos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Athlitis"/>
+    <rdfs:domain rdf:resource="#Agonistiko_Gegonos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ethelontis_stivou">
+    <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ehelontis1</onoma_atomou>
+    <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethel1@agones.com</email_atomou>
+    <rdf:type rdf:resource="#Ethelontis"/>
+    <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666777</tilefono_atomou>
+    <thesi_ethelonti rdf:resource="#stivos"/>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <ypeuthinos_ethelonti rdf:resource="#ypeythinos_ethelonton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_teletis_aponomis_metallion_marathoniou">
+    <rdf:type rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#symmetoxi_xoras_gegonos">
+    <rdfs:domain rdf:resource="#Agonistiko_Gegonos"/>
+    <rdfs:range rdf:resource="#Symmetexousa_Xora"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#argyro_50m_andron_kolimvisis">
+    <afora_se_agonisma rdf:resource="#andron_50m_kolimvisis"/>
+    <afora_se_athlima rdf:resource="#kolimvisi"/>
+    <eidos_metalliou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">argyro</eidos_metalliou>
+    <rdf:type rdf:resource="#Metallio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#athlima_gegonotos">
+    <rdfs:domain rdf:resource="#Agonistiko_Gegonos"/>
+    <rdfs:range rdf:resource="#Athlima"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_basket_elladas">
+    <anikei_se_xora rdf:resource="#Ellada"/>
+    <afora_athlima rdf:resource="#basket"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ypeythinos_typou">
+    <misthodosia_ypallilou rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50000</misthodosia_ypallilou>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vasou Vaso</onoma_atomou>
+    <proistamenos_ypallilou rdf:resource="#proedros"/>
+    <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">typos@agones.com</email_atomou>
+    <rdf:type rdf:resource="#Dioikitikos"/>
+    <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666676</tilefono_atomou>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://www.owl-ontologies.com/assert.owl"/>
+    <owl:imports rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl"/>
+    <owl:imports rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ethelontis_kolimvisis">
+    <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethel2@agones.com</email_atomou>
+    <thesi_ethelonti rdf:resource="#kolimvisi"/>
+    <rdf:type rdf:resource="#Ethelontis"/>
+    <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666778</tilefono_atomou>
+    <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ehelontis2</onoma_atomou>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <ypeuthinos_ethelonti rdf:resource="#ypeythinos_ethelonton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Athlitikι_Egkatastasι">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#Egkatastaseis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#onoma_atomou">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Atomo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#stivos">
+    <periexei_agonisma rdf:resource="#andron_100m_stivou"/>
+    <rdf:type rdf:resource="#Athlima"/>
+    <plirofories_athlimatos rdf:resource="#plirofories_athlimatos_stivou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#kerdizei_xora_gegonos">
+    <rdfs:range rdf:resource="#Symmetexousa_Xora"/>
+    <rdfs:subPropertyOf rdf:resource="#symmetoxi_xoras_gegonos"/>
+    <rdfs:domain rdf:resource="#Agonistiko_Gegonos"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Atomo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Oikonomikos_Apologismos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#Apologismos_Diorganosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Ethelontis">
+    <rdfs:subClassOf rdf:resource="#Prosopiko_Organosis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_volley_elladas">
+    <afora_athlima rdf:resource="#volley"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <anikei_se_xora rdf:resource="#Ellada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#katataxi_xoras">
+    <rdfs:domain rdf:resource="#Katatagmeni_Xora"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_podosfairou_italias">
+    <afora_athlima rdf:resource="#podosfairo"/>
+    <anikei_se_xora rdf:resource="#Italia"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#symmetoxi_xoras_athlima">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Symmetexousa_Xora"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#symmetoxi_athliti_athlima">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Athlitis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_skopovoliss_USA">
+    <anikei_se_xora rdf:resource="#USA"/>
+    <afora_athlima rdf:resource="#skopovoli"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Russia">
+    <rdf:type rdf:resource="#Symmetexousa_Xora"/>
+    <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rossia</onoma_xoras>
+  </rdf:Description>
+  <rdf:Description rdf:about="#teliki_katataxi_xoron">
+    <rdfs:range rdf:resource="#Katatagmeni_Xora"/>
+    <rdfs:domain rdf:resource="#Agonistikos_Apologismos"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Plirofories">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#esoda_kathara">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Oikonomikos_Apologismos"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_xifaskias_USA">
+    <afora_athlima rdf:resource="#xifaskia"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <anikei_se_xora rdf:resource="#USA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#apoteleitai_apo_omades">
+    <rdfs:domain rdf:resource="#Symmetexousa_Xora"/>
+    <rdfs:range rdf:resource="#Athlitiki_Omada"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#tilefono_atomou">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Atomo"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#proedreio">
+    <plirofories_ypiresias rdf:resource="#plirofories_prodreiou"/>
+    <onoma_ypiresias rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></onoma_ypiresias>
+    <ypeuthinos_ypiresias rdf:resource="#proedros"/>
+    <rdf:type rdf:resource="#Ypiresia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#teliki_katataxi_athliton">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Katatagmenos_Athlitis"/>
+    <rdfs:domain rdf:resource="#Agonistikos_Apologismos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#email_atomou">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Atomo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#misthodosia_ypallilou">
+    <rdfs:domain rdf:resource="#Ypallilos"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#athlitis_stivou_ita">
+    <rdf:type rdf:resource="#Athlitis"/>
+    <rekor_athliti rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.02</rekor_athliti>
+    <rolos_se_omada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10,02</rolos_se_omada>
+    <symmetexei_se_agonisma rdf:resource="#andron_100m_stivou"/>
+    <kerdizei_metallio rdf:resource="#argyro_100m_andron_stivou"/>
+    <anikei_se_omada rdf:resource="#omada_stivou_italias"/>
+    <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bennito Tortellini</onoma_atomou>
+    <proponeitai_apo rdf:resource="#proponitis_stivou_ita"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_athlitikis_diorganosis">
+    <rdf:type rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#kerdizei_metallio">
+    <rdfs:domain rdf:resource="#Athlitis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Metallio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_telikou_50m_andron_kolimvisis">
+    <rdf:type rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#proponitis_stivou_ita">
+    <anikei_se_omada rdf:resource="#omada_stivou_italias"/>
+    <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valerio Pazzari</onoma_atomou>
+    <proponei rdf:resource="#athlitis_stivou_ita"/>
+    <rdf:type rdf:resource="#Proponitis"/>
+    <rolos_se_omada rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rolos_se_omada>
+  </rdf:Description>
+  <rdf:Description rdf:about="#apasxolei">
+    <rdfs:domain rdf:resource="#Athlitiki_Diorganosi"/>
+    <rdfs:range rdf:resource="#Prosopiko_Organosis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#xenones_olympiakou_xoriou">
+    <plirofories_egkatastasis rdf:resource="#plirofories_ypiresias_filoxenias_athliton"/>
+    <ypeuthinos_dioikisis rdf:resource="#ypeythinos_filoxenias_athliton"/>
+    <rdf:type rdf:resource="#Dioikitikι_Egkatastasι"/>
+    <onoma_egkatastasis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xenones_olympiakou_xoriou</onoma_egkatastasis>
+    <filoxenei_ypiresies rdf:resource="#ypiresia_filoxenias_athliton"/>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plithos_rekor">
+    <rdfs:domain rdf:resource="#Agonistikos_Apologismos"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#katataxi_Russia">
+    <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</plithos_xryson_metallion>
+    <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</plithos_xalkinon_metallion>
+    <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</plithos_argyron_metallion>
+    <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</katataxi_xoras>
+    <afora_xora rdf:resource="#Russia"/>
+    <rdf:type rdf:resource="#Katatagmeni_Xora"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_podilasias_elladas">
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <afora_athlima rdf:resource="#podilasia"/>
+    <anikei_se_xora rdf:resource="#Ellada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ypeuthinos_dioikisis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Ypallilos"/>
+    <rdfs:domain rdf:resource="#Dioikitikι_Egkatastasι"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#anikei_se_xora">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Symmetexousa_Xora"/>
+    <rdfs:domain rdf:resource="#Athlitiki_Omada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#kopilasia">
+    <rdf:type rdf:resource="#Athlima"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#podosfairo">
+    <rdf:type rdf:resource="#Athlima"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_podosfairou_USA">
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <anikei_se_xora rdf:resource="#USA"/>
+    <afora_athlima rdf:resource="#podosfairo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#basket">
+    <rdf:type rdf:resource="#Athlima"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Athlitiki_Diorganosi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plithos_agonismaton">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Agonistikos_Apologismos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ypeuthinos_xoras">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Symmetexousa_Xora"/>
+    <rdfs:range rdf:resource="#Atomo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#athlitis_stivou">
+    <anikei_se_omada rdf:resource="#omada_stivou_elladas"/>
+    <kerdizei_metallio rdf:resource="#xryso_100m_andron_stivou"/>
+    <proponeitai_apo rdf:resource="#proponitis_stivou"/>
+    <rdf:type rdf:resource="#Athlitis"/>
+    <rekor_athliti rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.95</rekor_athliti>
+    <symmetexei_se_agonisma rdf:resource="#andron_100m_stivou"/>
+    <rolos_se_omada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athlitis</rolos_se_omada>
+    <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athlst1@agones.com</email_atomou>
+    <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666666</tilefono_atomou>
+    <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nikolaou Nikos</onoma_atomou>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Melos_Omadas">
+    <rdfs:subClassOf rdf:resource="#Atomo"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_basket_USA">
+    <anikei_se_xora rdf:resource="#USA"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <afora_athlima rdf:resource="#basket"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Mexico">
+    <rdf:type rdf:resource="#Symmetexousa_Xora"/>
+    <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexico</onoma_xoras>
+    <apoteleitai_apo_omades rdf:resource="#omada_volley_Mexico"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_stivou_Mexico"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Metallio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Katatagmenos_Athlitis">
+    <owl:disjointWith rdf:resource="#Katatagmeni_Xora"/>
+    <rdfs:subClassOf rdf:resource="#Katataxi_Vasei_Metallion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plithos_xoron">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Apologismos_Diorganosis"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#athlitis_kolimvisis">
+    <rdf:type rdf:resource="#Athlitis"/>
+    <symmetexei_se_agonisma rdf:resource="#andron_50m_kolimvisis"/>
+    <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athlko1@agones.com</email_atomou>
+    <rolos_se_omada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athlitis</rolos_se_omada>
+    <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrou Petros</onoma_atomou>
+    <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666667</tilefono_atomou>
+    <rekor_athliti rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.03</rekor_athliti>
+    <kerdizei_metallio rdf:resource="#argyro_50m_andron_kolimvisis"/>
+    <anikei_se_omada rdf:resource="#omada_kolimvisis_elladas"/>
+    <proponeitai_apo rdf:resource="#proponitis_kolimvisis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_athlimatos_stivou">
+    <rdf:type rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#diathetei_plirofories">
+    <rdfs:range rdf:resource="#Plirofories"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#anikei_se_athlima">
+    <rdfs:range rdf:resource="#Athlima"/>
+    <rdfs:domain rdf:resource="#Agonisma"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_volley_italias">
+    <afora_athlima rdf:resource="#volley"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <anikei_se_xora rdf:resource="#Italia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_olympiakis_pisinas">
+    <rdf:type rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#xrisimopoiei_egkatastasi">
+    <rdfs:subPropertyOf rdf:resource="#diathetei_egkatastasi"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ktirio_dioikisis">
+    <filoxenei_ypiresies rdf:resource="#proedreio"/>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <ypeuthinos_dioikisis rdf:resource="#proedros"/>
+    <rdf:type rdf:resource="#Dioikitikι_Egkatastasι"/>
+    <plirofories_egkatastasis rdf:resource="#plirofories_ktiriou_dioikisis"/>
+    <onoma_egkatastasis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ktirio_dioikisis</onoma_egkatastasis>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ypeythinos_kriton">
+    <proistamenos_ypallilou rdf:resource="#proedros"/>
+    <rdf:type rdf:resource="#Ektelestikos"/>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Ypallilos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#Prosopiko_Organosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Athlima">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#afora_athliti">
+    <rdfs:range rdf:resource="#Athlitis"/>
+    <rdfs:domain rdf:resource="#Katatagmenos_Athlitis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Egkatastaseis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#Stoixeio_Diorganosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#anikei_se_omada">
+    <rdfs:domain rdf:resource="#Melos_Omadas"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Athlitiki_Omada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#katataxi_Greece">
+    <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</plithos_xryson_metallion>
+    <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</katataxi_xoras>
+    <afora_xora rdf:resource="#Ellada"/>
+    <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</plithos_xalkinon_metallion>
+    <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</plithos_argyron_metallion>
+    <rdf:type rdf:resource="#Katatagmeni_Xora"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#proponei">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Athlitis"/>
+    <rdfs:domain rdf:resource="#Proponitis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#rolos_sto_athlima">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Ektelestikos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#rekor_athliti">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain rdf:resource="#Athlitis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#xryso_50m_andron_kolimvisis">
+    <rdf:type rdf:resource="#Metallio"/>
+    <afora_se_agonisma rdf:resource="#andron_50m_kolimvisis"/>
+    <eidos_metalliou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xryso</eidos_metalliou>
+    <afora_se_athlima rdf:resource="#kolimvisi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Agonistiko_Gegonos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#Athlitiko_Gegonos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_kopilasias_elladas">
+    <anikei_se_xora rdf:resource="#Ellada"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <afora_athlima rdf:resource="#kopilasia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Symmetexousa_Xora">
+    <rdfs:subClassOf rdf:resource="#Stoixeio_Diorganosis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#athlima_eythinis">
+    <rdfs:range rdf:resource="#Athlima"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Ektelestikos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_volley_USA">
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <anikei_se_xora rdf:resource="#USA"/>
+    <afora_athlima rdf:resource="#volley"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#apoteleitai_apo_meli">
+    <rdfs:domain rdf:resource="#Athlitiki_Omada"/>
+    <rdfs:range rdf:resource="#Melos_Omadas"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ypeythinos_olympiakis_pisinas">
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <rdf:type rdf:resource="#Dioikitikos"/>
+    <proistamenos_ypallilou rdf:resource="#proedros"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ypiresia_filoxenias_athliton">
+    <ypeuthinos_ypiresias rdf:resource="#ypeythinos_filoxenias_athliton"/>
+    <rdf:type rdf:resource="#Ypiresia"/>
+    <onoma_ypiresias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ypiresia_filoxenias_athliton </onoma_ypiresias>
+    <plirofories_ypiresias rdf:resource="#plirofories_ypiresias_filoxenias_athliton"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ypeuthinos_ethelonti">
+    <rdfs:domain rdf:resource="#Ethelontis"/>
+    <rdfs:range rdf:resource="#Ypallilos"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_stivou_italias">
+    <anikei_se_xora rdf:resource="#Italia"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <afora_athlima rdf:resource="#stivos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#katataxi_athliti_kolimvisis">
+    <rdf:type rdf:resource="#Katatagmenos_Athlitis"/>
+    <katataxi_athliti rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</katataxi_athliti>
+    <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plithos_xryson_metallion>
+    <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</plithos_argyron_metallion>
+    <afora_athliti rdf:resource="#athlitis_kolimvisis"/>
+    <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plithos_xalkinon_metallion>
+  </rdf:Description>
+  <rdf:Description rdf:about="#symmetoxi_athliti_agonisma">
+    <rdfs:range rdf:resource="#Athlitis"/>
+    <rdfs:domain rdf:resource="#Agonisma"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#kolimvisi">
+    <plirofories_athlimatos rdf:resource="#plirofories_athlimatos_kolimvisis"/>
+    <periexei_agonisma rdf:resource="#andron_50m_kolimvisis"/>
+    <rdf:type rdf:resource="#Athlima"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#symmetexei_se_agonisma">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Athlitis"/>
+    <rdfs:range rdf:resource="#Agonisma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Proponitis">
+    <rdfs:subClassOf rdf:resource="#Melos_Omadas"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#katataxi_Great_Britain">
+    <afora_xora rdf:resource="#Great_Britain"/>
+    <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</katataxi_xoras>
+    <rdf:type rdf:resource="#Katatagmeni_Xora"/>
+    <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</plithos_xryson_metallion>
+    <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</plithos_xalkinon_metallion>
+    <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</plithos_argyron_metallion>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Dioikitikos">
+    <rdfs:subClassOf rdf:resource="#Ypallilos"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_gegonotos">
+    <rdfs:domain rdf:resource="#Athlitiko_Gegonos"/>
+    <rdfs:range rdf:resource="#Plirofories"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#symmetexei_se_athlima">
+    <rdfs:domain rdf:resource="#Symmetexousa_Xora"/>
+    <rdfs:range rdf:resource="#Athlima"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#athlitis_kolimvisis_ita">
+    <kerdizei_metallio rdf:resource="#xryso_50m_andron_kolimvisis"/>
+    <anikei_se_omada rdf:resource="#omada_kolimvisis_italias"/>
+    <rdf:type rdf:resource="#Athlitis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#skopovoli">
+    <rdf:type rdf:resource="#Athlima"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_kolimvisis_italias">
+    <anikei_se_xora rdf:resource="#Italia"/>
+    <afora_athlima rdf:resource="#kolimvisi"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#diathetei_egkatastasi">
+    <rdfs:range rdf:resource="#Egkatastaseis"/>
+    <rdfs:domain rdf:resource="#Athlitiki_Diorganosi"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plithos_athlimaton_xoras">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Symmetexousa_Xora"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plithos_metallion">
+    <rdfs:domain rdf:resource="#Agonistikos_Apologismos"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#afora_se_agonisma">
+    <rdfs:range rdf:resource="#Agonisma"/>
+    <rdfs:domain rdf:resource="#Metallio"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#katataxi_Argentina">
+    <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</katataxi_xoras>
+    <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</plithos_xryson_metallion>
+    <rdf:type rdf:resource="#Katatagmeni_Xora"/>
+    <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</plithos_argyron_metallion>
+    <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</plithos_xalkinon_metallion>
+    <afora_xora rdf:resource="#Argentina"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Katatagmeni_Xora">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:disjointWith rdf:resource="#Katatagmenos_Athlitis"/>
+    <rdfs:subClassOf rdf:resource="#Katataxi_Vasei_Metallion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ypeythinos_olympiakou_stadiou">
+    <proistamenos_ypallilou rdf:resource="#proedros"/>
+    <rdf:type rdf:resource="#Dioikitikos"/>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#andron_50m_kolimvisis">
+    <rdf:type rdf:resource="#Agonisma"/>
+    <kerdizei_agonisma rdf:resource="#athlitis_kolimvisis_ita"/>
+    <anikei_se_athlima rdf:resource="#kolimvisi"/>
+    <symmetoxi_xoras_agonisma rdf:resource="#Ellada"/>
+    <symmetoxi_xoras_agonisma rdf:resource="#Italia"/>
+    <symmetoxi_athliti_agonisma rdf:resource="#athlitis_kolimvisis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_stivou_USA">
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <afora_athlima rdf:resource="#stivos"/>
+    <anikei_se_xora rdf:resource="#USA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#agonistikos_apologismos_diorganosis">
+    <plithos_rekor rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</plithos_rekor>
+    <teliki_katataxi_athliton rdf:resource="#katataxi_athliti_kolimvisis"/>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <plithos_agonismaton rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100</plithos_agonismaton>
+    <teliki_katataxi_athliton rdf:resource="#katataxi_athliti_stivou"/>
+    <teliki_katataxi_xoron rdf:resource="#katataxi_Italy"/>
+    <plithos_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">300</plithos_metallion>
+    <teliki_katataxi_xoron rdf:resource="#katataxi_Greece"/>
+    <rdf:type rdf:resource="#Agonistikos_Apologismos"/>
+    <plithos_athliton rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15323</plithos_athliton>
+    <plithos_xoron rdf:datatype="http://www.w3.org/2001/XMLSchema#int">252</plithos_xoron>
+  </rdf:Description>
+  <rdf:Description rdf:about="#rolos_se_omada">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Melos_Omadas"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_telikou_100m_andron_stivou">
+    <rdf:type rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#periexei_agonisma">
+    <rdfs:domain rdf:resource="#Athlima"/>
+    <rdfs:range rdf:resource="#Agonisma"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ypeuthinos_egkatastasis">
+    <rdfs:range rdf:resource="#Ypallilos"/>
+    <rdfs:domain rdf:resource="#Athlitikι_Egkatastasι"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#kerdizei_athlitis_gegonos">
+    <rdfs:range rdf:resource="#Athlitis"/>
+    <rdfs:subPropertyOf rdf:resource="#symmetoxi_athliti_gegonos"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Agonistiko_Gegonos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_basket_Mexico">
+    <anikei_se_xora rdf:resource="#Mexico"/>
+    <afora_athlima rdf:resource="#basket"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Athlitis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#Melos_Omadas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Athlitiko_Gegonos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#Stoixeio_Diorganosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#oikonomikos_apologismos_diorganosis">
+    <rdf:type rdf:resource="#Oikonomikos_Apologismos"/>
+    <plithos_theaton rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5300000</plithos_theaton>
+    <esoda_kathara rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55000000</esoda_kathara>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+    <plithos_eisitirion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4500000</plithos_eisitirion>
+    <esoda_mikta rdf:datatype="http://www.w3.org/2001/XMLSchema#int">150000000</esoda_mikta>
+    <plithos_xoron rdf:datatype="http://www.w3.org/2001/XMLSchema#int">252</plithos_xoron>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ypeuthinos_ypiresias">
+    <rdfs:domain rdf:resource="#Ypiresia"/>
+    <rdfs:range rdf:resource="#Ypallilos"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#grafeio_typou_">
+    <plirofories_ypiresias rdf:resource="#plirofories_grafeiou_typou"/>
+    <ypeuthinos_ypiresias rdf:resource="#ypeythinos_typou"/>
+    <onoma_ypiresias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grafeio_typou </onoma_ypiresias>
+    <rdf:type rdf:resource="#Ypiresia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_athlimatos">
+    <rdfs:domain rdf:resource="#Athlima"/>
+    <rdfs:range rdf:resource="#Plirofories"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#agonisma_gegonotos">
+    <rdfs:range rdf:resource="#Agonisma"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Agonistiko_Gegonos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_grafeiou_typou">
+    <rdf:type rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#USA">
+    <apoteleitai_apo_omades rdf:resource="#omada_kopilasias_USA"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_volley_USA"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_skopovoliss_USA"/>
+    <rdf:type rdf:resource="#Symmetexousa_Xora"/>
+    <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</onoma_xoras>
+    <apoteleitai_apo_omades rdf:resource="#omada_basket_USA"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_podosfairou_USA"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_podilasias_USA"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_xifaskias_USA"/>
+    <apoteleitai_apo_omades rdf:resource="#omada_stivou_USA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#olympiakoi_agones_athina_2004">
+    <apasxolei rdf:resource="#ethelontis_stivou"/>
+    <misthonei rdf:resource="#ypeythinos_olympiakis_pisinas"/>
+    <misthonei rdf:resource="#ypeythinos_olympiakou_stadiou"/>
+    <misthonei rdf:resource="#ypeythinos_ethelonton"/>
+    <misthonei rdf:resource="#kritis_kolimvisis"/>
+    <misthonei rdf:resource="#proedros"/>
+    <xrisimopoiei_egkatastasi rdf:resource="#olympiaki_pisina"/>
+    <xrisimopoiei_egkatastasi rdf:resource="#olympiako_stadio"/>
+    <misthonei rdf:resource="#ypeythinos_filoxenias_athliton"/>
+    <diorganonei rdf:resource="#teleti_aponomis_metallion_marathoniou"/>
+    <ekdidei rdf:resource="#agonistikos_apologismos_diorganosis"/>
+    <diorganonei rdf:resource="#telikos_100m_andron_stivou"/>
+    <xrisimopoiei_egkatastasi rdf:resource="#ktirio_dioikisis"/>
+    <diorganonei rdf:resource="#teleti_enarxis_agonon"/>
+    <xrisimopoiei_egkatastasi rdf:resource="#xenones_olympiakou_xoriou"/>
+    <rdf:type rdf:resource="#Athlitiki_Diorganosi"/>
+    <ypostirizei rdf:resource="#Italia"/>
+    <ypostirizei rdf:resource="#Ellada"/>
+    <diorganonei rdf:resource="#telikos_50m_andron_kolimvisis"/>
+    <apasxolei rdf:resource="#ethelontis_kolimvisis"/>
+    <ekdidei rdf:resource="#oikonomikos_apologismos_diorganosis"/>
+    <misthonei rdf:resource="#ypeythinos_kriton"/>
+    <misthonei rdf:resource="#ypeythinos_typou"/>
+    <plirofories_diorganosis rdf:resource="#plirofories_olympiakon_agonon_athina_2004"/>
+    <misthonei rdf:resource="#kritis_stivou"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_athlimatos_kolimvisis">
+    <rdf:type rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#telikos_50m_andron_kolimvisis">
+    <kerdizei_xora_gegonos rdf:resource="#Italia"/>
+    <kerdizei_athlitis_gegonos rdf:resource="#athlitis_kolimvisis_ita"/>
+    <symmetoxi_athliti_gegonos rdf:resource="#athlitis_kolimvisis"/>
+    <agonisma_gegonotos rdf:resource="#andron_50m_kolimvisis"/>
+    <plirofories_gegonotos rdf:resource="#plirofories_telikou_50m_andron_kolimvisis"/>
+    <rdf:type rdf:resource="#Agonistiko_Gegonos"/>
+    <symmetoxi_xoras_gegonos rdf:resource="#Ellada"/>
+    <athlima_gegonotos rdf:resource="#kolimvisi"/>
+    <afora_diorganosi rdf:resource="#olympiakoi_agones_athina_2004"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_kolimvisis_elladas">
+    <anikei_se_xora rdf:resource="#Ellada"/>
+    <apoteleitai_apo_meli rdf:resource="#athlitis_kolimvisis"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <afora_athlima rdf:resource="#kolimvisi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#anikei_ypiresia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Ypiresia"/>
+    <rdfs:domain rdf:resource="#Dioikitikos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Dioikitikι_Egkatastasι">
+    <rdfs:subClassOf rdf:resource="#Egkatastaseis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_xifaskias_elladas">
+    <afora_athlima rdf:resource="#xifaskia"/>
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <anikei_se_xora rdf:resource="#Ellada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#Apologismos_Diorganosis">
+    <rdfs:subClassOf rdf:resource="#Stoixeio_Diorganosis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#thesi_ethelonti">
+    <rdfs:range rdf:resource="#Athlima"/>
+    <rdfs:domain rdf:resource="#Ethelontis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#argyro_100m_andron_stivou">
+    <afora_se_agonisma rdf:resource="#andron_100m_stivou"/>
+    <afora_se_athlima rdf:resource="#stivos"/>
+    <eidos_metalliou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">argyro</eidos_metalliou>
+    <rdf:type rdf:resource="#Metallio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_olympiakon_agonon_athina_2004">
+    <rdf:type rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_egkatastasis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Egkatastaseis"/>
+    <rdfs:range rdf:resource="#Plirofories"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plirofories_ypiresias">
+    <rdfs:range rdf:resource="#Plirofories"/>
+    <rdfs:domain rdf:resource="#Ypiresia"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#xryso_100m_andron_stivou">
+    <afora_se_agonisma rdf:resource="#andron_100m_stivou"/>
+    <eidos_metalliou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xryso</eidos_metalliou>
+    <rdf:type rdf:resource="#Metallio"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#plithos_athliton_xoras">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#Symmetexousa_Xora"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#omada_skopovoliss_elladas">
+    <rdf:type rdf:resource="#Athlitiki_Omada"/>
+    <afora_athlima rdf:resource="#skopovoli"/>
+    <anikei_se_xora rdf:resource="#Ellada"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#proistamenos_ypallilou">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Ypallilos"/>
+    <rdfs:range rdf:resource="#Ypallilos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#proponitis_stivou_USA">
+    <rolos_se_omada rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rolos_se_omada>
+    <anikei_se_omada rdf:resource="#omada_stivou_USA"/>
+    <rdf:type rdf:resource="#Proponitis"/>
+    <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Smith</onoma_atomou>
+    <proponei rdf:resource="#athlitis_stivou_USA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#volley">
+    <rdf:type rdf:resource="#Athlima"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#katataxi_China">
+    <afora_xora rdf:resource="#China"/>
+    <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</katataxi_xoras>
+    <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</plithos_xryson_metallion>
+    <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</plithos_xalkinon_metallion>
+    <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</plithos_argyron_metallion>
+    <rdf:type rdf:resource="#Katatagmeni_Xora"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#apoteleitai_apo">
+    <rdfs:domain rdf:resource="#Athlitiki_Diorganosi"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#Stoixeio_Diorganosis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#ypostirizei">
+    <rdfs:range rdf:resource="#Symmetexousa_Xora"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="#Athlitiki_Diorganosi"/>
+  </rdf:Description>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.5, Build 663)  http://protege.stanford.edu -->

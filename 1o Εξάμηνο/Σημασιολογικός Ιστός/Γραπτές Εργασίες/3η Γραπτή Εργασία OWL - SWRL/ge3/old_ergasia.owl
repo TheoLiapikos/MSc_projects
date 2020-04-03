@@ -1,0 +1,2320 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.owl-ontologies.com/Ontology1545270110.owl#"
+     xml:base="http://www.owl-ontologies.com/Ontology1545270110.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:assert="http://www.owl-ontologies.com/assert.owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:sqwrl="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#"
+     xmlns:window="http://www.geneontology.org/formats/oboInOwl#&lt;html&gt;&lt;head&gt;&lt;title&gt;Loading...&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;script type=&apos;text/javascript&apos;&gt;window.location.replace(&apos;">
+    <owl:Ontology rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl">
+        <owl:imports rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl"/>
+        <owl:imports rdf:resource="http://www.owl-ontologies.com/assert.owl"/>
+        <owl:imports rdf:resource="http://swrl.stanford.edu/ontologies/3.3/swrla.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#afora_athlima -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#afora_athlima">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#afora_athliti -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#afora_athliti">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmenos_Athlitis"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#afora_diorganosi -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#afora_diorganosi">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Stoixeio_Diorganosis"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Diorganosi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#afora_se_agonisma -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#afora_se_agonisma">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Metallio"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonisma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#afora_se_athlima -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#afora_se_athlima">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Metallio"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#afora_xora -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#afora_xora">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#agonisma_gegonotos -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#agonisma_gegonotos">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistiko_Gegonos"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonisma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#anikei_se_athlima -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#anikei_se_athlima">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonisma"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#anikei_se_omada -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#anikei_se_omada">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Melos_Omadas"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#anikei_se_xora -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#anikei_se_xora">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#anikei_ypiresia -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#anikei_ypiresia">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikos"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypiresia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#apasxolei -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#apasxolei">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Diorganosi"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Prosopiko_Organosis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#apoteleitai_apo -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#apoteleitai_apo">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Diorganosi"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Stoixeio_Diorganosis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#apoteleitai_apo_meli -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#apoteleitai_apo_meli">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Melos_Omadas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#apoteleitai_apo_omades -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#apoteleitai_apo_omades">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#athlima_eythinis -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#athlima_eythinis">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ektelestikos"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#athlima_gegonotos -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#athlima_gegonotos">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistiko_Gegonos"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#diathetei_egkatastasi -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#diathetei_egkatastasi">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Diorganosi"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Egkatastaseis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#diathetei_plirofories -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#diathetei_plirofories">
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#diorganonei -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#diorganonei">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Diorganosi"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiko_Gegonos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ekdidei -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ekdidei">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Diorganosi"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Apologismos_Diorganosis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#filoxenei_ypiresies -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#filoxenei_ypiresies">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikι_Egkatastasι"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypiresia"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#filoxenoumeno_agonisma -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#filoxenoumeno_agonisma">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitikι_Egkatastasι"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonisma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#filoxenoumeno_athlima -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#filoxenoumeno_athlima">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitikι_Egkatastasι"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#kerdizei_agonisma -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#kerdizei_agonisma">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_athliti_agonisma"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonisma"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#kerdizei_athlitis_gegonos -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#kerdizei_athlitis_gegonos">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_athliti_gegonos"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistiko_Gegonos"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#kerdizei_metallio -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#kerdizei_metallio">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Metallio"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#kerdizei_xora_gegonos -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#kerdizei_xora_gegonos">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_xoras_gegonos"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistiko_Gegonos"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#misthonei -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#misthonei">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#apasxolei"/>
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Diorganosi"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypallilos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#periexei_agonisma -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#periexei_agonisma">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonisma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_athlimatos -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_athlimatos">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_diorganosis -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_diorganosis">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Diorganosi"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_egkatastasis -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_egkatastasis">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Egkatastaseis"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_gegonotos -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_gegonotos">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiko_Gegonos"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_ypiresias -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_ypiresias">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypiresia"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#proistamenos_ypallilou -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#proistamenos_ypallilou">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypallilos"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypallilos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#proponei -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#proponei">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Proponitis"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#proponeitai_apo -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#proponeitai_apo">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Proponitis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#symmetexei_se_agonisma -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#symmetexei_se_agonisma">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonisma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#symmetexei_se_athlima -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#symmetexei_se_athlima">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_athliti_agonisma -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_athliti_agonisma">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonisma"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_athliti_athlima -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_athliti_athlima">
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_athliti_gegonos -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_athliti_gegonos">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistiko_Gegonos"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_xoras_agonisma -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_xoras_agonisma">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonisma"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_xoras_athlima -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_xoras_athlima">
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_xoras_gegonos -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#symmetoxi_xoras_gegonos">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistiko_Gegonos"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#teliki_katataxi_athliton -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#teliki_katataxi_athliton">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistikos_Apologismos"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmenos_Athlitis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#teliki_katataxi_xoron -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#teliki_katataxi_xoron">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistikos_Apologismos"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#thesi_ethelonti -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#thesi_ethelonti">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ethelontis"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#xrisimopoiei_egkatastasi -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#xrisimopoiei_egkatastasi">
+        <rdfs:subPropertyOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#diathetei_egkatastasi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ypeuthinos_dioikisis -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeuthinos_dioikisis">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikι_Egkatastasι"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypallilos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ypeuthinos_egkatastasis -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeuthinos_egkatastasis">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitikι_Egkatastasι"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypallilos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ypeuthinos_ethelonti -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeuthinos_ethelonti">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ethelontis"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypallilos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ypeuthinos_xoras -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeuthinos_xoras">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Atomo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ypeuthinos_ypiresias -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeuthinos_ypiresias">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypiresia"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypallilos"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ypostirizei -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ypostirizei">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Diorganosi"/>
+        <rdfs:range rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#eidos_metalliou -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#eidos_metalliou">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Metallio"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#email_atomou -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#email_atomou">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Atomo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#esoda_kathara -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#esoda_kathara">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Oikonomikos_Apologismos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#esoda_mikta -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#esoda_mikta">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Oikonomikos_Apologismos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_athliti -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_athliti">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmenos_Athlitis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_metallion_xoras -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_metallion_xoras">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_xoras -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_xoras">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#misthodosia_ypallilou -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#misthodosia_ypallilou">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypallilos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#onoma_agonisma -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#onoma_agonisma">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#onoma_atomou -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#onoma_atomou">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Atomo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#onoma_egkatastasis -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#onoma_egkatastasis">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Egkatastaseis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#onoma_xoras -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#onoma_xoras">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#onoma_ypiresias -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#onoma_ypiresias">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypiresia"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_agonismaton -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_agonismaton">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistikos_Apologismos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_argyron_metallion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_argyron_metallion">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katataxi_Vasei_Metallion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_athlimaton_xoras -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_athlimaton_xoras">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_athliton -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_athliton">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistikos_Apologismos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_athliton_xoras -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_athliton_xoras">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_eisitirion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_eisitirion">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Oikonomikos_Apologismos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_metallion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_metallion">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistikos_Apologismos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_rekor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_rekor">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistikos_Apologismos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_theaton -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_theaton">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Oikonomikos_Apologismos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_xalkinon_metallion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_xalkinon_metallion">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katataxi_Vasei_Metallion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_xoron -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_xoron">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Apologismos_Diorganosis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_xryson_metallion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plithos_xryson_metallion">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katataxi_Vasei_Metallion"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#rekor_athliti -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#rekor_athliti">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#rolos_se_omada -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#rolos_se_omada">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Melos_Omadas"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#rolos_sto_athlima -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#rolos_sto_athlima">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ektelestikos"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#tilefono_atomou -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#tilefono_atomou">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Atomo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#xoritikotita_egkatastasis -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#xoritikotita_egkatastasis">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitikι_Egkatastasι"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Agonisma -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonisma"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistiko_Gegonos -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistiko_Gegonos">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiko_Gegonos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistikos_Apologismos -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistikos_Apologismos">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Apologismos_Diorganosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Apologismos_Diorganosis -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Apologismos_Diorganosis">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Stoixeio_Diorganosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Diorganosi -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Diorganosi"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiko_Gegonos -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiko_Gegonos">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Stoixeio_Diorganosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitikι_Egkatastasι -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitikι_Egkatastasι">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Egkatastaseis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Melos_Omadas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Atomo -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Atomo"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikos -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikos">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypallilos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikι_Egkatastasι -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikι_Egkatastasι">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Egkatastaseis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Egkatastaseis -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Egkatastaseis">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Stoixeio_Diorganosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Ektelestikos -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Ektelestikos">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypallilos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Ethelontis -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Ethelontis">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Prosopiko_Organosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katataxi_Vasei_Metallion"/>
+        <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmenos_Athlitis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmenos_Athlitis -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmenos_Athlitis">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katataxi_Vasei_Metallion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Katataxi_Vasei_Metallion -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Katataxi_Vasei_Metallion"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Melos_Omadas -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Melos_Omadas">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Atomo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Metallio -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Metallio"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Oikonomikos_Apologismos -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Oikonomikos_Apologismos">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Apologismos_Diorganosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Proponitis -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Proponitis">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Melos_Omadas"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Prosopiko_Organosis -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Prosopiko_Organosis">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Atomo"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Stoixeio_Diorganosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Stoixeio_Diorganosis -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Stoixeio_Diorganosis"/>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Stoixeio_Diorganosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Teleti -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Teleti">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiko_Gegonos"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Ypallilos -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypallilos">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Prosopiko_Organosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Ypiresia -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypiresia"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Argentina -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Argentina">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Argentini</onoma_xoras>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#China -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#China">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kina</onoma_xoras>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_basket_elladas"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kolimvisis_elladas"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kopilasias_elladas"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podilasias_elladas"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podosfairou_elladas"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_skopovoliss_elladas"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_elladas"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_volley_elladas"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_xifaskias_elladas"/>
+        <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ellada</onoma_xoras>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#France -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#France">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gallia</onoma_xoras>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Germany -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Germany">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germania</onoma_xoras>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Great_Britain -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Great_Britain">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Megali_Bretania</onoma_xoras>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Italia -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Italia">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_basket_italias"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kolimvisis_italias"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podosfairou_italias"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_italias"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_volley_italias"/>
+        <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italia</onoma_xoras>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Mexico -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Mexico">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_Mexico"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_volley_Mexico"/>
+        <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mexico</onoma_xoras>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#Russia -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#Russia">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rossia</onoma_xoras>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#USA">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Symmetexousa_Xora"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_basket_USA"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kopilasias_USA"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podilasias_USA"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podosfairou_USA"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_skopovoliss_USA"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_USA"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_volley_USA"/>
+        <apoteleitai_apo_omades rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_xifaskias_USA"/>
+        <onoma_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</onoma_xoras>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#agonistikos_apologismos_diorganosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#agonistikos_apologismos_diorganosis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistikos_Apologismos"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <teliki_katataxi_athliton rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_athliti_kolimvisis"/>
+        <teliki_katataxi_athliton rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_athliti_stivou"/>
+        <teliki_katataxi_xoron rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Greece"/>
+        <teliki_katataxi_xoron rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Italy"/>
+        <plithos_agonismaton rdf:datatype="http://www.w3.org/2001/XMLSchema#int">100</plithos_agonismaton>
+        <plithos_athliton rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15323</plithos_athliton>
+        <plithos_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">300</plithos_metallion>
+        <plithos_rekor rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</plithos_rekor>
+        <plithos_xoron rdf:datatype="http://www.w3.org/2001/XMLSchema#int">252</plithos_xoron>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#andron_100m_stivou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_100m_stivou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonisma"/>
+        <anikei_se_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#stivos"/>
+        <kerdizei_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_stivou"/>
+        <symmetoxi_athliti_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_stivou"/>
+        <symmetoxi_xoras_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#andron_50m_kolimvisis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_50m_kolimvisis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonisma"/>
+        <anikei_se_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#kolimvisi"/>
+        <kerdizei_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_kolimvisis_ita"/>
+        <symmetoxi_athliti_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_kolimvisis"/>
+        <symmetoxi_xoras_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+        <symmetoxi_xoras_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Italia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#argyro_100m_andron_stivou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#argyro_100m_andron_stivou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Metallio"/>
+        <afora_se_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_100m_stivou"/>
+        <afora_se_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#stivos"/>
+        <eidos_metalliou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">argyro</eidos_metalliou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#argyro_50m_andron_kolimvisis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#argyro_50m_andron_kolimvisis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Metallio"/>
+        <afora_se_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_50m_kolimvisis"/>
+        <afora_se_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#kolimvisi"/>
+        <eidos_metalliou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">argyro</eidos_metalliou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_kolimvisis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_kolimvisis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+        <anikei_se_omada rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kolimvisis_elladas"/>
+        <kerdizei_metallio rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#argyro_50m_andron_kolimvisis"/>
+        <proponeitai_apo rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#proponitis_kolimvisis"/>
+        <symmetexei_se_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_50m_kolimvisis"/>
+        <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athlko1@agones.com</email_atomou>
+        <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petrou Petros</onoma_atomou>
+        <rekor_athliti rdf:datatype="http://www.w3.org/2001/XMLSchema#float">25.03</rekor_athliti>
+        <rolos_se_omada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athlitis</rolos_se_omada>
+        <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666667</tilefono_atomou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_kolimvisis_ita -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_kolimvisis_ita">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+        <anikei_se_omada rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kolimvisis_italias"/>
+        <kerdizei_metallio rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#xryso_50m_andron_kolimvisis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_stivou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_stivou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+        <anikei_se_omada rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_elladas"/>
+        <kerdizei_metallio rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#xryso_100m_andron_stivou"/>
+        <proponeitai_apo rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#proponitis_stivou"/>
+        <symmetexei_se_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_100m_stivou"/>
+        <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athlst1@agones.com</email_atomou>
+        <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nikolaou Nikos</onoma_atomou>
+        <rekor_athliti rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.95</rekor_athliti>
+        <rolos_se_omada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athlitis</rolos_se_omada>
+        <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666666</tilefono_atomou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_stivou_USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_stivou_USA">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+        <anikei_se_omada rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_USA"/>
+        <kerdizei_metallio rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#xalkino_100m_andron_stivou"/>
+        <proponeitai_apo rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#proponitis_stivou_USA"/>
+        <symmetexei_se_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_100m_stivou"/>
+        <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Doe</onoma_atomou>
+        <rekor_athliti rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.12</rekor_athliti>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_stivou_ita -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_stivou_ita">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitis"/>
+        <anikei_se_omada rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_italias"/>
+        <kerdizei_metallio rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#argyro_100m_andron_stivou"/>
+        <proponeitai_apo rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#proponitis_stivou_ita"/>
+        <symmetexei_se_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_100m_stivou"/>
+        <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bennito Tortellini</onoma_atomou>
+        <rekor_athliti rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.02</rekor_athliti>
+        <rolos_se_omada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10,02</rolos_se_omada>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#basket -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#basket">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ethelontis_kolimvisis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ethelontis_kolimvisis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ethelontis"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <thesi_ethelonti rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#kolimvisi"/>
+        <ypeuthinos_ethelonti rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_ethelonton"/>
+        <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethel2@agones.com</email_atomou>
+        <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ehelontis2</onoma_atomou>
+        <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666778</tilefono_atomou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ethelontis_stivou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ethelontis_stivou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ethelontis"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <thesi_ethelonti rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#stivos"/>
+        <ypeuthinos_ethelonti rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_ethelonton"/>
+        <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethel1@agones.com</email_atomou>
+        <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ehelontis1</onoma_atomou>
+        <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666777</tilefono_atomou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#grafeio_typou_ -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#grafeio_typou_">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypiresia"/>
+        <plirofories_ypiresias rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_grafeiou_typou"/>
+        <ypeuthinos_ypiresias rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_typou"/>
+        <onoma_ypiresias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grafeio_typou </onoma_ypiresias>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Argentina -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Argentina">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora"/>
+        <afora_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Argentina"/>
+        <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</katataxi_xoras>
+        <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</plithos_argyron_metallion>
+        <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</plithos_xalkinon_metallion>
+        <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</plithos_xryson_metallion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_China -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_China">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora"/>
+        <afora_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#China"/>
+        <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</katataxi_xoras>
+        <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</plithos_argyron_metallion>
+        <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</plithos_xalkinon_metallion>
+        <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</plithos_xryson_metallion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_France -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_France">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora"/>
+        <afora_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#France"/>
+        <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</katataxi_xoras>
+        <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">39</plithos_argyron_metallion>
+        <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</plithos_xalkinon_metallion>
+        <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</plithos_xryson_metallion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Germany -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Germany">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora"/>
+        <afora_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Germany"/>
+        <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</katataxi_xoras>
+        <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32</plithos_argyron_metallion>
+        <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</plithos_xalkinon_metallion>
+        <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</plithos_xryson_metallion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Great_Britain -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Great_Britain">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora"/>
+        <afora_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Great_Britain"/>
+        <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</katataxi_xoras>
+        <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</plithos_argyron_metallion>
+        <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</plithos_xalkinon_metallion>
+        <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</plithos_xryson_metallion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Greece -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Greece">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora"/>
+        <afora_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+        <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</katataxi_xoras>
+        <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</plithos_argyron_metallion>
+        <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</plithos_xalkinon_metallion>
+        <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</plithos_xryson_metallion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Italy -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Italy">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora"/>
+        <afora_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Italia"/>
+        <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</katataxi_xoras>
+        <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</plithos_argyron_metallion>
+        <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</plithos_xalkinon_metallion>
+        <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</plithos_xryson_metallion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Mexico -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Mexico">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora"/>
+        <afora_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Mexico"/>
+        <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</katataxi_xoras>
+        <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</plithos_argyron_metallion>
+        <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</plithos_xalkinon_metallion>
+        <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</plithos_xryson_metallion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Russia -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_Russia">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora"/>
+        <afora_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Russia"/>
+        <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</katataxi_xoras>
+        <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</plithos_argyron_metallion>
+        <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</plithos_xalkinon_metallion>
+        <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</plithos_xryson_metallion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_USA">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmeni_Xora"/>
+        <afora_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#USA"/>
+        <katataxi_xoras rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</katataxi_xoras>
+        <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</plithos_argyron_metallion>
+        <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</plithos_xalkinon_metallion>
+        <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</plithos_xryson_metallion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_athliti_kolimvisis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_athliti_kolimvisis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmenos_Athlitis"/>
+        <afora_athliti rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_kolimvisis"/>
+        <katataxi_athliti rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</katataxi_athliti>
+        <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</plithos_argyron_metallion>
+        <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plithos_xalkinon_metallion>
+        <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plithos_xryson_metallion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_athliti_stivou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#katataxi_athliti_stivou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Katatagmenos_Athlitis"/>
+        <afora_athliti rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_stivou"/>
+        <katataxi_athliti rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</katataxi_athliti>
+        <plithos_argyron_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plithos_argyron_metallion>
+        <plithos_xalkinon_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</plithos_xalkinon_metallion>
+        <plithos_xryson_metallion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</plithos_xryson_metallion>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#kolimvisi -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#kolimvisi">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+        <periexei_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_50m_kolimvisis"/>
+        <plirofories_athlimatos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_athlimatos_kolimvisis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#kopilasia -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#kopilasia">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#kritis_kolimvisis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#kritis_kolimvisis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ektelestikos"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <athlima_eythinis rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#kolimvisi"/>
+        <proistamenos_ypallilou rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_kriton"/>
+        <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kritis2@agones.com</email_atomou>
+        <misthodosia_ypallilou rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35000</misthodosia_ypallilou>
+        <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kikou Kikos</onoma_atomou>
+        <rolos_sto_athlima rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kritis</rolos_sto_athlima>
+        <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666697</tilefono_atomou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#kritis_stivou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#kritis_stivou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ektelestikos"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <athlima_eythinis rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#stivos"/>
+        <proistamenos_ypallilou rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_kriton"/>
+        <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kritis1@agones.com</email_atomou>
+        <misthodosia_ypallilou rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35000</misthodosia_ypallilou>
+        <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eyaggelou Eyaggelos</onoma_atomou>
+        <rolos_sto_athlima rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kritis</rolos_sto_athlima>
+        <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666696</tilefono_atomou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ktirio_dioikisis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ktirio_dioikisis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikι_Egkatastasι"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <filoxenei_ypiresies rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#proedreio"/>
+        <plirofories_egkatastasis rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_ktiriou_dioikisis"/>
+        <ypeuthinos_dioikisis rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#proedros"/>
+        <onoma_egkatastasis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ktirio_dioikisis</onoma_egkatastasis>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#oikonomikos_apologismos_diorganosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#oikonomikos_apologismos_diorganosis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Oikonomikos_Apologismos"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <esoda_kathara rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55000000</esoda_kathara>
+        <esoda_mikta rdf:datatype="http://www.w3.org/2001/XMLSchema#int">150000000</esoda_mikta>
+        <plithos_eisitirion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4500000</plithos_eisitirion>
+        <plithos_theaton rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5300000</plithos_theaton>
+        <plithos_xoron rdf:datatype="http://www.w3.org/2001/XMLSchema#int">252</plithos_xoron>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#olympiaki_pisina -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiaki_pisina">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitikι_Egkatastasι"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <filoxenoumeno_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_50m_kolimvisis"/>
+        <filoxenoumeno_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#kolimvisi"/>
+        <plirofories_egkatastasis rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_olympiakis_pisinas"/>
+        <ypeuthinos_egkatastasis rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_olympiakis_pisinas"/>
+        <onoma_egkatastasis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olympiaki_pisina</onoma_egkatastasis>
+        <xoritikotita_egkatastasis rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25000</xoritikotita_egkatastasis>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#olympiako_stadio -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiako_stadio">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitikι_Egkatastasι"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <filoxenoumeno_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_100m_stivou"/>
+        <filoxenoumeno_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#stivos"/>
+        <plirofories_egkatastasis rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_olympiakou_stadiou"/>
+        <ypeuthinos_egkatastasis rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_olympiakou_stadiou"/>
+        <onoma_egkatastasis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olympiako_stadio</onoma_egkatastasis>
+        <xoritikotita_egkatastasis rdf:datatype="http://www.w3.org/2001/XMLSchema#int">75000</xoritikotita_egkatastasis>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Diorganosi"/>
+        <apasxolei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ethelontis_kolimvisis"/>
+        <apasxolei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ethelontis_stivou"/>
+        <diorganonei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#teleti_aponomis_metallion_marathoniou"/>
+        <diorganonei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#teleti_enarxis_agonon"/>
+        <diorganonei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#telikos_100m_andron_stivou"/>
+        <diorganonei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#telikos_50m_andron_kolimvisis"/>
+        <ekdidei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#agonistikos_apologismos_diorganosis"/>
+        <ekdidei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#oikonomikos_apologismos_diorganosis"/>
+        <misthonei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#kritis_kolimvisis"/>
+        <misthonei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#kritis_stivou"/>
+        <misthonei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#proedros"/>
+        <misthonei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_ethelonton"/>
+        <misthonei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_filoxenias_athliton"/>
+        <misthonei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_kriton"/>
+        <misthonei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_olympiakis_pisinas"/>
+        <misthonei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_olympiakou_stadiou"/>
+        <misthonei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_typou"/>
+        <plirofories_diorganosis rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_olympiakon_agonon_athina_2004"/>
+        <xrisimopoiei_egkatastasi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ktirio_dioikisis"/>
+        <xrisimopoiei_egkatastasi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiaki_pisina"/>
+        <xrisimopoiei_egkatastasi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiako_stadio"/>
+        <xrisimopoiei_egkatastasi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#xenones_olympiakou_xoriou"/>
+        <ypostirizei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+        <ypostirizei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Italia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_basket_Mexico -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_basket_Mexico">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#basket"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Mexico"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_basket_USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_basket_USA">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#basket"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_basket_elladas -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_basket_elladas">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#basket"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_basket_italias -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_basket_italias">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#basket"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Italia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kolimvisis_elladas -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kolimvisis_elladas">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#kolimvisi"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+        <apoteleitai_apo_meli rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_kolimvisis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kolimvisis_italias -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kolimvisis_italias">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#kolimvisi"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Italia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kopilasias_USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kopilasias_USA">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#kopilasia"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kopilasias_elladas -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kopilasias_elladas">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#kopilasia"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podilasias_USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podilasias_USA">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#podilasia"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podilasias_elladas -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podilasias_elladas">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#podilasia"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podosfairou_USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podosfairou_USA">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#podosfairo"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podosfairou_elladas -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podosfairou_elladas">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#podosfairo"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podosfairou_italias -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_podosfairou_italias">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#podosfairo"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Italia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_skopovoliss_USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_skopovoliss_USA">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#skopovoli"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_skopovoliss_elladas -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_skopovoliss_elladas">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#skopovoli"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_Mexico -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_Mexico">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#stivos"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Mexico"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_USA">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#stivos"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_elladas -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_elladas">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#stivos"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+        <apoteleitai_apo_meli rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_stivou"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_italias -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_italias">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#stivos"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Italia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_volley_Mexico -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_volley_Mexico">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#volley"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Mexico"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_volley_USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_volley_USA">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#volley"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_volley_elladas -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_volley_elladas">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#volley"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_volley_italias -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_volley_italias">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#volley"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Italia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_xifaskias_USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_xifaskias_USA">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#xifaskia"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#USA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#omada_xifaskias_elladas -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_xifaskias_elladas">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlitiki_Omada"/>
+        <afora_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#xifaskia"/>
+        <anikei_se_xora rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_athlimatos_kolimvisis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_athlimatos_kolimvisis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_athlimatos_stivou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_athlimatos_stivou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_athlitikis_diorganosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_athlitikis_diorganosis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_grafeiou_typou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_grafeiou_typou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_ktiriou_dioikisis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_ktiriou_dioikisis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_olympiakis_pisinas -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_olympiakis_pisinas">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_olympiakon_agonon_athina_2004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_olympiakon_agonon_athina_2004">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_olympiakou_stadiou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_olympiakou_stadiou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_prodreiou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_prodreiou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_teletis_aponomis_metallion_marathoniou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_teletis_aponomis_metallion_marathoniou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_teletis_enarxis_agonon -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_teletis_enarxis_agonon">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_telikou_100m_andron_stivou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_telikou_100m_andron_stivou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_telikou_50m_andron_kolimvisis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_telikou_50m_andron_kolimvisis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_ypiresias_filoxenias_athliton -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_ypiresias_filoxenias_athliton">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Plirofories"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#podilasia -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#podilasia">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#podosfairo -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#podosfairo">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#proedreio -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#proedreio">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypiresia"/>
+        <plirofories_ypiresias rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_prodreiou"/>
+        <ypeuthinos_ypiresias rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#proedros"/>
+        <onoma_ypiresias rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></onoma_ypiresias>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#proedros -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#proedros">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikos"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proedrara@agones.com</email_atomou>
+        <misthodosia_ypallilou rdf:datatype="http://www.w3.org/2001/XMLSchema#int">500000</misthodosia_ypallilou>
+        <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proedrara</onoma_atomou>
+        <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666677</tilefono_atomou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#proponitis_kolimvisis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#proponitis_kolimvisis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Proponitis"/>
+        <anikei_se_omada rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_kolimvisis_elladas"/>
+        <proponei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_kolimvisis"/>
+        <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athlko2@agones.com</email_atomou>
+        <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Theodorou Theodoros</onoma_atomou>
+        <rolos_se_omada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proponitis</rolos_se_omada>
+        <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666669</tilefono_atomou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#proponitis_stivou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#proponitis_stivou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Proponitis"/>
+        <anikei_se_omada rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_elladas"/>
+        <proponei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_stivou"/>
+        <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">athlst2@agones.com</email_atomou>
+        <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Georgiou Giorgos</onoma_atomou>
+        <rolos_se_omada rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proponitis</rolos_se_omada>
+        <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666668</tilefono_atomou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#proponitis_stivou_USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#proponitis_stivou_USA">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Proponitis"/>
+        <anikei_se_omada rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_USA"/>
+        <proponei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_stivou_USA"/>
+        <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Smith</onoma_atomou>
+        <rolos_se_omada rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rolos_se_omada>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#proponitis_stivou_ita -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#proponitis_stivou_ita">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Proponitis"/>
+        <anikei_se_omada rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#omada_stivou_italias"/>
+        <proponei rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_stivou_ita"/>
+        <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valerio Pazzari</onoma_atomou>
+        <rolos_se_omada rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rolos_se_omada>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#skopovoli -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#skopovoli">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#stivos -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#stivos">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+        <periexei_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_100m_stivou"/>
+        <plirofories_athlimatos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_athlimatos_stivou"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#teleti_aponomis_metallion_marathoniou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#teleti_aponomis_metallion_marathoniou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Teleti"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <plirofories_gegonotos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_teletis_aponomis_metallion_marathoniou"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#teleti_enarxis_agonon -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#teleti_enarxis_agonon">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Teleti"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <plirofories_gegonotos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_teletis_enarxis_agonon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#telikos_100m_andron_stivou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#telikos_100m_andron_stivou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistiko_Gegonos"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <agonisma_gegonotos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_100m_stivou"/>
+        <athlima_gegonotos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#stivos"/>
+        <kerdizei_athlitis_gegonos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_stivou"/>
+        <kerdizei_xora_gegonos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+        <plirofories_gegonotos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_telikou_100m_andron_stivou"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#telikos_50m_andron_kolimvisis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#telikos_50m_andron_kolimvisis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Agonistiko_Gegonos"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <agonisma_gegonotos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_50m_kolimvisis"/>
+        <athlima_gegonotos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#kolimvisi"/>
+        <kerdizei_athlitis_gegonos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_kolimvisis_ita"/>
+        <kerdizei_xora_gegonos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Italia"/>
+        <plirofories_gegonotos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_telikou_50m_andron_kolimvisis"/>
+        <symmetoxi_athliti_gegonos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#athlitis_kolimvisis"/>
+        <symmetoxi_xoras_gegonos rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ellada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#volley -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#volley">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#xalkino_100m_andron_stivou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#xalkino_100m_andron_stivou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Metallio"/>
+        <afora_se_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_100m_stivou"/>
+        <afora_se_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#stivos"/>
+        <eidos_metalliou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xalkino</eidos_metalliou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#xenones_olympiakou_xoriou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#xenones_olympiakou_xoriou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikι_Egkatastasι"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <filoxenei_ypiresies rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypiresia_filoxenias_athliton"/>
+        <plirofories_egkatastasis rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_ypiresias_filoxenias_athliton"/>
+        <ypeuthinos_dioikisis rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_filoxenias_athliton"/>
+        <onoma_egkatastasis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xenones_olympiakou_xoriou</onoma_egkatastasis>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#xifaskia -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#xifaskia">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Athlima"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#xryso_100m_andron_stivou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#xryso_100m_andron_stivou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Metallio"/>
+        <afora_se_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_100m_stivou"/>
+        <eidos_metalliou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xryso</eidos_metalliou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#xryso_50m_andron_kolimvisis -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#xryso_50m_andron_kolimvisis">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Metallio"/>
+        <afora_se_agonisma rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#andron_50m_kolimvisis"/>
+        <afora_se_athlima rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#kolimvisi"/>
+        <eidos_metalliou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xryso</eidos_metalliou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_ethelonton -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_ethelonton">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikos"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <proistamenos_ypallilou rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#proedros"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_filoxenias_athliton -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_filoxenias_athliton">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikos"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <proistamenos_ypallilou rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#proedros"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_kriton -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_kriton">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ektelestikos"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <proistamenos_ypallilou rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#proedros"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_olympiakis_pisinas -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_olympiakis_pisinas">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikos"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <proistamenos_ypallilou rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#proedros"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_olympiakou_stadiou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_olympiakou_stadiou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikos"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <proistamenos_ypallilou rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#proedros"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_typou -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_typou">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Dioikitikos"/>
+        <afora_diorganosi rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#olympiakoi_agones_athina_2004"/>
+        <proistamenos_ypallilou rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#proedros"/>
+        <email_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">typos@agones.com</email_atomou>
+        <misthodosia_ypallilou rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50000</misthodosia_ypallilou>
+        <onoma_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vasou Vaso</onoma_atomou>
+        <tilefono_atomou rdf:datatype="http://www.w3.org/2001/XMLSchema#string">210-6666676</tilefono_atomou>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1545270110.owl#ypiresia_filoxenias_athliton -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1545270110.owl#ypiresia_filoxenias_athliton">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#Ypiresia"/>
+        <plirofories_ypiresias rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#plirofories_ypiresias_filoxenias_athliton"/>
+        <ypeuthinos_ypiresias rdf:resource="http://www.owl-ontologies.com/Ontology1545270110.owl#ypeythinos_filoxenias_athliton"/>
+        <onoma_ypiresias rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ypiresia_filoxenias_athliton </onoma_ypiresias>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

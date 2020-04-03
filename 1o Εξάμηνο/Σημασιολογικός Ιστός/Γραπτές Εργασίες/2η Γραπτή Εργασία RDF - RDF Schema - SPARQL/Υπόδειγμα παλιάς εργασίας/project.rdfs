@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+	 <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	 <!ENTITY a 'http://protege.stanford.edu/system#'>
+	 <!ENTITY kb 'http://protege.stanford.edu/kb#'>
+	 <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+]>
+<rdf:RDF xmlns:rdf="&rdf;"
+	 xmlns:a="&a;"
+	 xmlns:kb="&kb;"
+	 xmlns:rdfs="&rdfs;">
+<rdfs:Class rdf:about="&kb;address"
+	 rdfs:comment="This class represents the address."
+	 rdfs:label="address">
+	<a:_slot_constraints rdf:resource="&kb;project_Instance_0"/>
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;adrress"
+	 a:range="cls"
+	 rdfs:label="adrress">
+	<a:allowedParents rdf:resource="&kb;address"/>
+	<rdfs:range rdf:resource="&rdfs;Class"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;athleticUnion"
+	 rdfs:comment="This class represents the athleticUnion"
+	 rdfs:label="athleticUnion">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;bCoachedBy"
+	 rdfs:label="bCoachedBy">
+	<rdfs:range rdf:resource="&kb;basketballCoach"/>
+	<rdfs:domain rdf:resource="&kb;basketballTeam"/>
+	<rdfs:subPropertyOf rdf:resource="&kb;coachedBy"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;bConsistsOf"
+	 rdfs:label="bConsistsOf">
+	<rdfs:range rdf:resource="&kb;basketballPlayer"/>
+	<rdfs:domain rdf:resource="&kb;basketballTeam"/>
+	<rdfs:subPropertyOf rdf:resource="&kb;consistsOf"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;bUsesTheCourt"
+	 rdfs:label="bUsesTheCourt">
+	<rdfs:domain rdf:resource="&kb;basketballTeam"/>
+	<rdfs:range rdf:resource="&kb;indoorHall"/>
+	<rdfs:subPropertyOf rdf:resource="&kb;usesTheCourt"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;basketballCoach"
+	 rdfs:label="basketballCoach">
+	<rdfs:comment>This class represents the coach of a basketball team and is subclass of the class coach.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;coach"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&kb;basketballPlayer"
+	 rdfs:label="basketballPlayer">
+	<rdfs:comment>This class represents the basketballl player and is subclass of the class player and superclass of the classes: femaleBasketballlPLayer and maleBasketballPlayer.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;player"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&kb;basketballTeam"
+	 rdfs:label="basketballTeam">
+	<rdfs:comment>This class represents  the basketball team and it's a subclass of the class team. It is the superclass of the classes femaleBasketballTeam and maleBasketballTeam.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;team"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;city"
+	 rdfs:comment="The name of the city, town, village, region ect."
+	 rdfs:label="city">
+	<rdfs:domain rdf:resource="&kb;address"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;coach"
+	 rdfs:label="coach">
+	<rdfs:comment>This class represents the coaches who are coaching a team of the union. It is the subclass of the class staff. It is the superclass of the classes: footballCoach, basketballCoach, volleyballCoach, handballCoach.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;staff"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;coachedBy"
+	 rdfs:label="coachedBy">
+	<rdfs:range rdf:resource="&kb;coach"/>
+	<rdfs:domain rdf:resource="&kb;team"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;consistsOf"
+	 rdfs:label="consistsOf">
+	<rdfs:range rdf:resource="&kb;player"/>
+	<rdfs:domain rdf:resource="&kb;team"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;contact"
+	 rdfs:label="contact">
+	<rdfs:comment>This class represents the contact information, like telephone, homepage, email.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&kb;council"
+	 rdfs:label="council">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;country"
+	 rdfs:comment="The name of the country"
+	 rdfs:label="country">
+	<rdfs:domain rdf:resource="&kb;address"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;court"
+	 rdfs:label="court">
+	<rdfs:comment>This class represents the class court. It is the superclass of the classes: footballCourt, indoorHall.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;court_address"
+	 rdfs:label="court_address">
+	<rdfs:range rdf:resource="&kb;address"/>
+	<rdfs:domain rdf:resource="&kb;court"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;court_contact"
+	 rdfs:label="court_contact">
+	<rdfs:range rdf:resource="&kb;contact"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;court_name"
+	 rdfs:comment="The name of the court"
+	 rdfs:label="court_name">
+	<rdfs:domain rdf:resource="&kb;court"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;dateBirth"
+	 rdfs:comment="The date of birth of the person"
+	 rdfs:label="dateBirth">
+	<rdfs:domain rdf:resource="&kb;person"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;doctor"
+	 rdfs:label="doctor">
+	<rdfs:comment>This class represents the doctors who are working in the Athletic union and is the subclass of the class staff.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;staff"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;email"
+	 rdfs:label="email">
+	<rdfs:domain rdf:resource="&kb;contact"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;employee"
+	 rdfs:label="employee">
+	<rdfs:comment>This class represents the employees of the athletic union, that is the people who are being paid by the athletic union, like the players and the staff. It is the superclass of the classes staff and player.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;employs"
+	 rdfs:label="employs">
+	<rdfs:domain rdf:resource="&kb;athleticUnion"/>
+	<rdfs:range rdf:resource="&kb;staff"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;fCoachedBy"
+	 rdfs:label="fCoachedBy">
+	<rdfs:subPropertyOf rdf:resource="&kb;coachedBy"/>
+	<rdfs:range rdf:resource="&kb;footballCoach"/>
+	<rdfs:domain rdf:resource="&kb;footballTeam"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;fConsistsOf"
+	 rdfs:label="fConsistsOf">
+	<rdfs:subPropertyOf rdf:resource="&kb;consistsOf"/>
+	<rdfs:range rdf:resource="&kb;footballPlayer"/>
+	<rdfs:domain rdf:resource="&kb;footballTeam"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;fUsesTheCourt"
+	 rdfs:label="fUsesTheCourt">
+	<rdfs:range rdf:resource="&kb;footballCourt"/>
+	<rdfs:domain rdf:resource="&kb;footballTeam"/>
+	<rdfs:subPropertyOf rdf:resource="&kb;usesTheCourt"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;firstName"
+	 rdfs:comment="The firstName of a person"
+	 rdfs:label="firstName">
+	<rdfs:domain rdf:resource="&kb;person"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;footballCoach"
+	 rdfs:label="footballCoach">
+	<rdfs:comment>This class represents the coach of a football team and is subclass of the class coach.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;coach"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&kb;footballCourt"
+	 rdfs:label="footballCourt">
+	<rdfs:comment>The class represents the court, which is used by the football team and it's the subclass of the class court.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;court"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&kb;footballPlayer"
+	 rdfs:label="footballPlayer">
+	<rdfs:comment>This class represents the football player and is subclass of the class player and superclass of the classes: femaleFootballPLayer and maleFootballPlayer.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;player"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&kb;footballTeam"
+	 rdfs:label="footballTeam">
+	<rdfs:comment>The class represents the football team and it's a subclass of the class team. It is the superclass of the classes femaleFootballTeam and maleFootballTeam.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;team"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;hCoachedBy"
+	 rdfs:label="hCoachedBy">
+	<rdfs:subPropertyOf rdf:resource="&kb;coachedBy"/>
+	<rdfs:range rdf:resource="&kb;handballCoach"/>
+	<rdfs:domain rdf:resource="&kb;handballTeam"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;hConsistsOf"
+	 rdfs:label="hConsistsOf">
+	<rdfs:subPropertyOf rdf:resource="&kb;consistsOf"/>
+	<rdfs:range rdf:resource="&kb;handballPlayer"/>
+	<rdfs:domain rdf:resource="&kb;handballTeam"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;hUsesTheCourt"
+	 rdfs:label="hUsesTheCourt">
+	<rdfs:domain rdf:resource="&kb;handballTeam"/>
+	<rdfs:range rdf:resource="&kb;indoorHall"/>
+	<rdfs:subPropertyOf rdf:resource="&kb;usesTheCourt"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;handballCoach"
+	 rdfs:label="handballCoach">
+	<rdfs:comment>This class represents the coach of the handball team and is subclass of the class coach.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;coach"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&kb;handballPlayer"
+	 rdfs:label="handballPlayer">
+	<rdfs:comment>This class represents the handball player and is subclass of the class player and superclass of the classes: femaleHandballPLayer and maleHandballPlayer.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;player"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&kb;handballTeam"
+	 rdfs:label="handballTeam">
+	<rdfs:comment>This class represents the handball team and it's a subclass of the class team.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;team"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;hasAddress"
+	 rdfs:label="hasAddress">
+	<rdfs:range rdf:resource="&kb;address"/>
+	<rdfs:domain rdf:resource="&kb;person"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;hasContact"
+	 rdfs:label="hasContact">
+	<rdfs:range rdf:resource="&kb;contact"/>
+	<rdfs:domain rdf:resource="&kb;person"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;hasInformation"
+	 rdfs:label="hasInformation">
+	<rdfs:domain rdf:resource="&kb;athleticUnion"/>
+	<rdfs:range rdf:resource="&kb;information"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;hasMember"
+	 rdfs:label="hasMember">
+	<rdfs:domain rdf:resource="&kb;council"/>
+	<rdfs:range rdf:resource="&kb;member"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;hasPresident"
+	 rdfs:label="hasPresident">
+	<rdfs:domain rdf:resource="&kb;council"/>
+	<rdfs:range rdf:resource="&kb;president"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;hasSpecialty"
+	 rdfs:label="hasSpecialty">
+	<rdfs:domain rdf:resource="&kb;doctor"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;homepage"
+	 rdfs:label="homepage">
+	<rdfs:domain rdf:resource="&kb;contact"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;indoorHall"
+	 rdfs:label="indoorHall">
+	<rdfs:comment xml:space='preserve'><![CDATA[This class repsresents the "court" which is used by the basketball team, the volleyball team and the handball team, and it's a subclass of the class court.]]></rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;court"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&kb;information"
+	 rdfs:label="information">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;isManagedBy"
+	 rdfs:label="isManagedBy">
+	<rdfs:domain rdf:resource="&kb;athleticUnion"/>
+	<rdfs:range rdf:resource="&kb;council"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;kindOf"
+	 rdfs:label="kindOf">
+	<rdfs:domain rdf:resource="&kb;worker"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;lastName"
+	 rdfs:comment="The last Name of a person"
+	 rdfs:label="lastName">
+	<rdfs:domain rdf:resource="&kb;person"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;member"
+	 rdfs:label="member">
+	<rdfs:comment>The class represents the members of the council of the athleticUnion and is subclass of the class person.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;person"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;memberType"
+	 rdfs:label="memberType">
+	<rdfs:domain rdf:resource="&kb;member"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;middleName"
+	 rdfs:comment="The middle name of a person"
+	 rdfs:label="middleName">
+	<rdfs:domain rdf:resource="&kb;person"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;owns"
+	 rdfs:label="owns">
+	<rdfs:domain rdf:resource="&kb;athleticUnion"/>
+	<rdfs:range rdf:resource="&kb;court"/>
+	<rdfs:subPropertyOf rdf:resource="&kb;uses"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;pc"
+	 rdfs:comment="The postal code"
+	 rdfs:label="pc">
+	<rdfs:domain rdf:resource="&kb;address"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;person"
+	 rdfs:label="person">
+	<rdfs:comment>The class person represents the persons as the name shows. It will be the superclass of a lot of of classes.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;phone"
+	 rdfs:comment="The phone number"
+	 rdfs:label="phone">
+	<rdfs:domain rdf:resource="&kb;contact"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;player"
+	 rdfs:label="player">
+	<rdfs:comment>The class represents the players of the teams and is the subclass of the classes pereson and employee, as the players are being paid from the athletic union. It is the superclass of the classes: footballPlayer, basketballPlayer, volleyballPlayer, handballPlayer.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;employee"/>
+	<rdfs:subClassOf rdf:resource="&kb;person"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;position"
+	 rdfs:label="position">
+	<rdfs:domain rdf:resource="&kb;player"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;president"
+	 rdfs:label="president">
+	<rdfs:comment>This class represents the president of the athleticUnion and inherits from the class person</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;person"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;rating"
+	 a:range="integer"
+	 rdfs:label="rating">
+	<rdfs:domain rdf:resource="&kb;player"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;rents"
+	 rdfs:label="rents">
+	<rdfs:domain rdf:resource="&kb;athleticUnion"/>
+	<rdfs:range rdf:resource="&kb;court"/>
+	<rdfs:subPropertyOf rdf:resource="&kb;uses"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;salary"
+	 a:range="float"
+	 rdfs:label="salary">
+	<rdfs:domain rdf:resource="&kb;employee"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;staff"
+	 rdfs:label="staff">
+	<rdfs:comment>This class represents the staff which is working in the athletic union. It is the subclass of the classes person and employee. It is the superclasss of the classes: coach, doctor, worker.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;employee"/>
+	<rdfs:subClassOf rdf:resource="&kb;person"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;street"
+	 rdfs:comment="The name of the street and the number"
+	 rdfs:label="street">
+	<rdfs:domain rdf:resource="&kb;address"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;supportFootballTeam"
+	 rdfs:label="supportFootballTeam">
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;supportsTeams"
+	 rdfs:label="supportsTeams">
+	<rdfs:domain rdf:resource="&kb;athleticUnion"/>
+	<rdfs:range rdf:resource="&kb;team"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;team"
+	 rdfs:label="team">
+	<rdfs:comment>The class represents the abstract idea of a team. It's the superclass of the classes: footballTeam, basketballTeam, volleyballTeam, handballTeam.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&kb;teamName"
+	 rdfs:label="teamName">
+	<rdfs:domain rdf:resource="&kb;team"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;unionAddress"
+	 rdfs:label="unionAddress">
+	<rdfs:range rdf:resource="&kb;address"/>
+	<rdfs:domain rdf:resource="&kb;information"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;unionContact"
+	 rdfs:label="unionContact">
+	<rdfs:range rdf:resource="&kb;contact"/>
+	<rdfs:domain rdf:resource="&kb;information"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;unionGeneralInfo"
+	 rdfs:label="unionGeneralInfo">
+	<rdfs:domain rdf:resource="&kb;information"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;unionName"
+	 rdfs:label="unionName">
+	<rdfs:domain rdf:resource="&kb;information"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;uses"
+	 rdfs:label="uses">
+	<rdfs:domain rdf:resource="&kb;athleticUnion"/>
+	<rdfs:range rdf:resource="&kb;court"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;usesTheCourt"
+	 rdfs:label="usesTheCourt">
+	<rdfs:range rdf:resource="&kb;court"/>
+	<rdfs:domain rdf:resource="&kb;team"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;vCoachedBy"
+	 rdfs:label="vCoachedBy">
+	<rdfs:subPropertyOf rdf:resource="&kb;coachedBy"/>
+	<rdfs:range rdf:resource="&kb;volleyballCoach"/>
+	<rdfs:domain rdf:resource="&kb;volleyballTeam"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;vConsistsOf"
+	 rdfs:label="vConsistsOf">
+	<rdfs:subPropertyOf rdf:resource="&kb;consistsOf"/>
+	<rdfs:range rdf:resource="&kb;volleyballPlayer"/>
+	<rdfs:domain rdf:resource="&kb;volleyballTeam"/>
+</rdf:Property>
+<rdf:Property rdf:about="&kb;vUsesTheCourt"
+	 rdfs:label="vUsesTheCourt">
+	<rdfs:range rdf:resource="&kb;indoorHall"/>
+	<rdfs:subPropertyOf rdf:resource="&kb;usesTheCourt"/>
+	<rdfs:domain rdf:resource="&kb;volleyballTeam"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&kb;volleyballCoach"
+	 rdfs:label="volleyballCoach">
+	<rdfs:comment>This class represents the coach of a volleyball team and is subclass of the class coach.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;coach"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&kb;volleyballPlayer"
+	 rdfs:label="volleyballPlayer">
+	<rdfs:comment>This class represents the volleyball player and is subclass of the class player and superclass of the classes: femaleVolleyballPLayer and maleVolleyballPlayer.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;player"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&kb;volleyballTeam"
+	 rdfs:label="volleyballTeam">
+	<rdfs:comment>This class eepresents the volleyball team and it's a subclass of the class team.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;team"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&kb;worker"
+	 rdfs:label="worker">
+	<rdfs:comment>This class represents the people who are working in the Athletic union doing some job, i.e. clenaning, plumming or something else. It is the subclass of the class staff.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="&kb;staff"/>
+</rdfs:Class>
+</rdf:RDF>

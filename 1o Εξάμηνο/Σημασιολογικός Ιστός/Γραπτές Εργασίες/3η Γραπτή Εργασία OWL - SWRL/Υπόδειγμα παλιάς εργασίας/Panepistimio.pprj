@@ -1,0 +1,4030 @@
+; Fri Jun 18 22:52:49 EEST 2004
+; 
+;+ (version "2.0.1")
+;+ (build "Build 168")
+
+([BROWSER_SLOT_NAMES] of Property_List
+	(properties
+		[Panepistimio_ProjectKB_Instance_117]
+		[Panepistimio_ProjectKB_Instance_118]
+		[Panepistimio_ProjectKB_Instance_119]
+		[Panepistimio_ProjectKB_Instance_120]
+		[Panepistimio_ProjectKB_Instance_121]
+		[Panepistimio_ProjectKB_Instance_122]
+		[Panepistimio_ProjectKB_Instance_123]))
+
+([CLSES_TAB] of Widget
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesTab")
+	(is_hidden TRUE)
+	(property_list [Instance_47])
+	(label "Classes"))
+
+([ergasia4_ProjectKB_Instance_0] of Widget
+	(name ":NAME")
+	(is_hidden FALSE)
+	(property_list [ergasia4_ProjectKB_Instance_1])
+	(label "Name"))
+
+([ergasia4_ProjectKB_Instance_1] of Property_List)
+
+([ergasia4_ProjectKB_Instance_10] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ergasia4_ProjectKB_Instance_11] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ergasia4_ProjectKB_Instance_12] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ergasia4_ProjectKB_Instance_13] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ergasia4_ProjectKB_Instance_14] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ergasia4_ProjectKB_Instance_15] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ergasia4_ProjectKB_Instance_16] of Widget
+	(name ":NAME")
+	(is_hidden FALSE)
+	(property_list [ergasia4_ProjectKB_Instance_17])
+	(label "Name"))
+
+([ergasia4_ProjectKB_Instance_17] of Property_List)
+
+([ergasia4_ProjectKB_Instance_18] of Widget
+	(name ":NAME")
+	(is_hidden FALSE)
+	(property_list [ergasia4_ProjectKB_Instance_19])
+	(label "Name"))
+
+([ergasia4_ProjectKB_Instance_19] of Property_List)
+
+([ergasia4_ProjectKB_Instance_2] of Widget
+	(name ":NAME")
+	(is_hidden FALSE)
+	(property_list [ergasia4_ProjectKB_Instance_3])
+	(label "Name"))
+
+([ergasia4_ProjectKB_Instance_20] of Widget
+	(name ":DOCUMENTATION")
+	(is_hidden FALSE)
+	(property_list [ergasia4_ProjectKB_Instance_21])
+	(label "Documentation"))
+
+([ergasia4_ProjectKB_Instance_21] of Property_List)
+
+([ergasia4_ProjectKB_Instance_22] of Widget
+	(name "rdfs:label")
+	(is_hidden FALSE)
+	(property_list [ergasia4_ProjectKB_Instance_23])
+	(label "rdfs:label"))
+
+([ergasia4_ProjectKB_Instance_23] of Property_List)
+
+([ergasia4_ProjectKB_Instance_24] of Widget
+	(name ":OWL-EQUIVALENT-SLOTS")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(is_hidden FALSE)
+	(property_list [ergasia4_ProjectKB_Instance_25])
+	(label "owl:equivalentProperty"))
+
+([ergasia4_ProjectKB_Instance_25] of Property_List
+	(properties
+		[ergasia4_ProjectKB_Instance_26]
+		[ergasia4_ProjectKB_Instance_27]
+		[ergasia4_ProjectKB_Instance_28]
+		[ergasia4_ProjectKB_Instance_29]
+		[ergasia4_ProjectKB_Instance_30]
+		[ergasia4_ProjectKB_Instance_31]))
+
+([ergasia4_ProjectKB_Instance_26] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ergasia4_ProjectKB_Instance_27] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ergasia4_ProjectKB_Instance_28] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ergasia4_ProjectKB_Instance_29] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([ergasia4_ProjectKB_Instance_3] of Property_List)
+
+([ergasia4_ProjectKB_Instance_30] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ergasia4_ProjectKB_Instance_31] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ergasia4_ProjectKB_Instance_32] of Widget
+	(y 28)
+	(name ":NAME")
+	(x 7)
+	(is_hidden FALSE)
+	(width 286)
+	(property_list [ergasia4_ProjectKB_Instance_33])
+	(height 104)
+	(label "Name"))
+
+([ergasia4_ProjectKB_Instance_33] of Property_List)
+
+([ergasia4_ProjectKB_Instance_34] of Widget
+	(y 0)
+	(name ":NAME")
+	(x 0)
+	(is_hidden FALSE)
+	(width 286)
+	(property_list [ergasia4_ProjectKB_Instance_35])
+	(height 30)
+	(label "Name"))
+
+([ergasia4_ProjectKB_Instance_35] of Property_List)
+
+([ergasia4_ProjectKB_Instance_36] of Widget
+	(y 30)
+	(name ":DOCUMENTATION")
+	(x 0)
+	(is_hidden FALSE)
+	(width 286)
+	(property_list [ergasia4_ProjectKB_Instance_37])
+	(height 74)
+	(label "Documentation"))
+
+([ergasia4_ProjectKB_Instance_37] of Property_List)
+
+([ergasia4_ProjectKB_Instance_38] of Widget
+	(y 28)
+	(name "rdfs:label")
+	(x 7)
+	(is_hidden FALSE)
+	(width 286)
+	(property_list [ergasia4_ProjectKB_Instance_39])
+	(height 104)
+	(label "rdfs:label"))
+
+([ergasia4_ProjectKB_Instance_39] of Property_List)
+
+([ergasia4_ProjectKB_Instance_4] of Widget
+	(name ":DOCUMENTATION")
+	(is_hidden FALSE)
+	(property_list [ergasia4_ProjectKB_Instance_5])
+	(label "Documentation"))
+
+([ergasia4_ProjectKB_Instance_40] of Widget
+	(y 28)
+	(name ":OWL-SAME-AS")
+	(x 7)
+	(is_hidden FALSE)
+	(width 286)
+	(property_list [ergasia4_ProjectKB_Instance_41])
+	(height 104)
+	(label "owl:sameAs"))
+
+([ergasia4_ProjectKB_Instance_41] of Property_List
+	(properties
+		[ergasia4_ProjectKB_Instance_44]
+		[ergasia4_ProjectKB_Instance_45]
+		[ergasia4_ProjectKB_Instance_46]
+		[ergasia4_ProjectKB_Instance_47]
+		[ergasia4_ProjectKB_Instance_48]
+		[ergasia4_ProjectKB_Instance_49]))
+
+([ergasia4_ProjectKB_Instance_42] of Widget
+	(y 28)
+	(name ":OWL-DIFFERENT-FROM")
+	(x 7)
+	(is_hidden FALSE)
+	(width 286)
+	(property_list [ergasia4_ProjectKB_Instance_43])
+	(height 104)
+	(label "owl:differentFrom"))
+
+([ergasia4_ProjectKB_Instance_43] of Property_List
+	(properties
+		[ergasia4_ProjectKB_Instance_50]
+		[ergasia4_ProjectKB_Instance_51]
+		[ergasia4_ProjectKB_Instance_52]
+		[ergasia4_ProjectKB_Instance_53]
+		[ergasia4_ProjectKB_Instance_54]
+		[ergasia4_ProjectKB_Instance_55]))
+
+([ergasia4_ProjectKB_Instance_44] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ergasia4_ProjectKB_Instance_45] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ergasia4_ProjectKB_Instance_46] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ergasia4_ProjectKB_Instance_47] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add..."))
+
+([ergasia4_ProjectKB_Instance_48] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ergasia4_ProjectKB_Instance_49] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ergasia4_ProjectKB_Instance_5] of Property_List)
+
+([ergasia4_ProjectKB_Instance_50] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([ergasia4_ProjectKB_Instance_51] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([ergasia4_ProjectKB_Instance_52] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([ergasia4_ProjectKB_Instance_53] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add..."))
+
+([ergasia4_ProjectKB_Instance_54] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([ergasia4_ProjectKB_Instance_55] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([ergasia4_ProjectKB_Instance_6] of Widget
+	(name "rdfs:label")
+	(is_hidden FALSE)
+	(property_list [ergasia4_ProjectKB_Instance_7])
+	(label "rdfs:label"))
+
+([ergasia4_ProjectKB_Instance_7] of Property_List)
+
+([ergasia4_ProjectKB_Instance_8] of Widget
+	(name ":OWL-EQUIVALENT-SLOTS")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(is_hidden FALSE)
+	(property_list [ergasia4_ProjectKB_Instance_9])
+	(label "owl:equivalentProperty"))
+
+([ergasia4_ProjectKB_Instance_9] of Property_List
+	(properties
+		[ergasia4_ProjectKB_Instance_10]
+		[ergasia4_ProjectKB_Instance_11]
+		[ergasia4_ProjectKB_Instance_12]
+		[ergasia4_ProjectKB_Instance_13]
+		[ergasia4_ProjectKB_Instance_14]
+		[ergasia4_ProjectKB_Instance_15]))
+
+([FORMS_TAB] of Widget
+	(widget_class_name "edu.stanford.smi.protege.widget.FormsTab")
+	(is_hidden FALSE)
+	(property_list [Instance_85])
+	(label "Forms"))
+
+([Instance_1005] of Widget
+	(name "owl:Class")
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_209]))
+
+([Instance_2201] of Integer
+	(name "ClsesTab.left_right")
+	(integer_value 289))
+
+([Instance_2202] of Integer
+	(name "ClsesTab.left.top_bottom")
+	(integer_value 400))
+
+([Instance_2469] of String
+	(string_value "RDF/XML-ABBREV")
+	(name "owl_file_language"))
+
+([Instance_2470] of String
+	(string_value "http://owl.protege.stanford.edu")
+	(name "owl_namespace"))
+
+([Instance_2531] of Property_List)
+
+([Instance_2534] of Widget
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.ontologytab.OntologyTab")
+	(is_hidden FALSE)
+	(property_list [Instance_2539])
+	(label "Metadata"))
+
+([Instance_2539] of Property_List)
+
+([Instance_2600] of Widget
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.PropertiesTab")
+	(is_hidden FALSE)
+	(property_list [Instance_3177])
+	(label "Properties"))
+
+([Instance_3177] of Property_List
+	(properties
+		[Instance_3239]
+		[Instance_3240]))
+
+([Instance_3234] of Widget
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.IndividualsTab")
+	(is_hidden FALSE)
+	(property_list [Instance_3235])
+	(label "Individuals"))
+
+([Instance_3235] of Property_List
+	(properties
+		[Instance_3241]
+		[Instance_3242]))
+
+([Instance_3239] of Integer
+	(name "SlotsTab.left_right")
+	(integer_value 250))
+
+([Instance_3240] of Integer
+	(name "SlotTab.left.top_bottom")
+	(integer_value 400))
+
+([Instance_3241] of Integer
+	(name "InstancesTab.left_right")
+	(integer_value 250))
+
+([Instance_3242] of Integer
+	(name "InstancesTab.right.left_right")
+	(integer_value 250))
+
+([Instance_42] of String
+	(string_value "edu.stanford.smi.protegex.owl.jena.JenaKnowledgeBaseFactory")
+	(name "factory_class_name"))
+
+([Instance_43] of Widget
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsesAndInstancesTab")
+	(is_hidden TRUE)
+	(property_list [Instance_44]))
+
+([Instance_44] of Property_List)
+
+([Instance_443] of Widget
+	(name ":OWL-ANONYMOUS-CLASS")
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_501]))
+
+([Instance_45] of Widget
+	(widget_class_name "edu.stanford.smi.protege.widget.KAToolTab")
+	(is_hidden TRUE)
+	(property_list [Instance_46]))
+
+([Instance_46] of Property_List)
+
+([Instance_47] of Property_List
+	(properties
+		[Instance_91]
+		[Instance_92]))
+
+([Instance_48] of Options
+	(display_multi_parent_class_icon FALSE)
+	(update_modification_slots FALSE)
+	(is_readonly FALSE)
+	(confirm_on_remove FALSE)
+	(display_abstract_class_icon FALSE)
+	(display_hidden_classes FALSE))
+
+([Instance_581] of Widget
+	(name "rdf:Property")
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_115]))
+
+([Instance_65] of Property_List
+	(properties
+		[Instance_93]
+		[Instance_94]))
+
+([Instance_85] of Property_List
+	(properties [Instance_95]))
+
+([Instance_86] of Widget
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.OWLClsesTab")
+	(is_hidden FALSE)
+	(property_list [Instance_944])
+	(label "OWLClasses"))
+
+([Instance_88] of Property_List
+	(properties
+		[Instance_96]
+		[Instance_97]))
+
+([Instance_89] of Widget
+	(widget_class_name "edu.stanford.smi.protegex.owl.jena.rdql.RDQLTab")
+	(is_hidden TRUE)
+	(property_list [Instance_2531]))
+
+([Instance_91] of Integer
+	(name "ClsesTab.left_right")
+	(integer_value 356))
+
+([Instance_92] of Integer
+	(name "ClsesTab.left.top_bottom")
+	(integer_value 400))
+
+([Instance_93] of Integer
+	(name "SlotsTab.left_right")
+	(integer_value 273))
+
+([Instance_94] of Integer
+	(name "SlotTab.left.top_bottom")
+	(integer_value 400))
+
+([Instance_944] of Property_List
+	(properties
+		[Instance_2201]
+		[Instance_2202]))
+
+([Instance_95] of Integer
+	(name "FormsTab.left_right")
+	(integer_value 252))
+
+([Instance_96] of Integer
+	(name "InstancesTab.left_right")
+	(integer_value 449))
+
+([Instance_97] of Integer
+	(name "InstancesTab.right.left_right")
+	(integer_value 250))
+
+([INSTANCE_ANNOTATION_FORM_WIDGET] of Widget
+	(y 0)
+	(name ":INSTANCE-ANNOTATION")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(is_hidden FALSE)
+	(width 603)
+	(property_list [KB_613402_Instance_327])
+	(height 476))
+
+([INSTANCES_TAB] of Widget
+	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab")
+	(is_hidden TRUE)
+	(property_list [Instance_88])
+	(label "Instances"))
+
+([KB_303942_Instance_68] of Widget
+	(name "owl:Thing")
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_91]))
+
+([KB_379625_Instance_617] of Widget
+	(name ":OWL-RESTRICTION")
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_251]))
+
+([KB_379625_Instance_777] of Widget
+	(name ":OWL-LOGICAL-CLASS")
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_59]))
+
+([KB_553917_Instance_637] of Widget
+	(name ":OWL-SOME-RESTRICTION")
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_175]))
+
+([KB_613402_Instance_0] of Property_List
+	(name "slot widget properties")
+	(properties
+		[KB_613402_Instance_1]
+		[KB_613402_Instance_2]
+		[KB_613402_Instance_3]
+		[KB_613402_Instance_4]
+		[KB_613402_Instance_5]
+		[KB_613402_Instance_6]
+		[KB_613402_Instance_7]
+		[KB_613402_Instance_13]
+		[KB_613402_Instance_14]
+		[KB_613402_Instance_15]
+		[KB_613402_Instance_16]
+		[KB_613402_Instance_17]
+		[KB_613402_Instance_18]
+		[KB_613402_Instance_19]
+		[KB_613402_Instance_20]
+		[KB_613402_Instance_21]
+		[KB_613402_Instance_29]
+		[KB_613402_Instance_37]
+		[KB_613402_Instance_45]
+		[KB_613402_Instance_47]
+		[KB_613402_Instance_49]
+		[KB_613402_Instance_51]
+		[KB_613402_Instance_53]
+		[KB_613402_Instance_55]
+		[KB_613402_Instance_57]))
+
+([KB_613402_Instance_1] of Widget
+	(y 120)
+	(name ":SLOT-MINIMUM-CARDINALITY")
+	(x 200)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLMinimumCardinalityWidget")
+	(width 200)
+	(height 60)
+	(label "Cardinality"))
+
+([KB_613402_Instance_10] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create a new value"))
+
+([KB_613402_Instance_100] of Widget
+	(y 0)
+	(name "rdfs:label")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_101])
+	(height 0))
+
+([KB_613402_Instance_101] of Property_List)
+
+([KB_613402_Instance_102] of Widget
+	(y 0)
+	(name "owl:versionInfo")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_103])
+	(height 0))
+
+([KB_613402_Instance_103] of Property_List)
+
+([KB_613402_Instance_104] of Widget
+	(y 0)
+	(name ":OWL-SAME-AS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_105])
+	(height 0))
+
+([KB_613402_Instance_105] of Property_List)
+
+([KB_613402_Instance_106] of Widget
+	(y 0)
+	(name "owl:seeAlso")
+	(x 300)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.AnnotationsWidget")
+	(is_hidden FALSE)
+	(width 300)
+	(property_list [KB_613402_Instance_107])
+	(height 140))
+
+([KB_613402_Instance_107] of Property_List)
+
+([KB_613402_Instance_108] of Property_List
+	(name "layout properties")
+	(properties
+		[KB_613402_Instance_109]
+		[KB_613402_Instance_110]))
+
+([KB_613402_Instance_109] of String
+	(name "horizontal_stretcher"))
+
+([KB_613402_Instance_11] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([KB_613402_Instance_110] of String
+	(name "vertical_stretcher"))
+
+([KB_613402_Instance_111] of Widget
+	(name ":TO")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_112]))
+
+([KB_613402_Instance_112] of Property_List)
+
+([KB_613402_Instance_113] of Widget
+	(name ":FROM")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_114]))
+
+([KB_613402_Instance_114] of Property_List)
+
+([KB_613402_Instance_115] of Property_List
+	(name "slot widget properties")
+	(properties
+		[KB_613402_Instance_116]
+		[KB_613402_Instance_118]
+		[KB_613402_Instance_120]
+		[KB_613402_Instance_121]
+		[KB_613402_Instance_122]
+		[KB_613402_Instance_123]
+		[KB_613402_Instance_124]
+		[KB_613402_Instance_126]
+		[KB_613402_Instance_128]
+		[KB_613402_Instance_130]
+		[KB_613402_Instance_132]
+		[KB_613402_Instance_133]
+		[KB_613402_Instance_135]
+		[KB_613402_Instance_137]
+		[KB_613402_Instance_138]
+		[KB_613402_Instance_141]
+		[KB_613402_Instance_149]
+		[KB_613402_Instance_151]
+		[KB_613402_Instance_153]
+		[KB_613402_Instance_155]
+		[KB_613402_Instance_157]
+		[KB_613402_Instance_159]
+		[KB_613402_Instance_161]
+		[KB_613402_Instance_163]
+		[KB_613402_Instance_165]
+		[KB_613402_Instance_167]
+		[KB_613402_Instance_169]
+		[KB_613402_Instance_171]
+		[KB_613402_Instance_173]))
+
+([KB_613402_Instance_116] of Widget
+	(y 0)
+	(name ":SLOT-MINIMUM-CARDINALITY")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_117])
+	(height 0)
+	(label "Cardinality"))
+
+([KB_613402_Instance_117] of Property_List)
+
+([KB_613402_Instance_118] of Widget
+	(y 150)
+	(name ":SLOT-MAXIMUM-CARDINALITY")
+	(x 400)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.FunctionalSlotWidget")
+	(width 200)
+	(property_list [KB_613402_Instance_119])
+	(height 34))
+
+([KB_613402_Instance_119] of Property_List)
+
+([KB_613402_Instance_12] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([KB_613402_Instance_120] of Widget
+	(name ":SLOT-CONSTRAINTS"))
+
+([KB_613402_Instance_121] of Widget
+	(name ":DIRECT-TYPE"))
+
+([KB_613402_Instance_122] of Widget
+	(name ":DIRECT-SUPERSLOTS"))
+
+([KB_613402_Instance_123] of Widget
+	(name ":DIRECT-SUBSLOTS"))
+
+([KB_613402_Instance_124] of Widget
+	(y 0)
+	(name ":SLOT-DEFAULTS")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_125])
+	(height 0)
+	(label "Default"))
+
+([KB_613402_Instance_125] of Property_List)
+
+([KB_613402_Instance_126] of Widget
+	(y 0)
+	(name ":DOCUMENTATION")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.OWLSlotMetadataWidget")
+	(width 290)
+	(property_list [KB_613402_Instance_127])
+	(height 150)
+	(label "Documentation"))
+
+([KB_613402_Instance_127] of Property_List)
+
+([KB_613402_Instance_128] of Widget
+	(y 0)
+	(name ":SLOT-NUMERIC-MAXIMUM")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_129])
+	(height 0)
+	(label "Maximum"))
+
+([KB_613402_Instance_129] of Property_List)
+
+([KB_613402_Instance_13] of Widget
+	(y 0)
+	(name ":DOCUMENTATION")
+	(x 200)
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(height 120)
+	(label "Documentation"))
+
+([KB_613402_Instance_130] of Widget
+	(y 0)
+	(name ":SLOT-NUMERIC-MINIMUM")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_131])
+	(height 0)
+	(label "Minimum"))
+
+([KB_613402_Instance_131] of Property_List)
+
+([KB_613402_Instance_132] of Widget
+	(name ":ASSOCIATED-FACET"))
+
+([KB_613402_Instance_133] of Widget
+	(y 0)
+	(name ":NAME")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_134])
+	(height 0)
+	(label "Name"))
+
+([KB_613402_Instance_134] of Property_List)
+
+([KB_613402_Instance_135] of Widget
+	(y 0)
+	(name ":SLOT-INVERSE")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_136])
+	(height 0)
+	(label "Inverse"))
+
+([KB_613402_Instance_136] of Property_List)
+
+([KB_613402_Instance_137] of Widget
+	(y 150)
+	(name ":SLOT-VALUE-TYPE")
+	(x 200)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.valuetype.OWLValueTypeWidget")
+	(width 200)
+	(height 190)
+	(label "All Values From"))
+
+([KB_613402_Instance_138] of Property_List
+	(name "layout properties")
+	(properties
+		[KB_613402_Instance_139]
+		[KB_613402_Instance_140]))
+
+([KB_613402_Instance_139] of String
+	(name "horizontal_stretcher"))
+
+([KB_613402_Instance_14] of Widget
+	(y 210)
+	(name ":SLOT-NUMERIC-MAXIMUM")
+	(x 100)
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMaximumWidget")
+	(width 100)
+	(height 60)
+	(label "Maximum"))
+
+([KB_613402_Instance_140] of String
+	(name "vertical_stretcher"))
+
+([KB_613402_Instance_141] of Widget
+	(y 150)
+	(name ":DIRECT-DOMAIN")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLDomainWidget")
+	(is_hidden FALSE)
+	(width 200)
+	(property_list [KB_613402_Instance_142])
+	(height 190)
+	(label "Domain"))
+
+([KB_613402_Instance_142] of Property_List
+	(properties
+		[KB_613402_Instance_143]
+		[KB_613402_Instance_144]
+		[KB_613402_Instance_145]
+		[KB_613402_Instance_146]
+		[KB_613402_Instance_147]
+		[KB_613402_Instance_148]))
+
+([KB_613402_Instance_143] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([KB_613402_Instance_144] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([KB_613402_Instance_145] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([KB_613402_Instance_146] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([KB_613402_Instance_147] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([KB_613402_Instance_148] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([KB_613402_Instance_149] of Widget
+	(y 0)
+	(name ":OWL-DIFFERENT-FROM")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_150])
+	(height 0))
+
+([KB_613402_Instance_15] of Widget
+	(y 210)
+	(name ":SLOT-NUMERIC-MINIMUM")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protege.widget.NumericMinimumWidget")
+	(width 100)
+	(height 60)
+	(label "Minimum"))
+
+([KB_613402_Instance_150] of Property_List)
+
+([KB_613402_Instance_151] of Widget
+	(y 0)
+	(name "rdfs:label")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_152])
+	(height 0))
+
+([KB_613402_Instance_152] of Property_List)
+
+([KB_613402_Instance_153] of Widget
+	(y 0)
+	(name ":OWL-SAME-AS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_154])
+	(height 0))
+
+([KB_613402_Instance_154] of Property_List)
+
+([KB_613402_Instance_155] of Widget
+	(y 0)
+	(name "owl:versionInfo")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_156])
+	(height 0))
+
+([KB_613402_Instance_156] of Property_List)
+
+([KB_613402_Instance_157] of Widget
+	(y 0)
+	(name "owl:isDefinedBy")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_158])
+	(height 0))
+
+([KB_613402_Instance_158] of Property_List)
+
+([KB_613402_Instance_159] of Widget
+	(y 0)
+	(name ":OWL-ANNOTATION-PROPERTY")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_160])
+	(height 0)
+	(label "AnnotationProperty"))
+
+([KB_613402_Instance_1591] of String
+	(string_value "Panepistimio.owl")
+	(name "owl_file_name"))
+
+([KB_613402_Instance_16] of Widget
+	(name ":ASSOCIATED-FACET"))
+
+([KB_613402_Instance_160] of Property_List)
+
+([KB_613402_Instance_161] of Widget
+	(y 0)
+	(name ":OWL-INVERSE-FUNCTIONAL")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_162])
+	(height 0)
+	(label "Inverse Functional"))
+
+([KB_613402_Instance_162] of Property_List)
+
+([KB_613402_Instance_163] of Widget
+	(y 0)
+	(name ":OWL-EQUIVALENT-SLOTS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_164])
+	(height 0)
+	(label "Equivalent"))
+
+([KB_613402_Instance_164] of Property_List)
+
+([KB_613402_Instance_165] of Widget
+	(y 0)
+	(name "owl:seeAlso")
+	(x 290)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.AnnotationsWidget")
+	(is_hidden FALSE)
+	(width 310)
+	(property_list [KB_613402_Instance_166])
+	(height 150))
+
+([KB_613402_Instance_166] of Property_List)
+
+([KB_613402_Instance_167] of Widget
+	(y 0)
+	(name ":OWL-SLOT-SOME")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_168])
+	(height 0))
+
+([KB_613402_Instance_168] of Property_List)
+
+([KB_613402_Instance_169] of Widget
+	(y 0)
+	(name ":SLOT-VALUES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_170])
+	(height 0))
+
+([KB_613402_Instance_17] of Widget
+	(y 0)
+	(name ":NAME")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(height 60)
+	(label "Name"))
+
+([KB_613402_Instance_170] of Property_List)
+
+([KB_613402_Instance_171] of Widget
+	(name ":TO")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_172]))
+
+([KB_613402_Instance_172] of Property_List)
+
+([KB_613402_Instance_173] of Widget
+	(name ":FROM")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_174]))
+
+([KB_613402_Instance_174] of Property_List)
+
+([KB_613402_Instance_175] of Property_List
+	(properties
+		[KB_613402_Instance_176]
+		[KB_613402_Instance_178]
+		[KB_613402_Instance_180]
+		[KB_613402_Instance_182]
+		[KB_613402_Instance_184]
+		[KB_613402_Instance_186]
+		[KB_613402_Instance_188]
+		[KB_613402_Instance_190]
+		[KB_613402_Instance_192]
+		[KB_613402_Instance_194]
+		[KB_613402_Instance_196]
+		[KB_613402_Instance_198]
+		[KB_613402_Instance_200]
+		[KB_613402_Instance_202]
+		[KB_613402_Instance_204]
+		[KB_613402_Instance_206]
+		[KB_613402_Instance_207]))
+
+([KB_613402_Instance_176] of Widget
+	(y 0)
+	(name ":DIRECT-TYPE")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_177])
+	(height 0))
+
+([KB_613402_Instance_177] of Property_List)
+
+([KB_613402_Instance_178] of Widget
+	(y 0)
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_179])
+	(height 0))
+
+([KB_613402_Instance_179] of Property_List)
+
+([KB_613402_Instance_18] of Widget
+	(y 210)
+	(name ":SLOT-INVERSE")
+	(x 200)
+	(widget_class_name "edu.stanford.smi.protege.widget.InverseSlotWidget")
+	(width 200)
+	(height 60)
+	(label "Inverse"))
+
+([KB_613402_Instance_180] of Widget
+	(y 0)
+	(name ":DIRECT-SUPERCLASSES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_181])
+	(height 0))
+
+([KB_613402_Instance_181] of Property_List)
+
+([KB_613402_Instance_182] of Widget
+	(y 0)
+	(name ":NAME")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_183])
+	(height 0))
+
+([KB_613402_Instance_183] of Property_List)
+
+([KB_613402_Instance_184] of Widget
+	(y 0)
+	(name ":DIRECT-INSTANCES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_185])
+	(height 0))
+
+([KB_613402_Instance_185] of Property_List)
+
+([KB_613402_Instance_186] of Widget
+	(y 0)
+	(name ":DIRECT-SUBCLASSES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_187])
+	(height 0))
+
+([KB_613402_Instance_187] of Property_List)
+
+([KB_613402_Instance_188] of Widget
+	(y 0)
+	(name ":OWL-DISJOINT-CLASSES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_189])
+	(height 0))
+
+([KB_613402_Instance_189] of Property_List)
+
+([KB_613402_Instance_19] of Widget
+	(y 60)
+	(name ":SLOT-VALUE-TYPE")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protege.widget.ValueTypeWidget")
+	(width 200)
+	(height 150)
+	(label "Value Type"))
+
+([KB_613402_Instance_190] of Widget
+	(y 0)
+	(name "rdfs:label")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_191])
+	(height 0))
+
+([KB_613402_Instance_191] of Property_List)
+
+([KB_613402_Instance_192] of Widget
+	(y 0)
+	(name ":OWL-SAME-AS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_193])
+	(height 0))
+
+([KB_613402_Instance_193] of Property_List)
+
+([KB_613402_Instance_194] of Widget
+	(y 0)
+	(name "owl:isDefinedBy")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_195])
+	(height 0))
+
+([KB_613402_Instance_195] of Property_List)
+
+([KB_613402_Instance_196] of Widget
+	(y 0)
+	(name ":OWL-DIFFERENT-FROM")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_197])
+	(height 0))
+
+([KB_613402_Instance_197] of Property_List)
+
+([KB_613402_Instance_198] of Widget
+	(y 0)
+	(name ":DOCUMENTATION")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_199])
+	(height 0))
+
+([KB_613402_Instance_199] of Property_List)
+
+([KB_613402_Instance_2] of Widget
+	(y 175)
+	(name ":SLOT-MAXIMUM-CARDINALITY")
+	(x 200)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLMaximumCardinalityWidget")
+	(width 200)
+	(height 35))
+
+([KB_613402_Instance_20] of Property_List
+	(name "layout properties"))
+
+([KB_613402_Instance_200] of Widget
+	(y 0)
+	(name "owl:versionInfo")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_201])
+	(height 0))
+
+([KB_613402_Instance_201] of Property_List)
+
+([KB_613402_Instance_202] of Widget
+	(y 0)
+	(name "owl:seeAlso")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.AnnotationsWidget")
+	(is_hidden FALSE)
+	(width 463)
+	(property_list [KB_613402_Instance_203])
+	(height 454))
+
+([KB_613402_Instance_203] of Property_List)
+
+([KB_613402_Instance_204] of Widget
+	(y 0)
+	(name ":OWL-FILLER-DEFINED")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_205])
+	(height 0))
+
+([KB_613402_Instance_205] of Property_List)
+
+([KB_613402_Instance_206] of Property_List
+	(name "layout properties"))
+
+([KB_613402_Instance_207] of Widget
+	(y 0)
+	(name ":OWL-SLOT-SOME-VALUES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_208])
+	(height 0))
+
+([KB_613402_Instance_208] of Property_List)
+
+([KB_613402_Instance_209] of Property_List
+	(name "class widget properties")
+	(properties
+		[KB_613402_Instance_210]
+		[KB_613402_Instance_212]
+		[KB_613402_Instance_213]
+		[KB_613402_Instance_214]
+		[KB_613402_Instance_216]
+		[KB_613402_Instance_218]
+		[KB_613402_Instance_220]
+		[KB_613402_Instance_222]
+		[KB_613402_Instance_223]
+		[KB_613402_Instance_234]
+		[KB_613402_Instance_237]
+		[KB_613402_Instance_239]
+		[KB_613402_Instance_241]
+		[KB_613402_Instance_243]
+		[KB_613402_Instance_245]
+		[KB_613402_Instance_247]
+		[KB_613402_Instance_249]
+		[KB_613402_Instance_584]
+		[KB_613402_Instance_586]))
+
+([KB_613402_Instance_21] of Widget
+	(y 270)
+	(name ":DIRECT-DOMAIN")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(is_hidden FALSE)
+	(width 250)
+	(property_list [KB_613402_Instance_22])
+	(height 120))
+
+([KB_613402_Instance_210] of Widget
+	(y 0)
+	(name ":SLOT-CONSTRAINTS")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_211])
+	(height 0)
+	(label "Constraints"))
+
+([KB_613402_Instance_211] of Property_List)
+
+([KB_613402_Instance_212] of Widget
+	(name ":DIRECT-INSTANCES"))
+
+([KB_613402_Instance_213] of Widget
+	(name ":DIRECT-SUBCLASSES"))
+
+([KB_613402_Instance_214] of Widget
+	(y 140)
+	(name ":DIRECT-SUPERCLASSES")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.conditions.ConditionsWidget")
+	(width 340)
+	(property_list [KB_613402_Instance_215])
+	(height 330)
+	(label "Definition"))
+
+([KB_613402_Instance_215] of Property_List)
+
+([KB_613402_Instance_216] of Widget
+	(y 0)
+	(name ":DOCUMENTATION")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.OWLClsMetadataWidget")
+	(width 280)
+	(property_list [KB_613402_Instance_217])
+	(height 140)
+	(label "Documentation"))
+
+([KB_613402_Instance_217] of Property_List)
+
+([KB_613402_Instance_218] of Widget
+	(y 0)
+	(name ":NAME")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_219])
+	(height 0)
+	(label "Name"))
+
+([KB_613402_Instance_219] of Property_List)
+
+([KB_613402_Instance_22] of Property_List
+	(properties
+		[KB_613402_Instance_23]
+		[KB_613402_Instance_24]
+		[KB_613402_Instance_25]
+		[KB_613402_Instance_26]
+		[KB_613402_Instance_27]
+		[KB_613402_Instance_28]))
+
+([KB_613402_Instance_220] of Widget
+	(y 0)
+	(name ":ROLE")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_221])
+	(height 0)
+	(label "Role"))
+
+([KB_613402_Instance_221] of Property_List)
+
+([KB_613402_Instance_222] of Widget
+	(name ":DIRECT-TYPE"))
+
+([KB_613402_Instance_223] of Widget
+	(y 140)
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(x 340)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.clsproperties.ClsPropertiesWidget")
+	(width 220)
+	(property_list [KB_613402_Instance_224])
+	(height 220)
+	(label "OWL Properties"))
+
+([KB_613402_Instance_224] of Property_List
+	(properties
+		[KB_613402_Instance_225]
+		[KB_613402_Instance_226]
+		[KB_613402_Instance_227]
+		[KB_613402_Instance_228]
+		[KB_613402_Instance_229]
+		[KB_613402_Instance_230]
+		[KB_613402_Instance_231]
+		[KB_613402_Instance_232]
+		[KB_613402_Instance_233]))
+
+([KB_613402_Instance_225] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View selected slots"))
+
+([KB_613402_Instance_226] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View selected slots at class"))
+
+([KB_613402_Instance_227] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Property..."))
+
+([KB_613402_Instance_228] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove overrides from selected slots"))
+
+([KB_613402_Instance_229] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add this class to the domain of a property"))
+
+([KB_613402_Instance_23] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([KB_613402_Instance_230] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([KB_613402_Instance_231] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move up"))
+
+([KB_613402_Instance_232] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move down"))
+
+([KB_613402_Instance_233] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Property..."))
+
+([KB_613402_Instance_234] of Property_List
+	(name "layout properties")
+	(properties
+		[KB_613402_Instance_235]
+		[KB_613402_Instance_236]))
+
+([KB_613402_Instance_235] of String
+	(name "vertical_stretcher"))
+
+([KB_613402_Instance_236] of String
+	(name "horizontal_stretcher"))
+
+([KB_613402_Instance_237] of Widget
+	(y 360)
+	(name ":OWL-DISJOINT-CLASSES")
+	(x 340)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.clsdesc.DisjointClassesWidget")
+	(is_hidden FALSE)
+	(width 220)
+	(property_list [KB_613402_Instance_238])
+	(height 110)
+	(label "Disjoint Classes"))
+
+([KB_613402_Instance_238] of Property_List)
+
+([KB_613402_Instance_239] of Widget
+	(y 0)
+	(name ":OWL-DIFFERENT-FROM")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_240])
+	(height 0))
+
+([KB_613402_Instance_24] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([KB_613402_Instance_240] of Property_List)
+
+([KB_613402_Instance_241] of Widget
+	(y 0)
+	(name "rdfs:label")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_242])
+	(height 0))
+
+([KB_613402_Instance_242] of Property_List)
+
+([KB_613402_Instance_243] of Widget
+	(y 0)
+	(name ":OWL-SAME-AS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_244])
+	(height 0))
+
+([KB_613402_Instance_244] of Property_List)
+
+([KB_613402_Instance_245] of Widget
+	(y 0)
+	(name "owl:isDefinedBy")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_246])
+	(height 0))
+
+([KB_613402_Instance_246] of Property_List)
+
+([KB_613402_Instance_247] of Widget
+	(y 0)
+	(name "owl:versionInfo")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_248])
+	(height 0))
+
+([KB_613402_Instance_248] of Property_List)
+
+([KB_613402_Instance_249] of Widget
+	(y 0)
+	(name "owl:seeAlso")
+	(x 280)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.AnnotationsWidget")
+	(is_hidden FALSE)
+	(width 280)
+	(property_list [KB_613402_Instance_250])
+	(height 140))
+
+([KB_613402_Instance_25] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([KB_613402_Instance_250] of Property_List)
+
+([KB_613402_Instance_251] of Property_List
+	(properties
+		[KB_613402_Instance_252]
+		[KB_613402_Instance_254]
+		[KB_613402_Instance_256]
+		[KB_613402_Instance_258]
+		[KB_613402_Instance_260]
+		[KB_613402_Instance_262]
+		[KB_613402_Instance_264]
+		[KB_613402_Instance_266]
+		[KB_613402_Instance_268]
+		[KB_613402_Instance_270]
+		[KB_613402_Instance_272]
+		[KB_613402_Instance_274]
+		[KB_613402_Instance_276]
+		[KB_613402_Instance_278]
+		[KB_613402_Instance_280]
+		[KB_613402_Instance_282]))
+
+([KB_613402_Instance_252] of Widget
+	(y 0)
+	(name ":DIRECT-TYPE")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_253])
+	(height 0))
+
+([KB_613402_Instance_253] of Property_List)
+
+([KB_613402_Instance_254] of Widget
+	(y 0)
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_255])
+	(height 0))
+
+([KB_613402_Instance_255] of Property_List)
+
+([KB_613402_Instance_256] of Widget
+	(y 0)
+	(name ":DIRECT-SUPERCLASSES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_257])
+	(height 0))
+
+([KB_613402_Instance_257] of Property_List)
+
+([KB_613402_Instance_258] of Widget
+	(y 0)
+	(name ":NAME")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_259])
+	(height 0))
+
+([KB_613402_Instance_259] of Property_List)
+
+([KB_613402_Instance_26] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([KB_613402_Instance_260] of Widget
+	(y 0)
+	(name ":DIRECT-INSTANCES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_261])
+	(height 0))
+
+([KB_613402_Instance_261] of Property_List)
+
+([KB_613402_Instance_262] of Widget
+	(y 0)
+	(name ":DIRECT-SUBCLASSES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_263])
+	(height 0))
+
+([KB_613402_Instance_263] of Property_List)
+
+([KB_613402_Instance_264] of Widget
+	(y 0)
+	(name ":OWL-DISJOINT-CLASSES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_265])
+	(height 0))
+
+([KB_613402_Instance_265] of Property_List)
+
+([KB_613402_Instance_266] of Widget
+	(y 0)
+	(name "rdfs:label")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_267])
+	(height 0))
+
+([KB_613402_Instance_267] of Property_List)
+
+([KB_613402_Instance_268] of Widget
+	(y 0)
+	(name ":OWL-SAME-AS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_269])
+	(height 0))
+
+([KB_613402_Instance_269] of Property_List)
+
+([KB_613402_Instance_27] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([KB_613402_Instance_270] of Widget
+	(y 0)
+	(name "owl:isDefinedBy")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_271])
+	(height 0))
+
+([KB_613402_Instance_271] of Property_List)
+
+([KB_613402_Instance_272] of Widget
+	(y 0)
+	(name ":OWL-DIFFERENT-FROM")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_273])
+	(height 0))
+
+([KB_613402_Instance_273] of Property_List)
+
+([KB_613402_Instance_274] of Widget
+	(y 0)
+	(name ":DOCUMENTATION")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_275])
+	(height 0))
+
+([KB_613402_Instance_275] of Property_List)
+
+([KB_613402_Instance_276] of Widget
+	(y 0)
+	(name "owl:versionInfo")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_277])
+	(height 0))
+
+([KB_613402_Instance_277] of Property_List)
+
+([KB_613402_Instance_278] of Widget
+	(y 0)
+	(name "owl:seeAlso")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.AnnotationsWidget")
+	(is_hidden FALSE)
+	(width 463)
+	(property_list [KB_613402_Instance_279])
+	(height 454))
+
+([KB_613402_Instance_279] of Property_List)
+
+([KB_613402_Instance_28] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([KB_613402_Instance_280] of Widget
+	(y 0)
+	(name ":OWL-FILLER-DEFINED")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_281])
+	(height 0))
+
+([KB_613402_Instance_281] of Property_List)
+
+([KB_613402_Instance_282] of Property_List
+	(name "layout properties"))
+
+([KB_613402_Instance_283] of Property_List
+	(properties
+		[KB_613402_Instance_284]
+		[KB_613402_Instance_285]
+		[KB_613402_Instance_286]
+		[KB_613402_Instance_287]))
+
+([KB_613402_Instance_284] of Widget
+	(y 0)
+	(name ":PAL-NAME")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(is_hidden FALSE)
+	(width 275)
+	(height 60)
+	(label "Name"))
+
+([KB_613402_Instance_285] of Widget
+	(y 180)
+	(name ":PAL-RANGE")
+	(x 275)
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalRangeWidget")
+	(is_hidden FALSE)
+	(width 250)
+	(height 180)
+	(label "Range"))
+
+([KB_613402_Instance_286] of Widget
+	(y 0)
+	(name ":PAL-DESCRIPTION")
+	(x 275)
+	(widget_class_name "edu.stanford.smi.protege.widget.TextAreaWidget")
+	(is_hidden FALSE)
+	(width 250)
+	(height 180)
+	(label "Description"))
+
+([KB_613402_Instance_287] of Widget
+	(y 60)
+	(name ":PAL-STATEMENT")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.widget.pal.constraint.PalConstraintWidget")
+	(is_hidden FALSE)
+	(width 275)
+	(height 300)
+	(label "Statement"))
+
+([KB_613402_Instance_288] of Property_List
+	(name "class widget properties")
+	(properties
+		[KB_613402_Instance_289]
+		[KB_613402_Instance_291]
+		[KB_613402_Instance_292]
+		[KB_613402_Instance_293]
+		[KB_613402_Instance_294]
+		[KB_613402_Instance_296]
+		[KB_613402_Instance_297]
+		[KB_613402_Instance_298]
+		[KB_613402_Instance_299]
+		[KB_613402_Instance_313]
+		[KB_613402_Instance_315]
+		[KB_613402_Instance_317]
+		[KB_613402_Instance_319]
+		[KB_613402_Instance_321]
+		[KB_613402_Instance_323]
+		[KB_613402_Instance_325]))
+
+([KB_613402_Instance_289] of Widget
+	(y 0)
+	(name ":SLOT-CONSTRAINTS")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_290])
+	(height 0)
+	(label "Constraints"))
+
+([KB_613402_Instance_29] of Widget
+	(y 630)
+	(name ":OWL-DIFFERENT-FROM")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(is_hidden FALSE)
+	(width 250)
+	(property_list [KB_613402_Instance_30])
+	(height 120))
+
+([KB_613402_Instance_290] of Property_List)
+
+([KB_613402_Instance_291] of Widget
+	(name ":DIRECT-INSTANCES"))
+
+([KB_613402_Instance_292] of Widget
+	(name ":DIRECT-SUBCLASSES"))
+
+([KB_613402_Instance_293] of Widget
+	(name ":DIRECT-SUPERCLASSES"))
+
+([KB_613402_Instance_294] of Widget
+	(y 0)
+	(name ":DOCUMENTATION")
+	(x 200)
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 400)
+	(property_list [KB_613402_Instance_295])
+	(height 120)
+	(label "Documentation"))
+
+([KB_613402_Instance_295] of Property_List)
+
+([KB_613402_Instance_296] of Widget
+	(y 0)
+	(name ":NAME")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(height 60)
+	(label "Name"))
+
+([KB_613402_Instance_297] of Widget
+	(y 60)
+	(name ":ROLE")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protege.widget.RoleWidget")
+	(width 200)
+	(height 60)
+	(label "Role"))
+
+([KB_613402_Instance_298] of Widget
+	(name ":DIRECT-TYPE"))
+
+([KB_613402_Instance_299] of Widget
+	(y 120)
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protege.widget.TemplateSlotsWidget")
+	(width 600)
+	(property_list [KB_613402_Instance_300])
+	(height 150)
+	(label "Template Slots"))
+
+([KB_613402_Instance_3] of Widget
+	(name ":SLOT-CONSTRAINTS"))
+
+([KB_613402_Instance_30] of Property_List
+	(properties
+		[KB_613402_Instance_31]
+		[KB_613402_Instance_32]
+		[KB_613402_Instance_33]
+		[KB_613402_Instance_34]
+		[KB_613402_Instance_35]
+		[KB_613402_Instance_36]))
+
+([KB_613402_Instance_300] of Property_List
+	(properties
+		[KB_613402_Instance_301]
+		[KB_613402_Instance_302]
+		[KB_613402_Instance_303]
+		[KB_613402_Instance_304]
+		[KB_613402_Instance_305]
+		[KB_613402_Instance_306]
+		[KB_613402_Instance_307]
+		[KB_613402_Instance_308]
+		[KB_613402_Instance_309]
+		[KB_613402_Instance_310]
+		[KB_613402_Instance_311]
+		[KB_613402_Instance_312]))
+
+([KB_613402_Instance_301] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View selected properties"))
+
+([KB_613402_Instance_302] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View selected properties at class"))
+
+([KB_613402_Instance_303] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create property and attach to class"))
+
+([KB_613402_Instance_304] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove overrides from selected properties"))
+
+([KB_613402_Instance_305] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([KB_613402_Instance_306] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([KB_613402_Instance_307] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move up"))
+
+([KB_613402_Instance_308] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move down"))
+
+([KB_613402_Instance_309] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View selected slots"))
+
+([KB_613402_Instance_31] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([KB_613402_Instance_310] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View selected slots at class"))
+
+([KB_613402_Instance_311] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create slot and attach to class"))
+
+([KB_613402_Instance_312] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove overrides from selected slots"))
+
+([KB_613402_Instance_313] of Property_List
+	(name "layout properties")
+	(properties [KB_613402_Instance_314]))
+
+([KB_613402_Instance_314] of String
+	(string_value ":DIRECT-TEMPLATE-SLOTS")
+	(name "vertical_stretcher"))
+
+([KB_613402_Instance_315] of Widget
+	(y 0)
+	(name ":OWL-DIFFERENT-FROM")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_316])
+	(height 0))
+
+([KB_613402_Instance_316] of Property_List)
+
+([KB_613402_Instance_317] of Widget
+	(y 0)
+	(name "rdfs:label")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_318])
+	(height 0))
+
+([KB_613402_Instance_318] of Property_List)
+
+([KB_613402_Instance_319] of Widget
+	(y 0)
+	(name ":OWL-SAME-AS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_320])
+	(height 0))
+
+([KB_613402_Instance_32] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([KB_613402_Instance_320] of Property_List)
+
+([KB_613402_Instance_321] of Widget
+	(y 0)
+	(name "owl:isDefinedBy")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_322])
+	(height 0))
+
+([KB_613402_Instance_322] of Property_List)
+
+([KB_613402_Instance_323] of Widget
+	(y 0)
+	(name "owl:versionInfo")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_324])
+	(height 0))
+
+([KB_613402_Instance_324] of Property_List)
+
+([KB_613402_Instance_325] of Widget
+	(y 0)
+	(name "owl:seeAlso")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_326])
+	(height 0))
+
+([KB_613402_Instance_326] of Property_List)
+
+([KB_613402_Instance_327] of Property_List
+	(properties
+		[KB_613402_Instance_328]
+		[KB_613402_Instance_329]
+		[KB_613402_Instance_330]
+		[KB_613402_Instance_331]))
+
+([KB_613402_Instance_328] of Widget
+	(name ":ANNOTATED-INSTANCE"))
+
+([KB_613402_Instance_329] of Widget
+	(name ":CREATOR"))
+
+([KB_613402_Instance_33] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([KB_613402_Instance_330] of Widget
+	(name ":CREATION-TIMESTAMP"))
+
+([KB_613402_Instance_331] of Widget
+	(y 0)
+	(name ":ANNOTATION-TEXT")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protege.widget.YellowStickyWidget")
+	(is_hidden FALSE)
+	(width 200)
+	(height 100))
+
+([KB_613402_Instance_332] of Property_List
+	(properties
+		[KB_613402_Instance_333]
+		[KB_613402_Instance_335]
+		[KB_613402_Instance_337]
+		[KB_613402_Instance_339]
+		[KB_613402_Instance_341]
+		[KB_613402_Instance_343]
+		[KB_613402_Instance_345]
+		[KB_613402_Instance_347]
+		[KB_613402_Instance_349]
+		[KB_613402_Instance_352]
+		[KB_613402_Instance_354]
+		[KB_613402_Instance_356]
+		[KB_613402_Instance_358]
+		[KB_613402_Instance_360]
+		[KB_613402_Instance_362]
+		[KB_613402_Instance_364]
+		[KB_613402_Instance_366]))
+
+([KB_613402_Instance_333] of Widget
+	(y 0)
+	(name "owl:isDefinedBy")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_334])
+	(height 0))
+
+([KB_613402_Instance_334] of Property_List)
+
+([KB_613402_Instance_335] of Widget
+	(y 0)
+	(name ":OWL-DIFFERENT-FROM")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_336])
+	(height 0))
+
+([KB_613402_Instance_336] of Property_List)
+
+([KB_613402_Instance_337] of Widget
+	(y 0)
+	(name ":DOCUMENTATION")
+	(x 340)
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(is_hidden FALSE)
+	(width 280)
+	(property_list [KB_613402_Instance_338])
+	(height 120)
+	(label "Comment"))
+
+([KB_613402_Instance_338] of Property_List)
+
+([KB_613402_Instance_339] of Widget
+	(y 0)
+	(name ":NAME")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_340])
+	(height 0)
+	(label "Name"))
+
+([KB_613402_Instance_34] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([KB_613402_Instance_340] of Property_List)
+
+([KB_613402_Instance_341] of Widget
+	(y 0)
+	(name "rdfs:label")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_342])
+	(height 0))
+
+([KB_613402_Instance_342] of Property_List)
+
+([KB_613402_Instance_343] of Widget
+	(y 0)
+	(name "owl:versionInfo")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_344])
+	(height 0)
+	(label "Version Info"))
+
+([KB_613402_Instance_344] of Property_List)
+
+([KB_613402_Instance_345] of Widget
+	(y 0)
+	(name ":OWL-SAME-AS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_346])
+	(height 0))
+
+([KB_613402_Instance_346] of Property_List)
+
+([KB_613402_Instance_347] of Widget
+	(y 220)
+	(name "owl:seeAlso")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.AnnotationsWidget")
+	(is_hidden FALSE)
+	(width 340)
+	(property_list [KB_613402_Instance_348])
+	(height 230))
+
+([KB_613402_Instance_348] of Property_List)
+
+([KB_613402_Instance_349] of Property_List
+	(name "layout properties")
+	(properties
+		[KB_613402_Instance_350]
+		[KB_613402_Instance_351]))
+
+([KB_613402_Instance_35] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([KB_613402_Instance_350] of String
+	(string_value "<<all>>")
+	(name "horizontal_stretcher"))
+
+([KB_613402_Instance_351] of String
+	(string_value "<<all>>")
+	(name "vertical_stretcher"))
+
+([KB_613402_Instance_352] of Widget
+	(y 120)
+	(name ":OWL-ONTOLOGY-URI")
+	(x 340)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.ontologytab.AllDifferentWidget")
+	(is_hidden FALSE)
+	(width 280)
+	(property_list [KB_613402_Instance_353])
+	(height 330))
+
+([KB_613402_Instance_353] of Property_List)
+
+([KB_613402_Instance_354] of Widget
+	(y 0)
+	(name ":OWL-ONTOLOGY-IMPORTS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_355])
+	(height 0)
+	(label "Imports"))
+
+([KB_613402_Instance_355] of Property_List)
+
+([KB_613402_Instance_356] of Widget
+	(y 0)
+	(name ":OWL-ONTOLOGY-PREFIXES")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.ontologytab.NamespacesWidget")
+	(is_hidden FALSE)
+	(width 340)
+	(property_list [KB_613402_Instance_357])
+	(height 220))
+
+([KB_613402_Instance_357] of Property_List)
+
+([KB_613402_Instance_358] of Widget
+	(y 0)
+	(name "owl:priorVersion")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_359])
+	(height 0))
+
+([KB_613402_Instance_359] of Property_List)
+
+([KB_613402_Instance_36] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([KB_613402_Instance_360] of Widget
+	(y 0)
+	(name "owl:incompatibleWith")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_361])
+	(height 0))
+
+([KB_613402_Instance_361] of Property_List)
+
+([KB_613402_Instance_362] of Widget
+	(y 0)
+	(name "owl:backwardCompatibleWith")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_363])
+	(height 0))
+
+([KB_613402_Instance_363] of Property_List)
+
+([KB_613402_Instance_364] of Widget
+	(name ":TO")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_365]))
+
+([KB_613402_Instance_365] of Property_List)
+
+([KB_613402_Instance_366] of Widget
+	(name ":FROM")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_367]))
+
+([KB_613402_Instance_367] of Property_List)
+
+([KB_613402_Instance_368] of Property_List
+	(name "slot widget properties")
+	(properties
+		[KB_613402_Instance_369]
+		[KB_613402_Instance_371]
+		[KB_613402_Instance_373]
+		[KB_613402_Instance_374]
+		[KB_613402_Instance_375]
+		[KB_613402_Instance_376]
+		[KB_613402_Instance_377]
+		[KB_613402_Instance_379]
+		[KB_613402_Instance_381]
+		[KB_613402_Instance_383]
+		[KB_613402_Instance_385]
+		[KB_613402_Instance_386]
+		[KB_613402_Instance_388]
+		[KB_613402_Instance_390]
+		[KB_613402_Instance_391]
+		[KB_613402_Instance_394]
+		[KB_613402_Instance_402]
+		[KB_613402_Instance_404]
+		[KB_613402_Instance_406]
+		[KB_613402_Instance_408]
+		[KB_613402_Instance_410]
+		[KB_613402_Instance_412]
+		[KB_613402_Instance_414]
+		[KB_613402_Instance_416]
+		[KB_613402_Instance_418]
+		[KB_613402_Instance_420]
+		[KB_613402_Instance_422]
+		[KB_613402_Instance_424]
+		[KB_613402_Instance_426]
+		[KB_613402_Instance_428]
+		[KB_613402_Instance_430]))
+
+([KB_613402_Instance_369] of Widget
+	(y 0)
+	(name ":SLOT-MINIMUM-CARDINALITY")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_370])
+	(height 0)
+	(label "Cardinality"))
+
+([KB_613402_Instance_37] of Widget
+	(y 510)
+	(name ":OWL-SAME-AS")
+	(x 250)
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(is_hidden FALSE)
+	(width 250)
+	(property_list [KB_613402_Instance_38])
+	(height 240))
+
+([KB_613402_Instance_370] of Property_List)
+
+([KB_613402_Instance_371] of Widget
+	(y 150)
+	(name ":SLOT-MAXIMUM-CARDINALITY")
+	(x 400)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.FunctionalSlotWidget")
+	(width 200)
+	(property_list [KB_613402_Instance_372])
+	(height 34))
+
+([KB_613402_Instance_372] of Property_List)
+
+([KB_613402_Instance_373] of Widget
+	(name ":SLOT-CONSTRAINTS"))
+
+([KB_613402_Instance_374] of Widget
+	(name ":DIRECT-TYPE"))
+
+([KB_613402_Instance_375] of Widget
+	(name ":DIRECT-SUPERSLOTS"))
+
+([KB_613402_Instance_376] of Widget
+	(name ":DIRECT-SUBSLOTS"))
+
+([KB_613402_Instance_377] of Widget
+	(y 0)
+	(name ":SLOT-DEFAULTS")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_378])
+	(height 0)
+	(label "Default"))
+
+([KB_613402_Instance_378] of Property_List)
+
+([KB_613402_Instance_379] of Widget
+	(y 0)
+	(name ":DOCUMENTATION")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.OWLSlotMetadataWidget")
+	(width 290)
+	(property_list [KB_613402_Instance_380])
+	(height 150)
+	(label "Documentation"))
+
+([KB_613402_Instance_38] of Property_List
+	(properties
+		[KB_613402_Instance_39]
+		[KB_613402_Instance_40]
+		[KB_613402_Instance_41]
+		[KB_613402_Instance_42]
+		[KB_613402_Instance_43]
+		[KB_613402_Instance_44]))
+
+([KB_613402_Instance_380] of Property_List)
+
+([KB_613402_Instance_381] of Widget
+	(y 0)
+	(name ":SLOT-NUMERIC-MAXIMUM")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_382])
+	(height 0)
+	(label "Maximum"))
+
+([KB_613402_Instance_382] of Property_List)
+
+([KB_613402_Instance_383] of Widget
+	(y 0)
+	(name ":SLOT-NUMERIC-MINIMUM")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_384])
+	(height 0)
+	(label "Minimum"))
+
+([KB_613402_Instance_384] of Property_List)
+
+([KB_613402_Instance_385] of Widget
+	(name ":ASSOCIATED-FACET"))
+
+([KB_613402_Instance_386] of Widget
+	(y 0)
+	(name ":NAME")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_387])
+	(height 0)
+	(label "Name"))
+
+([KB_613402_Instance_387] of Property_List)
+
+([KB_613402_Instance_388] of Widget
+	(y 0)
+	(name ":SLOT-INVERSE")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_389])
+	(height 0)
+	(label "Inverse"))
+
+([KB_613402_Instance_389] of Property_List)
+
+([KB_613402_Instance_39] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([KB_613402_Instance_390] of Widget
+	(y 150)
+	(name ":SLOT-VALUE-TYPE")
+	(x 200)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.valuetype.OWLValueTypeWidget")
+	(width 200)
+	(height 190)
+	(label "All Values From"))
+
+([KB_613402_Instance_391] of Property_List
+	(name "layout properties")
+	(properties
+		[KB_613402_Instance_392]
+		[KB_613402_Instance_393]))
+
+([KB_613402_Instance_392] of String
+	(name "horizontal_stretcher"))
+
+([KB_613402_Instance_393] of String
+	(name "vertical_stretcher"))
+
+([KB_613402_Instance_394] of Widget
+	(y 150)
+	(name ":DIRECT-DOMAIN")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLDomainWidget")
+	(is_hidden FALSE)
+	(width 200)
+	(property_list [KB_613402_Instance_395])
+	(height 190)
+	(label "Domain"))
+
+([KB_613402_Instance_395] of Property_List
+	(properties
+		[KB_613402_Instance_396]
+		[KB_613402_Instance_397]
+		[KB_613402_Instance_398]
+		[KB_613402_Instance_399]
+		[KB_613402_Instance_400]
+		[KB_613402_Instance_401]))
+
+([KB_613402_Instance_396] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([KB_613402_Instance_397] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([KB_613402_Instance_398] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([KB_613402_Instance_399] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([KB_613402_Instance_4] of Widget
+	(name ":DIRECT-TYPE"))
+
+([KB_613402_Instance_40] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([KB_613402_Instance_400] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([KB_613402_Instance_401] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([KB_613402_Instance_402] of Widget
+	(y 0)
+	(name ":OWL-DIFFERENT-FROM")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_403])
+	(height 0))
+
+([KB_613402_Instance_403] of Property_List)
+
+([KB_613402_Instance_404] of Widget
+	(y 0)
+	(name "rdfs:label")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_405])
+	(height 0))
+
+([KB_613402_Instance_405] of Property_List)
+
+([KB_613402_Instance_406] of Widget
+	(y 0)
+	(name ":OWL-SAME-AS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_407])
+	(height 0))
+
+([KB_613402_Instance_407] of Property_List)
+
+([KB_613402_Instance_408] of Widget
+	(y 0)
+	(name "owl:versionInfo")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_409])
+	(height 0))
+
+([KB_613402_Instance_409] of Property_List)
+
+([KB_613402_Instance_41] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([KB_613402_Instance_410] of Widget
+	(y 0)
+	(name "owl:isDefinedBy")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_411])
+	(height 0))
+
+([KB_613402_Instance_411] of Property_List)
+
+([KB_613402_Instance_412] of Widget
+	(y 0)
+	(name ":OWL-ANNOTATION-PROPERTY")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_413])
+	(height 0)
+	(label "AnnotationProperty"))
+
+([KB_613402_Instance_413] of Property_List)
+
+([KB_613402_Instance_414] of Widget
+	(y 180)
+	(name ":OWL-INVERSE-FUNCTIONAL")
+	(x 400)
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(is_hidden FALSE)
+	(width 200)
+	(property_list [KB_613402_Instance_415])
+	(height 30)
+	(label "Inverse Functional"))
+
+([KB_613402_Instance_415] of Property_List)
+
+([KB_613402_Instance_416] of Widget
+	(y 0)
+	(name ":OWL-EQUIVALENT-SLOTS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_417])
+	(height 0)
+	(label "Equivalent"))
+
+([KB_613402_Instance_417] of Property_List)
+
+([KB_613402_Instance_418] of Widget
+	(y 0)
+	(name "owl:seeAlso")
+	(x 290)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.AnnotationsWidget")
+	(is_hidden FALSE)
+	(width 310)
+	(property_list [KB_613402_Instance_419])
+	(height 150))
+
+([KB_613402_Instance_419] of Property_List)
+
+([KB_613402_Instance_42] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([KB_613402_Instance_420] of Widget
+	(y 0)
+	(name ":OWL-SLOT-SOME")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_421])
+	(height 0))
+
+([KB_613402_Instance_421] of Property_List)
+
+([KB_613402_Instance_422] of Widget
+	(y 0)
+	(name ":SLOT-VALUES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_423])
+	(height 0))
+
+([KB_613402_Instance_423] of Property_List)
+
+([KB_613402_Instance_424] of Widget
+	(name ":TO")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_425]))
+
+([KB_613402_Instance_425] of Property_List)
+
+([KB_613402_Instance_426] of Widget
+	(name ":FROM")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_427]))
+
+([KB_613402_Instance_427] of Property_List)
+
+([KB_613402_Instance_428] of Widget
+	(y 0)
+	(name ":OWL-XML-SCHEMA-DATATYPE")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_429])
+	(height 0))
+
+([KB_613402_Instance_429] of Property_List)
+
+([KB_613402_Instance_43] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([KB_613402_Instance_430] of Widget
+	(y 0)
+	(name ":OWL-SLOT-SOME-VALUES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_431])
+	(height 0))
+
+([KB_613402_Instance_431] of Property_List)
+
+([KB_613402_Instance_432] of Property_List
+	(name "facet widget properties")
+	(properties
+		[KB_613402_Instance_433]
+		[KB_613402_Instance_434]
+		[KB_613402_Instance_435]))
+
+([KB_613402_Instance_433] of Widget
+	(y 0)
+	(name ":NAME")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceNameWidget")
+	(width 200)
+	(height 60)
+	(label "Name"))
+
+([KB_613402_Instance_434] of Widget
+	(y 0)
+	(name ":DOCUMENTATION")
+	(x 200)
+	(widget_class_name "edu.stanford.smi.protege.widget.DocumentationWidget")
+	(width 200)
+	(height 120)
+	(label "Documentation"))
+
+([KB_613402_Instance_435] of Widget
+	(y 60)
+	(name ":ASSOCIATED-SLOT")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(height 60)
+	(label "Associated Property"))
+
+([KB_613402_Instance_436] of Property_List
+	(name "slot widget properties")
+	(properties
+		[KB_613402_Instance_437]
+		[KB_613402_Instance_439]
+		[KB_613402_Instance_441]
+		[KB_613402_Instance_442]
+		[KB_613402_Instance_443]
+		[KB_613402_Instance_444]
+		[KB_613402_Instance_445]
+		[KB_613402_Instance_447]
+		[KB_613402_Instance_449]
+		[KB_613402_Instance_451]
+		[KB_613402_Instance_453]
+		[KB_613402_Instance_454]
+		[KB_613402_Instance_456]
+		[KB_613402_Instance_457]
+		[KB_613402_Instance_458]
+		[KB_613402_Instance_461]
+		[KB_613402_Instance_469]
+		[KB_613402_Instance_471]
+		[KB_613402_Instance_473]
+		[KB_613402_Instance_475]
+		[KB_613402_Instance_477]
+		[KB_613402_Instance_479]
+		[KB_613402_Instance_481]
+		[KB_613402_Instance_483]
+		[KB_613402_Instance_485]
+		[KB_613402_Instance_487]
+		[KB_613402_Instance_489]
+		[KB_613402_Instance_491]
+		[KB_613402_Instance_493]
+		[KB_613402_Instance_495]
+		[KB_613402_Instance_497]
+		[KB_613402_Instance_499]))
+
+([KB_613402_Instance_437] of Widget
+	(y 0)
+	(name ":SLOT-MINIMUM-CARDINALITY")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_438])
+	(height 0)
+	(label "Cardinality"))
+
+([KB_613402_Instance_438] of Property_List)
+
+([KB_613402_Instance_439] of Widget
+	(y 150)
+	(name ":SLOT-MAXIMUM-CARDINALITY")
+	(x 400)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.FunctionalSlotWidget")
+	(width 200)
+	(property_list [KB_613402_Instance_440])
+	(height 34))
+
+([KB_613402_Instance_44] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([KB_613402_Instance_440] of Property_List)
+
+([KB_613402_Instance_441] of Widget
+	(name ":SLOT-CONSTRAINTS"))
+
+([KB_613402_Instance_442] of Widget
+	(name ":DIRECT-TYPE"))
+
+([KB_613402_Instance_443] of Widget
+	(name ":DIRECT-SUPERSLOTS"))
+
+([KB_613402_Instance_444] of Widget
+	(name ":DIRECT-SUBSLOTS"))
+
+([KB_613402_Instance_445] of Widget
+	(y 0)
+	(name ":SLOT-DEFAULTS")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_446])
+	(height 0)
+	(label "Default"))
+
+([KB_613402_Instance_446] of Property_List)
+
+([KB_613402_Instance_447] of Widget
+	(y 0)
+	(name ":DOCUMENTATION")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.OWLSlotMetadataWidget")
+	(width 290)
+	(property_list [KB_613402_Instance_448])
+	(height 150)
+	(label "Documentation"))
+
+([KB_613402_Instance_448] of Property_List)
+
+([KB_613402_Instance_449] of Widget
+	(y 0)
+	(name ":SLOT-NUMERIC-MAXIMUM")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_450])
+	(height 0)
+	(label "Maximum"))
+
+([KB_613402_Instance_45] of Widget
+	(name "owl:versionInfo")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_46]))
+
+([KB_613402_Instance_450] of Property_List)
+
+([KB_613402_Instance_451] of Widget
+	(y 0)
+	(name ":SLOT-NUMERIC-MINIMUM")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_452])
+	(height 0)
+	(label "Minimum"))
+
+([KB_613402_Instance_452] of Property_List)
+
+([KB_613402_Instance_453] of Widget
+	(name ":ASSOCIATED-FACET"))
+
+([KB_613402_Instance_454] of Widget
+	(y 0)
+	(name ":NAME")
+	(x 0)
+	(width 0)
+	(property_list [KB_613402_Instance_455])
+	(height 0)
+	(label "Name"))
+
+([KB_613402_Instance_455] of Property_List)
+
+([KB_613402_Instance_456] of Widget
+	(y 220)
+	(name ":SLOT-INVERSE")
+	(x 400)
+	(widget_class_name "edu.stanford.smi.protege.widget.InverseSlotWidget")
+	(width 200)
+	(height 60)
+	(label "Inverse"))
+
+([KB_613402_Instance_457] of Widget
+	(y 150)
+	(name ":SLOT-VALUE-TYPE")
+	(x 200)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.valuetype.OWLValueTypeWidget")
+	(width 200)
+	(height 190)
+	(label "All Values From"))
+
+([KB_613402_Instance_458] of Property_List
+	(name "layout properties")
+	(properties
+		[KB_613402_Instance_459]
+		[KB_613402_Instance_460]))
+
+([KB_613402_Instance_459] of String
+	(name "horizontal_stretcher"))
+
+([KB_613402_Instance_46] of Property_List)
+
+([KB_613402_Instance_460] of String
+	(name "vertical_stretcher"))
+
+([KB_613402_Instance_461] of Widget
+	(y 150)
+	(name ":DIRECT-DOMAIN")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.properties.OWLDomainWidget")
+	(is_hidden FALSE)
+	(width 200)
+	(property_list [KB_613402_Instance_462])
+	(height 190)
+	(label "Domain"))
+
+([KB_613402_Instance_462] of Property_List
+	(properties
+		[KB_613402_Instance_463]
+		[KB_613402_Instance_464]
+		[KB_613402_Instance_465]
+		[KB_613402_Instance_466]
+		[KB_613402_Instance_467]
+		[KB_613402_Instance_468]))
+
+([KB_613402_Instance_463] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Selected Instances"))
+
+([KB_613402_Instance_464] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Instance"))
+
+([KB_613402_Instance_465] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-References"))
+
+([KB_613402_Instance_466] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add"))
+
+([KB_613402_Instance_467] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([KB_613402_Instance_468] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Selected Instances"))
+
+([KB_613402_Instance_469] of Widget
+	(y 0)
+	(name ":OWL-DIFFERENT-FROM")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_470])
+	(height 0))
+
+([KB_613402_Instance_47] of Widget
+	(name "owl:isDefinedBy")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_48]))
+
+([KB_613402_Instance_470] of Property_List)
+
+([KB_613402_Instance_471] of Widget
+	(y 0)
+	(name "rdfs:label")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_472])
+	(height 0))
+
+([KB_613402_Instance_472] of Property_List)
+
+([KB_613402_Instance_473] of Widget
+	(y 0)
+	(name ":OWL-SAME-AS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_474])
+	(height 0))
+
+([KB_613402_Instance_474] of Property_List)
+
+([KB_613402_Instance_475] of Widget
+	(y 0)
+	(name "owl:versionInfo")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_476])
+	(height 0))
+
+([KB_613402_Instance_476] of Property_List)
+
+([KB_613402_Instance_477] of Widget
+	(y 0)
+	(name "owl:isDefinedBy")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_478])
+	(height 0))
+
+([KB_613402_Instance_478] of Property_List)
+
+([KB_613402_Instance_479] of Widget
+	(y 0)
+	(name ":OWL-ANNOTATION-PROPERTY")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_480])
+	(height 0)
+	(label "AnnotationProperty"))
+
+([KB_613402_Instance_48] of Property_List)
+
+([KB_613402_Instance_480] of Property_List)
+
+([KB_613402_Instance_481] of Widget
+	(y 180)
+	(name ":OWL-INVERSE-FUNCTIONAL")
+	(x 400)
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(is_hidden FALSE)
+	(width 200)
+	(property_list [KB_613402_Instance_482])
+	(height 30)
+	(label "Inverse Functional"))
+
+([KB_613402_Instance_482] of Property_List)
+
+([KB_613402_Instance_483] of Widget
+	(y 0)
+	(name ":OWL-EQUIVALENT-SLOTS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_484])
+	(height 0)
+	(label "Equivalent"))
+
+([KB_613402_Instance_484] of Property_List)
+
+([KB_613402_Instance_485] of Widget
+	(y 0)
+	(name "owl:seeAlso")
+	(x 290)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.AnnotationsWidget")
+	(is_hidden FALSE)
+	(width 310)
+	(property_list [KB_613402_Instance_486])
+	(height 150))
+
+([KB_613402_Instance_486] of Property_List)
+
+([KB_613402_Instance_487] of Widget
+	(y 280)
+	(name ":OWL-SYMMETRIC")
+	(x 400)
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(is_hidden FALSE)
+	(width 200)
+	(property_list [KB_613402_Instance_488])
+	(height 30)
+	(label "Symmetric"))
+
+([KB_613402_Instance_488] of Property_List)
+
+([KB_613402_Instance_489] of Widget
+	(y 310)
+	(name ":OWL-TRANSITIVE")
+	(x 400)
+	(widget_class_name "edu.stanford.smi.protege.widget.CheckBoxWidget")
+	(is_hidden FALSE)
+	(width 200)
+	(property_list [KB_613402_Instance_490])
+	(height 30)
+	(label "Transitive"))
+
+([KB_613402_Instance_49] of Widget
+	(name ":TO")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_50]))
+
+([KB_613402_Instance_490] of Property_List)
+
+([KB_613402_Instance_491] of Widget
+	(y 0)
+	(name ":OWL-SLOT-SOME-CLASSES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_492])
+	(height 0))
+
+([KB_613402_Instance_492] of Property_List)
+
+([KB_613402_Instance_493] of Widget
+	(y 0)
+	(name ":OWL-SLOT-SOME")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_494])
+	(height 0))
+
+([KB_613402_Instance_494] of Property_List)
+
+([KB_613402_Instance_495] of Widget
+	(y 0)
+	(name ":SLOT-VALUES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_496])
+	(height 0))
+
+([KB_613402_Instance_496] of Property_List)
+
+([KB_613402_Instance_497] of Widget
+	(name ":TO")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_498]))
+
+([KB_613402_Instance_498] of Property_List)
+
+([KB_613402_Instance_499] of Widget
+	(name ":FROM")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_500]))
+
+([KB_613402_Instance_5] of Widget
+	(name ":DIRECT-SUPERSLOTS"))
+
+([KB_613402_Instance_50] of Property_List)
+
+([KB_613402_Instance_500] of Property_List)
+
+([KB_613402_Instance_501] of Property_List
+	(properties
+		[KB_613402_Instance_502]
+		[KB_613402_Instance_504]
+		[KB_613402_Instance_506]
+		[KB_613402_Instance_508]
+		[KB_613402_Instance_510]
+		[KB_613402_Instance_512]
+		[KB_613402_Instance_514]
+		[KB_613402_Instance_516]
+		[KB_613402_Instance_518]
+		[KB_613402_Instance_520]
+		[KB_613402_Instance_522]
+		[KB_613402_Instance_524]
+		[KB_613402_Instance_526]
+		[KB_613402_Instance_528]
+		[KB_613402_Instance_530]))
+
+([KB_613402_Instance_502] of Widget
+	(y 0)
+	(name ":DIRECT-TYPE")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_503])
+	(height 0))
+
+([KB_613402_Instance_503] of Property_List)
+
+([KB_613402_Instance_504] of Widget
+	(y 0)
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_505])
+	(height 0))
+
+([KB_613402_Instance_505] of Property_List)
+
+([KB_613402_Instance_506] of Widget
+	(y 0)
+	(name ":DIRECT-SUPERCLASSES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_507])
+	(height 0))
+
+([KB_613402_Instance_507] of Property_List)
+
+([KB_613402_Instance_508] of Widget
+	(y 0)
+	(name ":NAME")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_509])
+	(height 0))
+
+([KB_613402_Instance_509] of Property_List)
+
+([KB_613402_Instance_51] of Widget
+	(name "rdfs:label")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_52]))
+
+([KB_613402_Instance_510] of Widget
+	(y 0)
+	(name ":DIRECT-INSTANCES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_511])
+	(height 0))
+
+([KB_613402_Instance_511] of Property_List)
+
+([KB_613402_Instance_512] of Widget
+	(y 0)
+	(name ":DIRECT-SUBCLASSES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_513])
+	(height 0))
+
+([KB_613402_Instance_513] of Property_List)
+
+([KB_613402_Instance_514] of Widget
+	(y 0)
+	(name ":OWL-DISJOINT-CLASSES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_515])
+	(height 0))
+
+([KB_613402_Instance_515] of Property_List)
+
+([KB_613402_Instance_516] of Widget
+	(y 0)
+	(name "rdfs:label")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_517])
+	(height 0))
+
+([KB_613402_Instance_517] of Property_List)
+
+([KB_613402_Instance_518] of Widget
+	(y 0)
+	(name ":OWL-SAME-AS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_519])
+	(height 0))
+
+([KB_613402_Instance_519] of Property_List)
+
+([KB_613402_Instance_52] of Property_List)
+
+([KB_613402_Instance_520] of Widget
+	(y 0)
+	(name "owl:isDefinedBy")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_521])
+	(height 0))
+
+([KB_613402_Instance_521] of Property_List)
+
+([KB_613402_Instance_522] of Widget
+	(y 0)
+	(name ":OWL-DIFFERENT-FROM")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_523])
+	(height 0))
+
+([KB_613402_Instance_523] of Property_List)
+
+([KB_613402_Instance_524] of Widget
+	(y 0)
+	(name ":DOCUMENTATION")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_525])
+	(height 0))
+
+([KB_613402_Instance_525] of Property_List)
+
+([KB_613402_Instance_526] of Widget
+	(y 0)
+	(name "owl:versionInfo")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_527])
+	(height 0))
+
+([KB_613402_Instance_527] of Property_List)
+
+([KB_613402_Instance_528] of Widget
+	(y 0)
+	(name "owl:seeAlso")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.AnnotationsWidget")
+	(is_hidden FALSE)
+	(width 463)
+	(property_list [KB_613402_Instance_529])
+	(height 454))
+
+([KB_613402_Instance_529] of Property_List)
+
+([KB_613402_Instance_53] of Widget
+	(name "owl:seeAlso")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_54]))
+
+([KB_613402_Instance_530] of Property_List
+	(name "layout properties"))
+
+([KB_613402_Instance_531] of Widget
+	(widget_class_name "edu.stanford.smi.protegex.queries_tab.QueriesTab")
+	(is_hidden TRUE)
+	(property_list [KB_613402_Instance_532]))
+
+([KB_613402_Instance_532] of Property_List)
+
+([KB_613402_Instance_54] of Property_List)
+
+([KB_613402_Instance_55] of Widget
+	(name ":FROM")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_56]))
+
+([KB_613402_Instance_56] of Property_List)
+
+([KB_613402_Instance_57] of Widget
+	(name ":SLOT-VALUES")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_58]))
+
+([KB_613402_Instance_58] of Property_List)
+
+([KB_613402_Instance_584] of Widget
+	(name ":TO")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_585]))
+
+([KB_613402_Instance_585] of Property_List)
+
+([KB_613402_Instance_586] of Widget
+	(name ":FROM")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_587]))
+
+([KB_613402_Instance_587] of Property_List)
+
+([KB_613402_Instance_59] of Property_List
+	(properties
+		[KB_613402_Instance_60]
+		[KB_613402_Instance_62]
+		[KB_613402_Instance_64]
+		[KB_613402_Instance_66]
+		[KB_613402_Instance_68]
+		[KB_613402_Instance_70]
+		[KB_613402_Instance_72]
+		[KB_613402_Instance_74]
+		[KB_613402_Instance_76]
+		[KB_613402_Instance_78]
+		[KB_613402_Instance_80]
+		[KB_613402_Instance_82]
+		[KB_613402_Instance_84]
+		[KB_613402_Instance_86]
+		[KB_613402_Instance_88]
+		[KB_613402_Instance_90]))
+
+([KB_613402_Instance_6] of Widget
+	(name ":DIRECT-SUBSLOTS"))
+
+([KB_613402_Instance_60] of Widget
+	(y 0)
+	(name ":DIRECT-TYPE")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_61])
+	(height 0))
+
+([KB_613402_Instance_61] of Property_List)
+
+([KB_613402_Instance_62] of Widget
+	(y 0)
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_63])
+	(height 0))
+
+([KB_613402_Instance_63] of Property_List)
+
+([KB_613402_Instance_64] of Widget
+	(y 0)
+	(name ":DIRECT-SUPERCLASSES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_65])
+	(height 0))
+
+([KB_613402_Instance_65] of Property_List)
+
+([KB_613402_Instance_66] of Widget
+	(y 0)
+	(name ":NAME")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_67])
+	(height 0))
+
+([KB_613402_Instance_67] of Property_List)
+
+([KB_613402_Instance_68] of Widget
+	(y 0)
+	(name ":DIRECT-INSTANCES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_69])
+	(height 0))
+
+([KB_613402_Instance_69] of Property_List)
+
+([KB_613402_Instance_7] of Widget
+	(y 120)
+	(name ":SLOT-DEFAULTS")
+	(x 400)
+	(widget_class_name "edu.stanford.smi.protege.widget.DefaultValuesWidget")
+	(width 200)
+	(property_list [KB_613402_Instance_8])
+	(height 150)
+	(label "Default"))
+
+([KB_613402_Instance_70] of Widget
+	(y 0)
+	(name ":DIRECT-SUBCLASSES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_71])
+	(height 0))
+
+([KB_613402_Instance_71] of Property_List)
+
+([KB_613402_Instance_72] of Widget
+	(y 0)
+	(name ":OWL-DISJOINT-CLASSES")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_73])
+	(height 0))
+
+([KB_613402_Instance_73] of Property_List)
+
+([KB_613402_Instance_74] of Widget
+	(y 0)
+	(name "rdfs:label")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_75])
+	(height 0))
+
+([KB_613402_Instance_75] of Property_List)
+
+([KB_613402_Instance_76] of Widget
+	(y 0)
+	(name ":OWL-SAME-AS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_77])
+	(height 0))
+
+([KB_613402_Instance_77] of Property_List)
+
+([KB_613402_Instance_78] of Widget
+	(y 0)
+	(name "owl:isDefinedBy")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_79])
+	(height 0))
+
+([KB_613402_Instance_79] of Property_List)
+
+([KB_613402_Instance_8] of Property_List
+	(properties
+		[KB_613402_Instance_9]
+		[KB_613402_Instance_10]
+		[KB_613402_Instance_11]
+		[KB_613402_Instance_12]))
+
+([KB_613402_Instance_80] of Widget
+	(y 0)
+	(name ":OWL-DIFFERENT-FROM")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_81])
+	(height 0))
+
+([KB_613402_Instance_81] of Property_List)
+
+([KB_613402_Instance_82] of Widget
+	(y 0)
+	(name ":DOCUMENTATION")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_83])
+	(height 0))
+
+([KB_613402_Instance_83] of Property_List)
+
+([KB_613402_Instance_84] of Widget
+	(y 0)
+	(name "owl:versionInfo")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_85])
+	(height 0))
+
+([KB_613402_Instance_85] of Property_List)
+
+([KB_613402_Instance_86] of Widget
+	(y 0)
+	(name "owl:seeAlso")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.AnnotationsWidget")
+	(is_hidden FALSE)
+	(width 463)
+	(property_list [KB_613402_Instance_87])
+	(height 454))
+
+([KB_613402_Instance_87] of Property_List)
+
+([KB_613402_Instance_88] of Widget
+	(y 0)
+	(name ":OWL-LOGICAL-OPERANDS")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_89])
+	(height 0))
+
+([KB_613402_Instance_89] of Property_List)
+
+([KB_613402_Instance_9] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View the selected value"))
+
+([KB_613402_Instance_90] of Property_List
+	(name "layout properties"))
+
+([KB_613402_Instance_91] of Property_List
+	(properties
+		[KB_613402_Instance_92]
+		[KB_613402_Instance_94]
+		[KB_613402_Instance_96]
+		[KB_613402_Instance_98]
+		[KB_613402_Instance_100]
+		[KB_613402_Instance_102]
+		[KB_613402_Instance_104]
+		[KB_613402_Instance_106]
+		[KB_613402_Instance_108]
+		[KB_613402_Instance_111]
+		[KB_613402_Instance_113]))
+
+([KB_613402_Instance_92] of Widget
+	(y 0)
+	(name "owl:isDefinedBy")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_93])
+	(height 0))
+
+([KB_613402_Instance_93] of Property_List)
+
+([KB_613402_Instance_94] of Widget
+	(y 0)
+	(name ":OWL-DIFFERENT-FROM")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_95])
+	(height 0))
+
+([KB_613402_Instance_95] of Property_List)
+
+([KB_613402_Instance_96] of Widget
+	(y 0)
+	(name ":DOCUMENTATION")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protegex.owl.ui.metadata.OWLMetadataWidget")
+	(is_hidden FALSE)
+	(width 300)
+	(property_list [KB_613402_Instance_97])
+	(height 140))
+
+([KB_613402_Instance_97] of Property_List)
+
+([KB_613402_Instance_98] of Widget
+	(y 0)
+	(name ":NAME")
+	(x 0)
+	(is_hidden FALSE)
+	(width 0)
+	(property_list [KB_613402_Instance_99])
+	(height 0)
+	(label "Name"))
+
+([KB_613402_Instance_99] of Property_List)
+
+([KB_691299_Instance_398] of Widget
+	(name "owl:DatatypeProperty")
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_368]))
+
+([KB_691299_Instance_537] of Widget
+	(name "owl:ObjectProperty")
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_436]))
+
+([KB_764103_Instance_545] of Widget
+	(name ":OWL-ONTOLOGY")
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(is_hidden FALSE)
+	(property_list [KB_613402_Instance_332]))
+
+([PAL_FORM_WIDGET] of Widget
+	(y 0)
+	(name ":PAL-CONSTRAINT")
+	(x 0)
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(is_hidden FALSE)
+	(width 603)
+	(property_list [KB_613402_Instance_283])
+	(height 476))
+
+([Panepistimio_ProjectKB_Instance_100] of Widget
+	(name "rdfs:label")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_101])
+	(label "rdfs:label"))
+
+([Panepistimio_ProjectKB_Instance_101] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_102] of Widget
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_103])
+	(label "DomainProperties"))
+
+([Panepistimio_ProjectKB_Instance_103] of Property_List
+	(properties
+		[Panepistimio_ProjectKB_Instance_108]
+		[Panepistimio_ProjectKB_Instance_109]
+		[Panepistimio_ProjectKB_Instance_110]
+		[Panepistimio_ProjectKB_Instance_111]
+		[Panepistimio_ProjectKB_Instance_112]
+		[Panepistimio_ProjectKB_Instance_113]
+		[Panepistimio_ProjectKB_Instance_114]
+		[Panepistimio_ProjectKB_Instance_115]
+		[Panepistimio_ProjectKB_Instance_116]))
+
+([Panepistimio_ProjectKB_Instance_104] of Widget
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_105])
+	(label "UnrestrictedProperties"))
+
+([Panepistimio_ProjectKB_Instance_105] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_106] of Widget
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_107])
+	(label "AllProperties"))
+
+([Panepistimio_ProjectKB_Instance_107] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_108] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View selected slots"))
+
+([Panepistimio_ProjectKB_Instance_109] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View selected slots at class"))
+
+([Panepistimio_ProjectKB_Instance_110] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Property..."))
+
+([Panepistimio_ProjectKB_Instance_111] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove overrides from selected slots"))
+
+([Panepistimio_ProjectKB_Instance_112] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add this class to the domain of a property"))
+
+([Panepistimio_ProjectKB_Instance_113] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([Panepistimio_ProjectKB_Instance_114] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move up"))
+
+([Panepistimio_ProjectKB_Instance_115] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move down"))
+
+([Panepistimio_ProjectKB_Instance_116] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Property..."))
+
+([Panepistimio_ProjectKB_Instance_117] of String
+	(string_value "%3ANAME")
+	(name ":META-CLASS"))
+
+([Panepistimio_ProjectKB_Instance_118] of String
+	(string_value "%3ANAME")
+	(name "owl:Thing"))
+
+([Panepistimio_ProjectKB_Instance_119] of String
+	(string_value "%3AANNOTATION-TEXT")
+	(name ":INSTANCE-ANNOTATION"))
+
+([Panepistimio_ProjectKB_Instance_120] of String
+	(string_value "%3ANAME")
+	(name "Foitites"))
+
+([Panepistimio_ProjectKB_Instance_121] of String
+	(string_value "%3APAL-NAME")
+	(name ":PAL-CONSTRAINT"))
+
+([Panepistimio_ProjectKB_Instance_122] of String
+	(string_value "%3ANAME")
+	(name "Programma"))
+
+([Panepistimio_ProjectKB_Instance_123] of String
+	(string_value "%3ANAME")
+	(name "Metaptyxiako_Mathima"))
+
+([Panepistimio_ProjectKB_Instance_63] of Widget
+	(name ":DIRECT-SUPERCLASSES")
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsListWidget")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_64])
+	(label "AssertedDescription"))
+
+([Panepistimio_ProjectKB_Instance_64] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_65] of Widget
+	(name ":OWL-INFERRED-SUPERCLASSES")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_66])
+	(label "InferredDescription"))
+
+([Panepistimio_ProjectKB_Instance_66] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_67] of Widget
+	(name ":NAME")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_68])
+	(label "Name"))
+
+([Panepistimio_ProjectKB_Instance_68] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_69] of Widget
+	(name ":NAME")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_70])
+	(label "Name"))
+
+([Panepistimio_ProjectKB_Instance_70] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_71] of Widget
+	(name ":DOCUMENTATION")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_72])
+	(label "Documentation"))
+
+([Panepistimio_ProjectKB_Instance_72] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_73] of Widget
+	(name "rdfs:label")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_74])
+	(label "rdfs:label"))
+
+([Panepistimio_ProjectKB_Instance_74] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_75] of Widget
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_76])
+	(label "DomainProperties"))
+
+([Panepistimio_ProjectKB_Instance_76] of Property_List
+	(properties
+		[Panepistimio_ProjectKB_Instance_81]
+		[Panepistimio_ProjectKB_Instance_82]
+		[Panepistimio_ProjectKB_Instance_83]
+		[Panepistimio_ProjectKB_Instance_84]
+		[Panepistimio_ProjectKB_Instance_85]
+		[Panepistimio_ProjectKB_Instance_86]
+		[Panepistimio_ProjectKB_Instance_87]
+		[Panepistimio_ProjectKB_Instance_88]
+		[Panepistimio_ProjectKB_Instance_89]))
+
+([Panepistimio_ProjectKB_Instance_77] of Widget
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_78])
+	(label "UnrestrictedProperties"))
+
+([Panepistimio_ProjectKB_Instance_78] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_79] of Widget
+	(name ":DIRECT-TEMPLATE-SLOTS")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_80])
+	(label "AllProperties"))
+
+([Panepistimio_ProjectKB_Instance_80] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_81] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View selected slots"))
+
+([Panepistimio_ProjectKB_Instance_82] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View selected slots at class"))
+
+([Panepistimio_ProjectKB_Instance_83] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Create Property..."))
+
+([Panepistimio_ProjectKB_Instance_84] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove overrides from selected slots"))
+
+([Panepistimio_ProjectKB_Instance_85] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Add this class to the domain of a property"))
+
+([Panepistimio_ProjectKB_Instance_86] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-Remove"))
+
+([Panepistimio_ProjectKB_Instance_87] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move up"))
+
+([Panepistimio_ProjectKB_Instance_88] of Boolean
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Move down"))
+
+([Panepistimio_ProjectKB_Instance_89] of Boolean
+	(boolean_value TRUE)
+	(name "ButtonDisplayed-View Property..."))
+
+([Panepistimio_ProjectKB_Instance_90] of Widget
+	(name ":DIRECT-SUPERCLASSES")
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsListWidget")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_91])
+	(label "AssertedDescription"))
+
+([Panepistimio_ProjectKB_Instance_91] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_92] of Widget
+	(name ":OWL-INFERRED-SUPERCLASSES")
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_93])
+	(label "InferredDescription"))
+
+([Panepistimio_ProjectKB_Instance_93] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_94] of Widget
+	(name ":NAME")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_95])
+	(label "Name"))
+
+([Panepistimio_ProjectKB_Instance_95] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_96] of Widget
+	(name ":NAME")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_97])
+	(label "Name"))
+
+([Panepistimio_ProjectKB_Instance_97] of Property_List)
+
+([Panepistimio_ProjectKB_Instance_98] of Widget
+	(name ":DOCUMENTATION")
+	(is_hidden FALSE)
+	(property_list [Panepistimio_ProjectKB_Instance_99])
+	(label "Documentation"))
+
+([Panepistimio_ProjectKB_Instance_99] of Property_List)
+
+([PROJECT] of Project
+	(default_facet_metaclass ":STANDARD-FACET")
+	(default_slot_metaclass "owl:ObjectProperty")
+	(default_cls_metaclass "owl:Class")
+	(default_instance_widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(next_frame_number 0)
+	(hidden_classes
+		"KB_287892_Class_22"
+		"rdf:Property"
+		"KB_287892_Class_34"
+		"KB_287892_Class_21"
+		"KB_287892_Class_33"
+		"KB_287892_Class_32"
+		"KB_287892_Class_20"
+		"KB_287892_Class_42"
+		"KB_287892_Class_19"
+		"owl:Class"
+		"KB_287892_Class_31"
+		"KB_287892_Class_41"
+		"KB_287892_Class_30"
+		"KB_287892_Class_4"
+		"KB_287892_Class_29"
+		"KB_287892_Class_40"
+		"KB_287892_Class_18"
+		"KB_287892_Class_14"
+		":OWL-ANONYMOUS-ROOT"
+		"KB_287892_Class_28"
+		"KB_287892_Class_3"
+		"KB_287892_Class_39"
+		"KB_287892_Class_13"
+		"KB_287892_Class_12"
+		"KB_287892_Class_38"
+		"KB_287892_Class_11"
+		"KB_287892_Class_2"
+		"KB_287892_Class_10"
+		"KB_287892_Class_9"
+		"KB_287892_Class_8"
+		":DIRECTED-BINARY-RELATION"
+		"KB_287892_Class_27"
+		"KB_287892_Class_26"
+		"KB_287892_Class_25"
+		"KB_287892_Class_37"
+		"KB_287892_Class_24"
+		"KB_287892_Class_36"
+		"KB_287892_Class_17"
+		"KB_287892_Class_23"
+		"KB_287892_Class_35"
+		"KB_287892_Class_7"
+		"KB_287892_Class_43"
+		"KB_287892_Class_16"
+		"KB_287892_Class_6"
+		"KB_287892_Class_5"
+		"KB_287892_Class_15"
+		":SYSTEM-CLASS")
+	(options [Instance_48])
+	(customized_instance_widgets
+		[KB_303942_Instance_68]
+		[INSTANCE_ANNOTATION_FORM_WIDGET]
+		[KB_691299_Instance_398]
+		[KB_379625_Instance_777]
+		[Instance_581]
+		[KB_553917_Instance_637]
+		[PAL_FORM_WIDGET]
+		[STANDARD_FACET_FORM_WIDGET]
+		[Instance_1005]
+		[STANDARD_SLOT_FORM_WIDGET]
+		[Instance_443]
+		[KB_764103_Instance_545]
+		[KB_379625_Instance_617]
+		[STANDARD_CLASS_FORM_WIDGET]
+		[KB_691299_Instance_537])
+	(tabs
+		[CLSES_TAB]
+		[Instance_86]
+		[SLOTS_TAB]
+		[Instance_2600]
+		[FORMS_TAB]
+		[INSTANCES_TAB]
+		[Instance_3234]
+		[Instance_43]
+		[Instance_45]
+		[Instance_89]
+		[Instance_2534]
+		[KB_613402_Instance_531])
+	(browser_slot_names [BROWSER_SLOT_NAMES])
+	(sources [SOURCES]))
+
+([SLOTS_TAB] of Widget
+	(widget_class_name "edu.stanford.smi.protege.widget.SlotsTab")
+	(is_hidden TRUE)
+	(property_list [Instance_65])
+	(label "Slots"))
+
+([SOURCES] of Property_List
+	(properties
+		[Instance_42]
+		[Instance_2469]
+		[Instance_2470]
+		[KB_613402_Instance_1591]))
+
+([STANDARD_CLASS_FORM_WIDGET] of Widget
+	(name ":STANDARD-CLASS")
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(property_list [KB_613402_Instance_288]))
+
+([STANDARD_FACET_FORM_WIDGET] of Widget
+	(name ":STANDARD-FACET")
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(property_list [KB_613402_Instance_432]))
+
+([STANDARD_SLOT_FORM_WIDGET] of Widget
+	(name ":STANDARD-SLOT")
+	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
+	(property_list [KB_613402_Instance_0]))
